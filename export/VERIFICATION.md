@@ -1,4 +1,22 @@
-# Vérification de l’export — version 6
+# Vérification de l’export — version 7
+
+Contrôles du 4 novembre 2026 pour le catalogue complet et l’évolution visuelle demandés par le propriétaire.
+
+- **Onze catégories et 61 exemples**, avec une correspondance vérifiée entre le catalogue structuré et les cartes affichées. Les 52 illustrations distinctes sont locales ; chaque provenance/hash est conservé. Le vrai portrait de Kevin HUART remplace le visuel d’ambiance de la V6.
+- **Huit largeurs Chromium : 320, 390, 768, 900, 1024, 1280, 1440 et 1920 px.** Chaque filtre est actionné par focus puis Entrée : une seule catégorie et un seul bouton sélectionnés, nombre d’exemples correct, absence de débordement et de texte tronqué détecté.
+- Ancres, médias et ordre des huit sections conservés. Aucun média manquant ou erreur JavaScript détecté. Sans JavaScript, les onze groupes et 61 exemples restent accessibles, sans boutons inactifs.
+- Boutons en pilule, cartes de rayon 18 px, portrait réel, citation SVG et titres en dégradé vérifiés. Le mode de couleurs forcées conserve des titres visibles. Repli uni et impression prévus dans le CSS ; aucune police distante ajoutée.
+- **Axe WCAG 2A/AA/2.1AA/2.2AA : zéro violation automatisée à 390 et 1440 px.** Les textes clairs restent sur bleu/voile bleu ; les dégradés sont expressément demandés. Résultats et notes du détecteur conservés dans le dépôt.
+- Les cartes rejoignent le contact et préparent le sujet choisi. Une nouvelle sélection remplace le texte automatique intact ; un texte personnel saisi est conservé. La validation vide affiche les trois erreurs obligatoires. **Aucune sélection de carte ni aucun test n’envoie de message réel.**
+- Menu mobile, fermeture Échap, retour du focus, liens et navigation partagée avec la page matériaux contrôlés. Les captures complètes et les sections desktop/mobile ont été inspectées après chargement des fontes et images.
+
+La revue indépendante conclut **`ship` à la portée de l’interface V7**, sans correctif matériel ni recapture demandés. Elle a inspecté les captures et réalisé des contrôles indépendants de clavier, filtrage et préremplissage sur desktop/mobile ; elle ne teste pas la publication ou un envoi réel.
+
+Ces contrôles ne remplacent pas une recette complète sur appareils physiques ou lecteur d’écran, ni un essai réel de délivrabilité Contact Form 7 ou d’intégration WordPress. La vérification d’archive et celle de la publication sont réalisées séparément.
+
+## Historique des contrôles V6
+
+Les contrôles ci-dessous décrivent la V6 et sa précédente présentation des métiers. La V7 la remplace selon `METIERS.md` et `DESIGN.md`.
 
 Contrôles du 4 novembre 2026 pour la nouvelle séquence de homepage et la navigation blanche partagée avec les matériaux.
 

@@ -1,0 +1,13 @@
+# Direction homepage V7 — D-SIGN × composition Kovan
+
+MODE: persuade
+SCOPE: évolution explicitement demandée par le propriétaire le 4 novembre 2026, après la V6. Le catalogue n’est plus limité aux trois services initiaux ; les règles d’angles droits et de titres unis sont remplacées à sa demande.
+PINNED: logo SVG officiel intact, bleu `#1c1c58`, vert `#70c875`, vert foncé `#337f40`, blanc/minéral, Instrument Sans local et silhouette en D du hero.
+FORM: navigation blanche ; parcours en cinq étapes à numéros ronds ; métiers avec onze filtres à pictogrammes et cartes photographiques ; raisons de choix ; vrai portrait et message du fondateur ; À propos, matériaux et contact conservés.
+REFERENCE: https://kovan.fr/ consulté et manipulé dans Chromium pour chacun des onze filtres. 61 exemples de travaux relevés et proposés avec une rédaction D-SIGN originale. Aucune reprise des promesses de gratuité, labels, réseau, financements ou logiciel Kovan.
+CATALOGUE: chauffage/climatisation (8), isolation (5), menuiseries (3), salle de bain/cuisine (7), aménagement intérieur (7), adaptation du logement (7), toiture/façade (5), extérieur (6), gros œuvre (3), extension/surélévation (6), rénovation globale (4).
+STYLE: boutons et filtres en pilule ; cartes et photographie à rayons de 18 px ; ombres douces avec décalage ; titres centrés et mots en dégradé bleu→vert foncé sur clair, blanc→vert sur bleu. Repli uni et couleurs forcées/print conservés. Le logo ne prend aucun dégradé ni filtre.
+FOUNDER: même prise de vue que l’image fournie par le propriétaire, retrouvée sur la page officielle https://h2z-immobilier.fr/agence/ qui la légende « Kevin HUART ». Original conservé sous `assets/people/kevin-huart-source.jpg`, WebP optimisé local et provenance livrés ; cadrage serré et miroir par CSS pour retrouver la vue du chat. Pas de visage généré ou retouché. Cartouche d’identité et SVG de citation.
+IMAGES: 52 fichiers d’illustration locaux, issus du catalogue de référence, pour 61 exemples. Chaque fichier possède une provenance URL et son hash. Ces images n’établissent pas de réalisations D-SIGN.
+BEHAVIOR: catégorie chauffage sélectionnée par défaut avec JavaScript ; boutons `aria-pressed`, annonce du nombre de résultats ; sans JavaScript, onze groupes et 61 exemples restent accessibles. Chaque carte rejoint le contact et prépare le message. Une nouvelle sélection peut remplacer le texte prérempli intact ; les saisies personnelles sont conservées. Aucun envoi avant soumission volontaire.
+QUALITY BAR: catalogue complet et utilisable au clavier, titres lisibles, photographie réelle cadrée sans couper le visage, identité D-SIGN reconnaissable malgré les nouveaux arrondis, aucune ancre morte ni débordement desktop/mobile.

@@ -1,6 +1,6 @@
 ---
 name: D-SIGN GBS
-description: Système visuel de la homepage statique, extrait de l’export validé.
+description: Système visuel de la homepage statique, extrait de l’export courant.
 colors:
   navy: "#1c1c58"
   green: "#70c875"
@@ -43,6 +43,9 @@ typography:
     fontWeight: 700
     lineHeight: 1.35
 rounded:
+  button: "999px"
+  card: "18px"
+  field: "12px"
   hero: "0 46% 46% 0 / 0 50% 50% 0"
   hero-mobile: "0 42% 42% 0 / 0 50% 50% 0"
 spacing:
@@ -54,6 +57,7 @@ components:
     textColor: "{colors.navy}"
     typography: "{typography.label}"
     padding: "15px 24px"
+    rounded: "{rounded.button}"
   button-primary-hover:
     backgroundColor: "{colors.green-hover}"
     textColor: "{colors.navy}"
@@ -61,6 +65,7 @@ components:
     textColor: "{colors.white}"
     typography: "{typography.label}"
     padding: "15px 24px"
+    rounded: "{rounded.button}"
   button-outline-hover:
     backgroundColor: "{colors.white}"
     textColor: "{colors.navy}"
@@ -68,7 +73,12 @@ components:
     typography: "{typography.label}"
     padding: "8px 0"
   service:
+    textColor: "{colors.white}"
+    rounded: "{rounded.card}"
+  input:
+    backgroundColor: "{colors.white}"
     textColor: "{colors.navy}"
+    rounded: "{rounded.field}"
   hero-image:
     rounded: "{rounded.hero}"
   hero-image-mobile:
@@ -81,14 +91,14 @@ components:
 
 La référence est la [homepage choisie par le client](https://i.imgur.com/KfDjzWy.jpeg), archivée dans le dépôt. Ce document décrit le système effectivement construit dans le dossier `export/` : `index.html`, `styles.css` et `script.js`. Une copie de cette charte accompagne ces fichiers dans l’archive de livraison. La capture fixe la direction ; les valeurs ci-dessus proviennent de l’implémentation, sans prétendre retrouver le CSS ou la police de la page source.
 
-La page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le logo SVG officiel reste entier et intact. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V6 réorganise les sections dans cette charte et place la navigation sur blanc. Le parcours numéroté, les métiers photographiques et les compositions image/texte s’inspirent de Kovan.fr ; leur adaptation D-SIGN est décrite dans `.impeccable/directions/homepage-v6-kovan.md`. Cette référence de composition ne change pas l’identité visuelle.
+La page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le logo SVG officiel reste entier et intact. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V7 conserve le parcours et la navigation blanche, puis étend explicitement les règles à des boutons arrondis, cartes adoucies, titres dégradés et guillemet SVG. Le propriétaire demande les onze catégories et tous les exemples de Kovan.fr dans la touche D-SIGN ; voir `.impeccable/directions/homepage-v7-kovan.md`. Le logo, les couleurs, la police et le hero en D restent conservés.
 
 **Key Characteristics:**
 
 - Bleu profond, blanc et vert issus de la direction retenue.
 - Une seule famille sans empattements, en normal et gras.
 - Grandes images séparées du texte vivant ; silhouette en D réservée au hero existant.
-- Liens rectangulaires ou soulignés, flèches fines et focus clavier visible.
+- Boutons en pilule, cartes arrondies, liens soulignés, flèches fines et focus clavier visible.
 
 ## Colors
 
@@ -100,7 +110,7 @@ Les clés du frontmatter reprennent les noms des variables CSS. Leurs valeurs so
 
 ### Secondary
 
-- **Vert clair — `green`** : boutons principaux, trait sous la promesse, bord inférieur du hero, soulignement des liens et des numéros du parcours, flèches des métiers et icônes sur bleu.
+- **Vert clair — `green`** : boutons principaux, trait sous la promesse, bord inférieur du hero, soulignement des liens, connecteurs du parcours, actions des métiers et icônes sur bleu.
 - **Vert de survol — `green-hover`** : état survolé des actions à fond vert.
 - **Vert foncé — `green-ink`** : accents des titres sur fond clair et de la présentation À propos, signature du fondateur et survol des liens du menu mobile. Garder cette variante pour les textes et éléments fins sur fond clair.
 
@@ -110,11 +120,11 @@ Les clés du frontmatter reprennent les noms des variables CSS. Leurs valeurs so
 - **Minéral clair — `mineral`** : fond des métiers et du message du fondateur, puis fond et voile de la section matériaux, inspirés de l’enduit photographié. Ce neutre distingue ces séquences des sections blanches sans ajouter une nouvelle couleur d’accent.
 - **Texte secondaire — `muted`** : paragraphes sur fond clair, mentions d’images et bas de page sur blanc.
 - **Texte secondaire sur bleu — `on-dark-muted`** : textes d’accompagnement sur les aplats foncés.
-- **Séparateur clair — `line`** : contours des filtres, filets du parcours, séparation du header et du footer.
+- **Séparateur clair — `line`** : contours des filtres, séparation du header et du footer.
 - **Séparateur sur bleu — `line-dark`** : filets des métiers, des raisons de choix, du contact et des retours de formulaire sur fond foncé.
 - **Contour sur bleu — `outline`** : bouton encadré sur bleu ; la variante du header et la commande du menu mobile utilisent le bleu profond sur blanc.
 
-Le voile minéral sur la photo des matériaux et les fonds d’attente des images restent des traitements locaux définis dans le CSS. Aucune gamme tonale n’est définie dans l’export.
+Les mots accentués des titres utilisent un dégradé bleu vers vert foncé sur fond clair, ou blanc vers vert sur bleu ; un texte uni reste disponible sans prise en charge de `background-clip`, et les règles de couleurs forcées et d’impression rétablissent un texte uni. Le voile minéral sur la photo des matériaux et les fonds d’attente des images restent des traitements locaux définis dans le CSS. Aucune gamme tonale n’est définie dans l’export.
 
 ## Typography
 
@@ -126,7 +136,7 @@ Le voile minéral sur la photo des matériaux et les fonds d’attente des image
 
 - **Display** : promesse du hero, rôle `display`. Les adaptations réelles sont `clamp(50px, 5.3vw, 70px)` sous 1120 px, `clamp(48px, 6.6vw, 62px)` sous 900 px, `clamp(48px, 9.4vw, 72px)` sous 760 px et 44 px sous 360 px.
 - **Headline** : titres de sections, rôle `headline` ; ils deviennent `clamp(39px, 7.4vw, 56px)` sous 760 px. Le titre de contact possède une taille propre, de `clamp(48px, 5.7vw, 84px)` sur grand écran à `clamp(46px, 10vw, 68px)` sur mobile.
-- **Title** : rôle `title` du socle. Les noms des métiers utilisent une taille locale de `clamp(28px, 2.5vw, 36px)`, puis 32 px sous 760 px. Les titres des étapes et des bénéfices utilisent 21 px ; les étapes passent à 22 px sur mobile.
+- **Title** : rôle `title` du socle. Les catégories utilisent 25 px et les exemples de travaux 24 px ; sur mobile, respectivement 24 et 25 px. Les étapes utilisent 20 px sur grand écran, 18 px sous 1120 px et 22 px sur mobile ; les bénéfices restent à 21 px sur grand écran.
 - **Body** : rôle `body`. Les introductions utilisent 18 px et un interligne de 1.6, puis 17 px sur mobile. Les paragraphes d’introduction sont limités à 39 caractères environ sur grand écran ; certaines versions intermédiaires vont jusqu’à 48 caractères.
 - **Label** : boutons et liens, rôle `label`. La navigation desktop utilise 14 px gras ; le menu mobile, 17 px. Les mentions d’images sont à 13 px, le bas de page à 12 px.
 
@@ -136,29 +146,29 @@ Conserver les retours à la ligne éditoriaux des grands titres. Ne pas transfor
 
 Le conteneur central a une largeur maximale de 1440 px. La marge latérale et l’espacement vertical des sections utilisent les deux valeurs fluides du frontmatter. Sous 760 px, la marge latérale passe à 24 px ; sous 360 px, à 20 px. Les alignements partagés par les titres, images et actions structurent la page.
 
-La composition livrée V6 suit l’ordre hero, Comment ça marche, Nos métiers, Pourquoi nous choisir, Le mot du fondateur, À propos, matériaux, contact, footer. L’ancienne introduction « Un seul fil. Du début à la fin. », son détail de méthode et l’ancienne section « Pourquoi nous confier votre projet ? » sont supprimés ; la section projets retirée auparavant reste absente. Ce séquençage appartient à cette homepage ; il ne prescrit pas la composition de toutes les futures pages.
+La composition livrée V7 suit l’ordre hero, Comment ça marche, Nos métiers, Pourquoi nous choisir, Le mot du fondateur, À propos, matériaux, contact, footer. L’ancienne introduction « Un seul fil. Du début à la fin. », son détail de méthode et l’ancienne section « Pourquoi nous confier votre projet ? » sont supprimés ; la section projets retirée auparavant reste absente. Ce séquençage appartient à cette homepage ; il ne prescrit pas la composition de toutes les futures pages.
 
-Le header est blanc. Le rythme des huit sections est bleu / blanc / minéral / bleu / minéral / blanc / minéral photographique / bleu, puis footer blanc. Le parcours expose cinq étapes numérotées sur blanc. Les métiers utilisent des photos avec un voile bleu et du texte clair sur une section minérale. Les raisons de choix ont leur propre aplat bleu, une image avec action et quatre bénéfices avec icônes vertes. Le fondateur associe une image architecturale légendée et un message sur minéral ; À propos reste blanc. Le fond minéral des matériaux reste visible sur mobile lorsque le texte précède la photo.
+Le header est blanc. Le rythme des huit sections est bleu / blanc / minéral / bleu / minéral / blanc / minéral photographique / bleu, puis footer blanc. Le parcours expose cinq étapes numérotées sur blanc. Les métiers utilisent des photos avec un voile bleu et du texte clair sur une section minérale. Les raisons de choix ont leur propre aplat bleu, une image avec action et quatre bénéfices avec icônes vertes. Le fondateur associe son portrait réel, un cartouche d’identité et un message avec guillemet SVG sur minéral ; À propos reste blanc. Le fond minéral des matériaux reste visible sur mobile lorsque le texte précède la photo.
 
-Sur grand écran, le hero répartit texte et image en colonnes `.9fr / 1.1fr`, séparées par 48 px. Le parcours utilise cinq colonnes ; les métiers, trois colonnes avec un écart de 24 px. Un métier filtré occupe la largeur disponible et place sa photo à gauche du texte. Les raisons de choix utilisent deux colonnes égales ; le fondateur, `.9fr / 1.1fr` ; À propos, `.85fr / 1.15fr`. Le contact conserve deux colonnes égales.
+Sur grand écran, le hero répartit texte et image en colonnes `.9fr / 1.1fr`, séparées par 48 px. Le parcours utilise cinq colonnes ; les exemples de métiers, trois colonnes avec un écart de 24 px, organisées par catégorie. Les raisons de choix utilisent deux colonnes égales ; le fondateur, `.9fr / 1.1fr` ; À propos, `.85fr / 1.15fr`. Le contact conserve deux colonnes égales.
 
-Sous 1120 px, le CTA du header disparaît et plusieurs espacements se réduisent. Sous 900 px, le menu natif remplace la navigation desktop, À propos passe en une colonne et le parcours en trois colonnes. Sous 760 px, le hero s’empile dans l’ordre message, action, image ; le parcours, les métiers, les raisons de choix, le fondateur et le contact passent en une colonne. Les filtres des métiers forment une grille de deux colonnes ; le métier filtré reprend la composition photographique mobile. Les matériaux placent alors le texte sur fond minéral puis la photo, sans voile.
+Sous 1120 px, le CTA du header disparaît, les cartes métiers passent à deux colonnes et plusieurs espacements se réduisent. Sous 900 px, le menu natif remplace la navigation desktop, À propos et le fondateur passent en une colonne et le parcours en trois colonnes. Sous 760 px, le hero s’empile dans l’ordre message, action, image ; le parcours, les cartes métiers, les raisons de choix et le contact passent en une colonne. Les filtres en pilule se répartissent sur plusieurs lignes. Les matériaux placent alors le texte sur fond minéral puis la photo, sans voile.
 
 ## Elevation & Depth
 
-Les sections et cartes sont plates : les aplats, photos, bordures et espaces produisent la séparation. La seule ombre est attachée au panneau de navigation mobile ouvert (`0 15px 25px -20px #0009`), pour le détacher du contenu. Les voiles bleus des métiers et de l’image des raisons de choix protègent les textes et actions. Le voile minéral de la section matériaux protège la lisibilité du texte sur grand écran ; ce dernier traitement disparaît sur mobile.
+Les aplats, photos, bordures et espaces structurent les sections. Les cartes métiers ajoutent une ombre douce (`0 12px 30px -18px #1c1c5840`) ; le filtre actif et le cartouche du portrait ont des ombres locales. Le panneau mobile conserve son ombre (`0 15px 25px -20px #0009`). Les voiles bleus des métiers et de l’image des raisons de choix protègent les textes et actions. Le voile minéral de la section matériaux protège la lisibilité du texte sur grand écran ; ce dernier traitement disparaît sur mobile.
 
 ## Shapes
 
-Les boutons, filtres et visuels des sections ont des angles droits. Le hero conserve son bord gauche droit et ses deux grands arrondis à droite, avec les rayons `hero` puis `hero-mobile` du frontmatter. L’image remplit cette forme par recadrage (`object-fit: cover`) ; son point de cadrage est à 53 % horizontalement et 50 % verticalement.
+Les boutons et filtres utilisent le rayon `button`, les cartes métiers et visuels des raisons de choix et du fondateur le rayon `card`, les champs et le cartouche d’identité le rayon `field`. Ces arrondis remplacent les angles droits imposés auparavant, à la demande du propriétaire. Le hero conserve son bord gauche droit et ses deux grands arrondis à droite, avec les rayons `hero` puis `hero-mobile` du frontmatter. L’image remplit cette forme par recadrage (`object-fit: cover`) ; son point de cadrage est à 53 % horizontalement et 50 % verticalement.
 
-Les icônes sont des flèches SVG ouvertes, à trait fin (1.6), extrémités carrées et jonctions angulaires. La diagonale monte vers la droite ; la découverte du contenu utilise une flèche verticale descendante. Le trait vert sous la promesse est rectiligne et légèrement décalé à droite.
+Les icônes sont des flèches SVG ouvertes, à trait fin (1.6), extrémités et jonctions arrondies. Les catégories ajoutent des pictogrammes SVG et le message du fondateur un guillemet SVG décoratif, masqués aux technologies d’assistance. La diagonale monte vers la droite ; la découverte du contenu utilise une flèche verticale descendante. Le trait vert sous la promesse est rectiligne et légèrement décalé à droite.
 
 ## Components
 
 ### Buttons
 
-Les actions sont des liens sémantiques rectangulaires, avec texte gras et flèche à droite. Le bouton principal utilise les rôles `button-primary` et `button-primary-hover`. Sa hauteur minimale est de 56 px et l’écart texte/flèche de 22 px. Le bouton encadré reste transparent sur fond bleu ; son contour prend `outline`, puis le fond devient blanc au survol. La variante du header blanc est plus compacte (50 px minimum, marge intérieure `12px 18px`) et utilise un texte et un contour bleus ; elle devient bleue avec texte blanc au survol.
+Les actions sont des liens sémantiques en pilule, avec texte gras et flèche à droite. Le bouton principal utilise les rôles `button-primary` et `button-primary-hover`. Sa hauteur minimale est de 56 px et l’écart texte/flèche de 22 px. Le bouton encadré reste transparent sur fond bleu ; son contour prend `outline`, puis le fond devient blanc au survol. La variante du header blanc est plus compacte (50 px minimum, marge intérieure `12px 18px`) et utilise un texte et un contour bleus ; elle devient bleue avec texte blanc au survol.
 
 Les liens d’action pointent vers le contact de la page ou le parcours d’estimation existant. Le formulaire intégré conserve son bouton « Envoyer ma demande » et son raccordement au Contact Form 7 existant ; ses paramètres et limites restent décrits dans `export/INTEGRATION.md`.
 
@@ -168,9 +178,13 @@ Le lien de section associe un filet vert inférieur, du texte gras et une flèch
 
 ### Cards / Containers
 
-Les métiers sont trois liens photographiques rectangulaires, avec titre, description et action sur un voile bleu. Leur hauteur minimale est de 480 px sur grand écran, avec 28 px de marge intérieure ; sur mobile, 430 px et 26 px. La photo s’agrandit au survol (`scale(1.035)`, 600 ms), sans déplacer la mise en page ; cet effet disparaît en mouvement réduit.
+Les métiers regroupent onze catégories et 61 cartes photographiques arrondies, avec titre, description originale et action verte sur un voile bleu. Leur hauteur minimale est de 360 px sur grand écran, avec 26 px de marge intérieure ; sur mobile, 350 px et 25 px. Chaque carte rejoint `#contact` et préremplit un message vide ou remplace le précédent texte automatique resté intact ; un texte modifié par le visiteur est conservé. La photo s’agrandit au survol (`scale(1.035)`, 600 ms), sans déplacer la mise en page ; cet effet disparaît en mouvement réduit.
 
-Les filtres sont des boutons rectangulaires de 48 px minimum, blancs avec texte bleu et contour clair. Le filtre actif devient bleu avec texte blanc ; le survol renforce le contour. Ils exposent leur sélection avec `aria-pressed` et annoncent le métier affiché dans une zone de statut. Sans JavaScript, les boutons restent masqués et les trois liens de métiers restent visibles.
+Les onze filtres sont des boutons en pilule avec pictogramme, blancs avec texte bleu et contour clair (50 px minimum, 46 px sur mobile). Le filtre actif devient bleu avec texte blanc, icône verte et ombre douce. « Chauffage & Climatisation » est sélectionné au démarrage JavaScript ; la sélection utilise `aria-pressed` et annonce la catégorie et son nombre d’exemples dans une zone de statut. Sans JavaScript, les filtres restent masqués et les 61 cartes des onze catégories restent visibles.
+
+### Inputs / Fields
+
+Les champs conservent fond blanc, texte bleu, labels et états existants, avec un rayon de 12 px. Le focus vert et les erreurs accessibles restent conservés.
 
 ### Navigation
 
@@ -178,9 +192,9 @@ Le header blanc conserve le logo SVG complet à gauche, puis les liens « Commen
 
 ### Process and editorial sections
 
-Le parcours « Comment ça marche » expose cinq étapes dans une liste ordonnée : échange sur le projet, conception et chiffrage, validation des choix, coordination du chantier et réception selon la mission. Chaque numéro bleu est souligné de vert ; un filet clair sépare les étapes. La progression reste visible sans dépliage.
+Le parcours « Comment ça marche » expose cinq étapes dans une liste ordonnée : échange sur le projet, conception et chiffrage, validation des choix, coordination du chantier et réception selon la mission. Chaque numéro blanc occupe un disque bleu de 64 px ; des connecteurs verts relient les étapes sur grand écran. Sur mobile, les disques passent à 48 px et les connecteurs deviennent verticaux. La progression reste visible sans dépliage.
 
-Les quatre bénéfices des raisons de choix utilisent une liste de définitions, avec icônes vertes et filets sur bleu. Le message du fondateur utilise une citation et une signature sous un filet vert foncé ; le visuel architectural est légendé « Visuel d’ambiance ». Les informations du footer conservent leur `details` / `summary` et se développent dans le flux, sans modale.
+Les quatre bénéfices des raisons de choix utilisent une liste de définitions, avec icônes vertes et filets sur bleu. Le message du fondateur utilise une citation et une signature sous un filet vert foncé ; le portrait réel de Kevin HUART est recadré et présenté en miroir pour correspondre à la photo demandée, avec son nom et sa fonction en cartouche blanc. Le visage n’est pas généré. La source officielle H2Z et le fichier original sont conservés dans la provenance. Les informations du footer conservent leur `details` / `summary` et se développent dans le flux, sans modale.
 
 ### Shared interaction states
 

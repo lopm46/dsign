@@ -1,0 +1,576 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "header": "rgb(255, 255, 255)",
+      "categories": 11,
+      "cards": 61,
+      "missing": [],
+      "dead": [],
+      "portrait": "assets/images/kevin-huart.webp",
+      "quote": true,
+      "buttonRadius": "999px",
+      "cardRadius": "18px",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "filters": [
+        {
+          "id": "chauffage",
+          "visibleCards": 8
+        },
+        {
+          "id": "isolation",
+          "visibleCards": 5
+        },
+        {
+          "id": "menuiseries",
+          "visibleCards": 3
+        },
+        {
+          "id": "bain-cuisine",
+          "visibleCards": 7
+        },
+        {
+          "id": "interieur",
+          "visibleCards": 7
+        },
+        {
+          "id": "adaptation",
+          "visibleCards": 7
+        },
+        {
+          "id": "toiture",
+          "visibleCards": 5
+        },
+        {
+          "id": "exterieur",
+          "visibleCards": 6
+        },
+        {
+          "id": "gros-oeuvre",
+          "visibleCards": 3
+        },
+        {
+          "id": "extension",
+          "visibleCards": 6
+        },
+        {
+          "id": "renovation-globale",
+          "visibleCards": 4
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "header": "rgb(255, 255, 255)",
+      "categories": 11,
+      "cards": 61,
+      "missing": [],
+      "dead": [],
+      "portrait": "assets/images/kevin-huart.webp",
+      "quote": true,
+      "buttonRadius": "999px",
+      "cardRadius": "18px",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "filters": [
+        {
+          "id": "chauffage",
+          "visibleCards": 8
+        },
+        {
+          "id": "isolation",
+          "visibleCards": 5
+        },
+        {
+          "id": "menuiseries",
+          "visibleCards": 3
+        },
+        {
+          "id": "bain-cuisine",
+          "visibleCards": 7
+        },
+        {
+          "id": "interieur",
+          "visibleCards": 7
+        },
+        {
+          "id": "adaptation",
+          "visibleCards": 7
+        },
+        {
+          "id": "toiture",
+          "visibleCards": 5
+        },
+        {
+          "id": "exterieur",
+          "visibleCards": 6
+        },
+        {
+          "id": "gros-oeuvre",
+          "visibleCards": 3
+        },
+        {
+          "id": "extension",
+          "visibleCards": 6
+        },
+        {
+          "id": "renovation-globale",
+          "visibleCards": 4
+        }
+      ],
+      "axe": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "header": "rgb(255, 255, 255)",
+      "categories": 11,
+      "cards": 61,
+      "missing": [],
+      "dead": [],
+      "portrait": "assets/images/kevin-huart.webp",
+      "quote": true,
+      "buttonRadius": "999px",
+      "cardRadius": "18px",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "filters": [
+        {
+          "id": "chauffage",
+          "visibleCards": 8
+        },
+        {
+          "id": "isolation",
+          "visibleCards": 5
+        },
+        {
+          "id": "menuiseries",
+          "visibleCards": 3
+        },
+        {
+          "id": "bain-cuisine",
+          "visibleCards": 7
+        },
+        {
+          "id": "interieur",
+          "visibleCards": 7
+        },
+        {
+          "id": "adaptation",
+          "visibleCards": 7
+        },
+        {
+          "id": "toiture",
+          "visibleCards": 5
+        },
+        {
+          "id": "exterieur",
+          "visibleCards": 6
+        },
+        {
+          "id": "gros-oeuvre",
+          "visibleCards": 3
+        },
+        {
+          "id": "extension",
+          "visibleCards": 6
+        },
+        {
+          "id": "renovation-globale",
+          "visibleCards": 4
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "header": "rgb(255, 255, 255)",
+      "categories": 11,
+      "cards": 61,
+      "missing": [],
+      "dead": [],
+      "portrait": "assets/images/kevin-huart.webp",
+      "quote": true,
+      "buttonRadius": "999px",
+      "cardRadius": "18px",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "filters": [
+        {
+          "id": "chauffage",
+          "visibleCards": 8
+        },
+        {
+          "id": "isolation",
+          "visibleCards": 5
+        },
+        {
+          "id": "menuiseries",
+          "visibleCards": 3
+        },
+        {
+          "id": "bain-cuisine",
+          "visibleCards": 7
+        },
+        {
+          "id": "interieur",
+          "visibleCards": 7
+        },
+        {
+          "id": "adaptation",
+          "visibleCards": 7
+        },
+        {
+          "id": "toiture",
+          "visibleCards": 5
+        },
+        {
+          "id": "exterieur",
+          "visibleCards": 6
+        },
+        {
+          "id": "gros-oeuvre",
+          "visibleCards": 3
+        },
+        {
+          "id": "extension",
+          "visibleCards": 6
+        },
+        {
+          "id": "renovation-globale",
+          "visibleCards": 4
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "header": "rgb(255, 255, 255)",
+      "categories": 11,
+      "cards": 61,
+      "missing": [],
+      "dead": [],
+      "portrait": "assets/images/kevin-huart.webp",
+      "quote": true,
+      "buttonRadius": "999px",
+      "cardRadius": "18px",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "filters": [
+        {
+          "id": "chauffage",
+          "visibleCards": 8
+        },
+        {
+          "id": "isolation",
+          "visibleCards": 5
+        },
+        {
+          "id": "menuiseries",
+          "visibleCards": 3
+        },
+        {
+          "id": "bain-cuisine",
+          "visibleCards": 7
+        },
+        {
+          "id": "interieur",
+          "visibleCards": 7
+        },
+        {
+          "id": "adaptation",
+          "visibleCards": 7
+        },
+        {
+          "id": "toiture",
+          "visibleCards": 5
+        },
+        {
+          "id": "exterieur",
+          "visibleCards": 6
+        },
+        {
+          "id": "gros-oeuvre",
+          "visibleCards": 3
+        },
+        {
+          "id": "extension",
+          "visibleCards": 6
+        },
+        {
+          "id": "renovation-globale",
+          "visibleCards": 4
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "header": "rgb(255, 255, 255)",
+      "categories": 11,
+      "cards": 61,
+      "missing": [],
+      "dead": [],
+      "portrait": "assets/images/kevin-huart.webp",
+      "quote": true,
+      "buttonRadius": "999px",
+      "cardRadius": "18px",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "filters": [
+        {
+          "id": "chauffage",
+          "visibleCards": 8
+        },
+        {
+          "id": "isolation",
+          "visibleCards": 5
+        },
+        {
+          "id": "menuiseries",
+          "visibleCards": 3
+        },
+        {
+          "id": "bain-cuisine",
+          "visibleCards": 7
+        },
+        {
+          "id": "interieur",
+          "visibleCards": 7
+        },
+        {
+          "id": "adaptation",
+          "visibleCards": 7
+        },
+        {
+          "id": "toiture",
+          "visibleCards": 5
+        },
+        {
+          "id": "exterieur",
+          "visibleCards": 6
+        },
+        {
+          "id": "gros-oeuvre",
+          "visibleCards": 3
+        },
+        {
+          "id": "extension",
+          "visibleCards": 6
+        },
+        {
+          "id": "renovation-globale",
+          "visibleCards": 4
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "header": "rgb(255, 255, 255)",
+      "categories": 11,
+      "cards": 61,
+      "missing": [],
+      "dead": [],
+      "portrait": "assets/images/kevin-huart.webp",
+      "quote": true,
+      "buttonRadius": "999px",
+      "cardRadius": "18px",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "filters": [
+        {
+          "id": "chauffage",
+          "visibleCards": 8
+        },
+        {
+          "id": "isolation",
+          "visibleCards": 5
+        },
+        {
+          "id": "menuiseries",
+          "visibleCards": 3
+        },
+        {
+          "id": "bain-cuisine",
+          "visibleCards": 7
+        },
+        {
+          "id": "interieur",
+          "visibleCards": 7
+        },
+        {
+          "id": "adaptation",
+          "visibleCards": 7
+        },
+        {
+          "id": "toiture",
+          "visibleCards": 5
+        },
+        {
+          "id": "exterieur",
+          "visibleCards": 6
+        },
+        {
+          "id": "gros-oeuvre",
+          "visibleCards": 3
+        },
+        {
+          "id": "extension",
+          "visibleCards": 6
+        },
+        {
+          "id": "renovation-globale",
+          "visibleCards": 4
+        }
+      ],
+      "axe": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "header": "rgb(255, 255, 255)",
+      "categories": 11,
+      "cards": 61,
+      "missing": [],
+      "dead": [],
+      "portrait": "assets/images/kevin-huart.webp",
+      "quote": true,
+      "buttonRadius": "999px",
+      "cardRadius": "18px",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "filters": [
+        {
+          "id": "chauffage",
+          "visibleCards": 8
+        },
+        {
+          "id": "isolation",
+          "visibleCards": 5
+        },
+        {
+          "id": "menuiseries",
+          "visibleCards": 3
+        },
+        {
+          "id": "bain-cuisine",
+          "visibleCards": 7
+        },
+        {
+          "id": "interieur",
+          "visibleCards": 7
+        },
+        {
+          "id": "adaptation",
+          "visibleCards": 7
+        },
+        {
+          "id": "toiture",
+          "visibleCards": 5
+        },
+        {
+          "id": "exterieur",
+          "visibleCards": 6
+        },
+        {
+          "id": "gros-oeuvre",
+          "visibleCards": 3
+        },
+        {
+          "id": "extension",
+          "visibleCards": 6
+        },
+        {
+          "id": "renovation-globale",
+          "visibleCards": 4
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    "All 11 filters operated by keyboard at all 8 widths; correct counts and no clipping.",
+    "No-JS: all 61 examples accessible.",
+    "Project prefill, updated untouched selection, preservation of user text; no real send.",
+    "Mobile menu/Escape/focus/link; local form errors.",
+    "Forced-colors title fallback remains visible.",
+    "Shared materials navigation works on desktop/mobile."
+  ],
+  "errors": [],
+  "result": "pass"
+}

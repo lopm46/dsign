@@ -45,24 +45,36 @@
   openInformation();
 
   const tradeFilters = document.querySelector(".trade-filters");
-  const tradeGrid = document.getElementById("trade-grid");
-  if (tradeFilters && tradeGrid) {
+  const tradeCatalogue = document.getElementById("trade-catalogue");
+  if (tradeFilters && tradeCatalogue) {
     const filterButtons = [...tradeFilters.querySelectorAll("button[data-trade-filter]")];
-    const trades = [...tradeGrid.querySelectorAll("[data-trade]")];
+    const categories = [...tradeCatalogue.querySelectorAll("[data-trade-category]")];
     const tradeStatus = document.getElementById("trade-status");
+    const selectCategory = (button, announce = true) => {
+      const selected = button.dataset.tradeFilter;
+      filterButtons.forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+      categories.forEach((category) => {
+        category.hidden = category.dataset.tradeCategory !== selected;
+      });
+      if (announce && tradeStatus) {
+        const active = categories.find((category) => !category.hidden);
+        const count = active?.querySelectorAll(".trade").length || 0;
+        tradeStatus.textContent = `${button.textContent.trim()} : ${count} exemples de travaux affichés.`;
+      }
+    };
+    selectCategory(filterButtons[0], false);
     tradeFilters.hidden = false;
     filterButtons.forEach((button) => {
-      button.addEventListener("click", () => {
-        const selected = button.dataset.tradeFilter;
-        filterButtons.forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
-        trades.forEach((trade) => {
-          trade.hidden = selected !== "all" && trade.dataset.trade !== selected;
-        });
-        tradeGrid.dataset.filtered = String(selected !== "all");
-        if (tradeStatus) {
-          tradeStatus.textContent = selected === "all"
-            ? "Les trois métiers sont affichés."
-            : `Métier affiché : ${button.textContent.trim()}.`;
+      button.addEventListener("click", () => selectCategory(button));
+    });
+    let lastProjectMessage = "";
+    tradeCatalogue.querySelectorAll("a[data-project]").forEach((link) => {
+      link.addEventListener("click", () => {
+        const message = document.getElementById("contact-message");
+        if (message && (!message.value.trim() || message.value === lastProjectMessage)) {
+          lastProjectMessage = `Bonjour, je souhaite vous parler de mon projet : ${link.dataset.project}.`;
+          message.value = lastProjectMessage;
+          message.dispatchEvent(new Event("input", { bubbles: true }));
         }
       });
     });
