@@ -1,4 +1,21 @@
-# Vérification de l’export — version 2
+# Vérification de l’export — version 6
+
+Contrôles du 4 novembre 2026 pour la nouvelle séquence de homepage et la navigation blanche partagée avec les matériaux.
+
+- Huit largeurs Chromium : **320, 390, 768, 900, 1024, 1280, 1440 et 1920 px**. Ordre vérifié : hero, Comment ça marche, Nos métiers, Pourquoi nous choisir, Le mot du fondateur, À propos, matériaux, contact. Ancien bloc de méthode et ancienne section de raisons retirés.
+- Aucun débordement horizontal, média manquant, ancre locale morte ou erreur JavaScript détecté. SVG officiel et fichiers d’images/polices existants conservés.
+- Les trois filtres de métiers et le retour « Tous les métiers » sont vérifiés à chaque largeur, avec un seul bouton sélectionné et une annonce du résultat. Sans JavaScript, les trois métiers restent accessibles et les boutons de filtrage sont masqués.
+- Menu mobile blanc : fermeture après navigation, au clic extérieur et par Échap avec retour du focus. Liens de la page matériaux vers les nouvelles sections vérifiés sur desktop/mobile.
+- **Axe WCAG 2A/AA/2.1AA/2.2AA : zéro violation automatisée à 390 et 1440 px**, filtres rendus et images chargées. Le détecteur Impeccable a été exécuté une fois ; les alertes statiques sont expliquées dans les notes de revue du dépôt.
+- Formulaire conservé : la soumission vide affiche les trois erreurs obligatoires sans requête vers le service. Le code d’envoi n’est pas modifié. **Aucun message réel n’a été envoyé.** Les scénarios interceptés de la V2 restent documentés ci-dessous comme historique, sans prétendre à un nouvel essai de délivrabilité.
+- Captures desktop/mobile et gros plans inspectés après chargement des fontes et images. Revue indépendante : **`ship` à la portée de l’interface modifiée**, sans correctif matériel requis ; elle ne couvre pas la publication ni un nouvel essai du service de contact.
+- Kevin HUART est le nom fourni par le propriétaire. Message rédigé pour D-SIGN à partir du thème de la référence ; aucune reprise des affirmations propres à Kovan. L’image du bloc est explicitement un visuel d’ambiance, pas un portrait du fondateur.
+
+Les contrôles de cette version ne remplacent pas une recette sur appareils physiques, avec lecteur d’écran, ni une validation du thème WordPress. L’archive V6 est vérifiée séparément : CRC, ressources locales, identifiants uniques, logo identique et copie de la charte.
+
+## Historique des contrôles V2
+
+Les contrôles ci-dessous décrivent la V2 ; son ordre et son disclosure de méthode ne représentent plus la homepage courante.
 
 Contrôles du 4 novembre 2026. Portée : homepage statique HTML/CSS/JS, contenus intégrés et interface du formulaire. Aucun thème WordPress installé ni site publié.
 

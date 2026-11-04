@@ -4,14 +4,15 @@ Redesign de la homepage WordPress de D-SIGN GBS. Base métier : **cadrage V2**. 
 
 ## Documents
 
-- `export/RYTHME.md` : diagnostic de chaque section et correction des fonds de la V5.
-- `dist/dsign-site-html-css-v5.zip` : export courant après correction du rythme visuel.
-- `export/STRUCTURE.md` : ordre courant de la homepage V4 et contrôles associés.
-- `dist/dsign-site-html-css-v4.zip` : livraison courante après réorganisation des six sections, avec la page matériaux.
+- `dist/dsign-site-html-css-v6.zip` : export courant, avec navigation blanche et parcours Comment ça marche / métiers / raisons de choix / fondateur, puis À propos, matériaux et contact.
+- `export/STRUCTURE.md` : ordre et navigation de la homepage V6, contrôles et limites.
+- `export/RYTHME.md` : surfaces et compositions de la V6 ; rythme V5 conservé comme historique.
+- `dist/dsign-site-html-css-v5.zip` : archive historique après correction du rythme visuel.
+- `dist/dsign-site-html-css-v4.zip` : archive historique après réorganisation des six sections, avec la page matériaux.
 - `GITHUB-PAGES.md` : activation de l’hébergement V3 et synchronisation de la branche `gh-pages`.
 - `export/nos-materiaux.html` : page matériaux fournie par le client, intégrée à la même charte et reliée à la homepage.
 - `export/MATERIAUX.md` : provenance des visuels, contrôles de la galerie et intégration WordPress.
-- `dist/dsign-site-html-css-v3.zip` : livraison courante avec homepage et page matériaux, images et fontes locales ; versions précédentes conservées.
+- `dist/dsign-site-html-css-v3.zip` : archive historique ajoutant la page matériaux à la homepage, avec images et fontes locales.
 - `export/index.html`, `export/styles.css`, `export/script.js` : homepage retenue reconstruite et améliorée, avec tous ses assets locaux.
 - `export/README.md` : ouverture, contenu de la livraison et préparation de l’intégration WordPress.
 - `export/VERIFICATION.md` : contrôles du rendu, des interactions et de l’accessibilité, avec limites.

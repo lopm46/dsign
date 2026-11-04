@@ -1,28 +1,40 @@
-# Analyse des sections et rythme des fonds — V5
+# Analyse des sections et rythme des fonds — V6
 
-4 novembre 2026. L’ordre des six sections, les textes, le hero, le logo, les photos et le formulaire restent conservés.
+4 novembre 2026. La V6 remplace le parcours de six sections V5 par les huit sections demandées par le client, dans la charte D-SIGN. La palette, la police, le logo complet, la silhouette du hero, la page matériaux et le formulaire sont conservés.
 
-## Diagnostic
+## Lecture du parcours
 
-Le hero et À propos avaient le même fond bleu : la présentation se confondait avec la promesse initiale. Les raisons de choix, les services et la partie texte des matériaux enchaînaient ensuite trois fonds blancs. Les raisons de choix n’avaient plus de marge intérieure inférieure après leur extraction en section dédiée. La lecture passait donc d’un très long ensemble foncé à un très long ensemble clair, avec des limites peu lisibles.
+Le header blanc marque la navigation avant l’ouverture bleue du hero. Le parcours numéroté expose la méthode immédiatement, puis les métiers photographiques permettent de choisir une prestation. Les raisons de choix occupent un aplat bleu distinct ; le message du fondateur reprend ensuite une surface minérale et une composition image/texte. À propos reste présent après ce message, avant les matériaux et le contact.
 
 ## Traitement par section
 
-| Section | Structure conservée | Fond et rôle |
+| Section | Structure V6 | Fond et rôle |
 | --- | --- | --- |
-| Hero | Promesse à gauche, photo en D à droite, CTA | Bleu inchangé : ouverture forte et reconnaissable. |
-| À propos | Présentation à gauche, photo et méthode à droite | Blanc : respiration après le hero et lecture des paragraphes. Texte bleu/gris, accents vert foncé lisibles sur blanc. |
-| Pourquoi D-SIGN | Titre, trois raisons, signature commune | Bleu : séquence distincte de réassurance, titres verts et texte clair. Espacement vertical complet rétabli. |
-| Services | Introduction puis trois lignes image/texte | Blanc : scan des trois prestations après les raisons de choix. |
-| Matériaux | Texte et lien, photo de matières | Minéral clair et photo : transition tactile, distincte des services blancs. Fond clair conservé sous le texte sur mobile. |
-| Contact | Informations et formulaire | Bleu inchangé : conclusion avec action verte, champs blancs et contraste fort. |
+| Header | Logo intact, liens de parcours et action ; menu natif sur mobile | Blanc avec texte et contour bleus ; panneau mobile blanc et action verte. |
+| Hero | Promesse à gauche, photo en D à droite, CTA | Bleu conservé : ouverture forte et reconnaissable. |
+| Comment ça marche | Cinq étapes numérotées et lien d’estimation | Blanc : explication lisible, numéros bleus soulignés de vert et filets clairs. |
+| Nos métiers | Filtres et trois liens photographiques ; une composition large lorsqu’un métier est filtré | Minéral : surface distincte du parcours blanc ; photos avec voile bleu, titres blancs et flèches vertes. |
+| Pourquoi nous choisir | Image/action à gauche, quatre bénéfices avec icônes à droite | Bleu : séquence de réassurance, texte clair, accents verts et filets foncés. |
+| Le mot du fondateur | Image architecturale légendée, citation et signature | Minéral : message en bleu et gris ; signature sous un filet vert foncé. |
+| À propos | Présentation client à gauche, photo et trois repères à droite | Blanc : respiration et lecture des paragraphes, accents vert foncé. |
+| Matériaux | Texte et lien, photo de matières | Minéral clair et photo : transition tactile ; fond clair conservé sous le texte sur mobile. |
+| Contact | Informations et formulaire existants | Bleu conservé : conclusion avec action verte, champs blancs et contraste fort. |
+| Footer | Logo, navigation et informations du site | Blanc : fin du parcours et accès complémentaires. |
 
-Le nouveau neutre `--color-mineral: #f3f0ea` reprend la tonalité claire de l’enduit photographié. Il sert uniquement de surface aux matériaux. La palette d’accent, les polices et la silhouette du hero restent les mêmes. Les couleurs de texte, de filets et de numéros de méthode sont remappées avec le fond À propos ; les liens conservent leurs styles et focus.
+Le neutre `--color-mineral: #f3f0ea` introduit en V5 est réutilisé pour les métiers, le message du fondateur et les matériaux. Aucune nouvelle couleur ni famille typographique n’est ajoutée. La méthode et les métiers modifient aussi leur structure : cette V6 ne se limite pas à une alternance de fonds.
+
+## Composition et limites de contenu
+
+La référence Kovan.fr inspire le parcours numéroté et les compositions photographiques ; D-SIGN conserve ses trois prestations et son identité. Les mentions de réseau, logiciel, certifications ou résultats propres à la référence ne sont pas reprises.
+
+Kevin HUART est confirmé comme fondateur par le propriétaire, qui a autorisé le message original adapté. Aucun portrait n’a été fourni ; l’image architecturale garde sa légende d’ambiance. Le détail « Notre façon de travailler », son ancienne introduction et l’ancien bloc de raisons sont retirés. La galerie matériaux et l’intégration WordPress restent inchangées.
 
 ## Vérifications
 
-Six largeurs : 320, 390, 768, 1024, 1440 et 1920 px. Ordre inchangé ; couleurs de surface et espacements vérifiés dans les styles calculés ; aucun débordement, média manquant ou ancre morte. Captures desktop/mobile inspectées. Scan axe à 390 et 1440 px avec la méthode dépliée : aucune violation automatisée détectée. Aucun envoi de formulaire.
+Le rapport `.impeccable/review/homepage-v6-verification.json` consigne huit largeurs : 320, 390, 768, 900, 1024, 1280, 1440 et 1920 px. Ordre, header blanc et textes retirés vérifiés ; aucun débordement, média manquant ou ancre morte. Filtres, repli sans JavaScript, menu mobile et navigation des deux pages contrôlés. Scan axe à 390 et 1440 px : aucune violation automatisée détectée. Aucun envoi réel de formulaire.
 
-Les fichiers `DESIGN.md` et le sidecar décrivent les nouveaux rôles de surface et le neutre minéral. Les versions précédentes restent disponibles comme historique. Ces contrôles ne remplacent pas une recette complète sur appareils physiques et lecteur d’écran.
+La revue indépendante Impeccable conclut `ship` pour l’UI à cette portée après inspection desktop/mobile. Les deux copies de `DESIGN.md` et le sidecar décrivent les rôles de surface et les composants actuels. Ces contrôles ne remplacent pas une recette WordPress ni un essai complet sur appareils physiques et lecteur d’écran.
 
-La revue indépendante Impeccable valide le rythme et les limites visibles. Sa seule correction concernait une ancienne mention de fond blanc mobile dans les deux copies de la charte ; elle est résolue (`ship` à cette portée), sans modification visuelle supplémentaire.
+## Historique V5
+
+La V5 corrigeait la confusion entre le hero et À propos, puis entre plusieurs sections blanches : ordre hero / À propos / raisons / services / matériaux / contact et rythme bleu / blanc / bleu / blanc / minéral / bleu. Ses archives et rapports `homepage-rhythm-*` restent des preuves de cette étape, pas une description de la V6 courante.

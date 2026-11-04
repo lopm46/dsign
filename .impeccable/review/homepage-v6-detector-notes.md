@@ -1,0 +1,11 @@
+# Détecteur V6 — lecture des résultats
+
+Le détecteur mécanique a été exécuté une fois sur les cinq fichiers UI modifiés ; résultat brut dans `homepage-v6-detector.json`. Le rendu, les états et les valeurs calculées priment pour les cas ci-dessous. Le rapport navigateur `homepage-v6-verification.json` ne détecte aucune violation axe WCAG 2A/AA/2.1AA/2.2AA à 390 et 1440 px.
+
+- **Contraste du texte clair** : `#d2d5e7` est utilisé dans le hero, les métiers, les raisons de choix, la légende bleue du fondateur et le contact. Ces zones héritent d’un fond `#1c1c58`, avec un voile bleu supplémentaire sur les images des métiers ; elles ne sont pas sur le blanc supposé par l’analyse statique. Les textes sur blanc/minéral utilisent `#1c1c58` ou `#5c5d76`.
+- **Espacements de sections** : `section-space` fournit le padding vertical fluide et `container` les marges horizontales. Le hero utilise `hero-bottom` et les matériaux `materials-inner`. Les espaces sont visibles dans les captures et vérifiés aux huit largeurs ; ajouter un second padding au wrapper doublerait l’espacement.
+- **Images masquées des matériaux** : les six images inactives appartiennent à la galerie existante. Leur opacité bascule lors de la sélection ; ce ne sont pas des images de contenu définitivement cachées.
+- **Police et échelle** : Instrument Sans, les tailles des textes de navigation, des mentions et de la galerie sont conservées de la charte existante. Les tailles des étapes et des métiers prolongent cette hiérarchie. Le détecteur avertit sur des tailles locales qu’il ne trouve pas dans les seuls rôles typographiques du frontmatter ; aucune réinitialisation générale de la typographie n’est demandée.
+- **Couleurs locales** : le fond d’attente du hero et les nuances de la galerie sont antérieurs à cette passe ; les nouveaux voiles restent des transparences du bleu D-SIGN. Le signal de contour noir sans contour visible sur un lien ne décrit pas une couleur réellement peinte.
+
+La revue indépendante juge le rendu à partir des captures complètes et des gros plans desktop/mobile, du menu ouvert et de l’état filtré. Ces vérifications automatisées et visuelles ne constituent pas une recette exhaustive sur appareils physiques et lecteur d’écran. Aucun message réel de contact n’a été envoyé.

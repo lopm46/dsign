@@ -1,0 +1,173 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "headerColor": "rgb(255, 255, 255)",
+      "headerText": "rgb(28, 28, 88)",
+      "deadAnchors": [],
+      "missingImages": [],
+      "retiredCopy": false,
+      "founder": "Kevin HUART\nFondateur de D-SIGN"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "headerColor": "rgb(255, 255, 255)",
+      "headerText": "rgb(28, 28, 88)",
+      "deadAnchors": [],
+      "missingImages": [],
+      "retiredCopy": false,
+      "founder": "Kevin HUART\nFondateur de D-SIGN",
+      "axe": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "headerColor": "rgb(255, 255, 255)",
+      "headerText": "rgb(28, 28, 88)",
+      "deadAnchors": [],
+      "missingImages": [],
+      "retiredCopy": false,
+      "founder": "Kevin HUART\nFondateur de D-SIGN"
+    },
+    {
+      "width": 900,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "headerColor": "rgb(255, 255, 255)",
+      "headerText": "rgb(28, 28, 88)",
+      "deadAnchors": [],
+      "missingImages": [],
+      "retiredCopy": false,
+      "founder": "Kevin HUART\nFondateur de D-SIGN"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "headerColor": "rgb(255, 255, 255)",
+      "headerText": "rgb(28, 28, 88)",
+      "deadAnchors": [],
+      "missingImages": [],
+      "retiredCopy": false,
+      "founder": "Kevin HUART\nFondateur de D-SIGN"
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "headerColor": "rgb(255, 255, 255)",
+      "headerText": "rgb(28, 28, 88)",
+      "deadAnchors": [],
+      "missingImages": [],
+      "retiredCopy": false,
+      "founder": "Kevin HUART\nFondateur de D-SIGN"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "headerColor": "rgb(255, 255, 255)",
+      "headerText": "rgb(28, 28, 88)",
+      "deadAnchors": [],
+      "missingImages": [],
+      "retiredCopy": false,
+      "founder": "Kevin HUART\nFondateur de D-SIGN",
+      "axe": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "sections": [
+        "hero",
+        "comment-ca-marche",
+        "expertises",
+        "pourquoi",
+        "fondateur",
+        "apropos",
+        "materiaux",
+        "contact"
+      ],
+      "headerColor": "rgb(255, 255, 255)",
+      "headerText": "rgb(28, 28, 88)",
+      "deadAnchors": [],
+      "missingImages": [],
+      "retiredCopy": false,
+      "founder": "Kevin HUART\nFondateur de D-SIGN"
+    }
+  ],
+  "interactions": [
+    "Mobile menu: link, Escape with focus return, outside click",
+    "All three trades available without JavaScript; no inert controls",
+    "Materials shared header and navigation on desktop/mobile"
+  ],
+  "errors": [],
+  "result": "pass"
+}

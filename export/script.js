@@ -44,6 +44,30 @@
   window.addEventListener("hashchange", openInformation);
   openInformation();
 
+  const tradeFilters = document.querySelector(".trade-filters");
+  const tradeGrid = document.getElementById("trade-grid");
+  if (tradeFilters && tradeGrid) {
+    const filterButtons = [...tradeFilters.querySelectorAll("button[data-trade-filter]")];
+    const trades = [...tradeGrid.querySelectorAll("[data-trade]")];
+    const tradeStatus = document.getElementById("trade-status");
+    tradeFilters.hidden = false;
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const selected = button.dataset.tradeFilter;
+        filterButtons.forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+        trades.forEach((trade) => {
+          trade.hidden = selected !== "all" && trade.dataset.trade !== selected;
+        });
+        tradeGrid.dataset.filtered = String(selected !== "all");
+        if (tradeStatus) {
+          tradeStatus.textContent = selected === "all"
+            ? "Les trois métiers sont affichés."
+            : `Métier affiché : ${button.textContent.trim()}.`;
+        }
+      });
+    });
+  }
+
   const form = document.getElementById("contact-form");
   if (!form) return;
 

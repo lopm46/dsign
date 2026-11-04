@@ -14,9 +14,9 @@ L’export actuel est `export/index.html` avec `styles.css`, `script.js` et ses 
 
 La page fournie par le client dans `nos materieux.zip` est intégrée sous `export/nos-materiaux.html`, avec ses contenus, huit visuels et une galerie de sept matières. Elle reprend le header/footer et les polices de la homepage ; ses actions de contact rejoignent le formulaire de celle-ci. Les règles locales et les contrôles sont décrits dans `export/MATERIAUX.md`.
 
-**Ordre courant confirmé par le client le 4 novembre 2026 :** hero inchangé, À propos, Pourquoi nous confier votre projet, services, matériaux, contact. La section « Des espaces qui changent la vie » est supprimée. Cet ordre remplace la composition des références et versions antérieures, sans changer la charte. Voir `export/STRUCTURE.md`.
+**Ordre courant V6 confirmé par le client le 4 novembre 2026 :** hero, Comment ça marche, Nos métiers, Pourquoi nous choisir, Le mot du fondateur, À propos, matériaux, contact, puis footer. La navigation devient blanche. L’ancienne introduction « Un seul fil. Du début à la fin. », son détail « Notre façon de travailler » et l’ancienne section « Pourquoi nous confier votre projet ? » sont supprimés ; la section « Des espaces qui changent la vie » retirée auparavant reste absente. Ce parcours remplace les versions antérieures dans la charte D-SIGN. Voir `export/STRUCTURE.md`.
 
-**Rythme courant V5 :** hero bleu, À propos blanc, raisons de choix bleues, services blancs, matériaux sur neutre minéral photographique, contact bleu. Cette correction répond au constat client de sections consécutives qui se confondaient. Les nouveaux rôles sont consignés dans `DESIGN.md` et `export/RYTHME.md` ; contenu, ordre et hero restent conservés.
+**Rythme courant V6 :** header blanc, hero bleu, parcours blanc, métiers minéraux et photographiques, raisons de choix bleues, fondateur minéral, À propos blanc, matériaux minéraux et photographiques, contact bleu, footer blanc. Kovan.fr inspire les principes de parcours et de composition ; l’identité D-SIGN, les trois services confirmés et les destinations existantes sont conservés. Aucun catalogue, réseau, logiciel, label ou résultat Kovan n’est attribué à D-SIGN. Voir `DESIGN.md`, `export/RYTHME.md` et `.impeccable/directions/homepage-v6-kovan.md`.
 
 ## Users
 
@@ -43,7 +43,8 @@ Les visiteurs évaluent un prestataire pour un projet engageant financièrement 
 - Services confirmés : rénovation, extension, construction.
 - Accompagnement annoncé : recherche du terrain, conception des plans, chiffrage, consultation et coordination des intervenants, suivi du chantier.
 - Parcours existant d’estimation en ligne : `/devis-en-ligne/`.
-- La homepage exportée V2 intègre les textes « À propos » et « Pourquoi nous confier votre projet » fournis par le client, ainsi qu’un formulaire à quatre champs raccordé à l’API publique du Contact Form 7 existant (n° 6). Aucun envoi réel de test n’a été effectué ; les états sont testés par interception réseau.
+- La homepage V6 conserve le texte « À propos » fourni par le client et le formulaire à quatre champs raccordé à l’API publique du Contact Form 7 existant (n° 6). L’ancien bloc « Pourquoi nous confier votre projet » intégré en V2 est remplacé par les quatre bénéfices de « Pourquoi nous choisir ». Aucun envoi réel de test n’a été effectué ; les états du formulaire ont été testés par interception réseau.
+- Kevin HUART est le fondateur de D-SIGN, nom confirmé par le propriétaire. Le propriétaire a autorisé un message original adapté de la référence et centré sur l’accompagnement annoncé. Aucun portrait réel n’a été fourni : l’image architecturale de la section est légendée comme ambiance, sans biographie ni preuve inventée.
 - Cible technique : WordPress, avec des sections administrables et des médias optimisés.
 - Les statistiques, garanties, labels, assurances, délais de réponse et témoignages restent à fournir. Aucun élément de ce type ne doit être inventé.
 
