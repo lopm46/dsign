@@ -21,6 +21,18 @@
     <symbol id="plan" viewBox="0 0 24 24"><path d="M4 3h16v18H4zM4 10h9V3M13 10v11M13 16h7"/></symbol>
     <symbol id="estimate" viewBox="0 0 24 24"><path d="M5 2h14v20H5zM8 6h8M8 11h2M14 11h2M8 15h2M14 15h2M8 19h2M14 19h2"/></symbol>
     <symbol id="coordinate" viewBox="0 0 24 24"><path d="M9 2h6v6H9zM2 16h6v6H2zM16 16h6v6h-6zM12 8v4M5 16v-4h14v4"/></symbol>
+    <symbol id="trade-heat" viewBox="0 0 24 24"><path d="M12 3c0 5-5 5-5 10a5 5 0 0 0 10 0c0-2-1-3-2-4 0 3-2 3-2 3 1-4-1-7-1-9Z"/></symbol>
+    <symbol id="trade-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"/></symbol>
+    <symbol id="trade-window" viewBox="0 0 24 24"><path d="M4 3h16v18H4zM12 3v18M4 12h16"/></symbol>
+    <symbol id="trade-bath" viewBox="0 0 24 24"><path d="M3 12h18v4a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4ZM5 12V5a2 2 0 0 1 4 0M7 20v2M17 20v2"/></symbol>
+    <symbol id="trade-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v11H3ZM9 21v-8h6v8"/></symbol>
+    <symbol id="trade-accessibility" viewBox="0 0 24 24"><circle cx="12" cy="4" r="2"/><path d="m4 9 8-1 8 1M12 8v6m0 0-5 8m5-8 5 8"/></symbol>
+    <symbol id="trade-roof" viewBox="0 0 24 24"><path d="m2 12 10-9 10 9M5 10v11h14V10M9 21v-7h6v7"/></symbol>
+    <symbol id="trade-tree" viewBox="0 0 24 24"><path d="m12 2 6 8h-3l6 8H3l6-8H6ZM12 18v4"/></symbol>
+    <symbol id="trade-hammer" viewBox="0 0 24 24"><path d="m14 4 6 6-4 4-3-3L5 21l-3-3 10-8-3-3ZM14 4l3-2 5 5-2 3"/></symbol>
+    <symbol id="trade-expand" viewBox="0 0 24 24"><path d="M3 9V3h6M15 3h6v6M21 15v6h-6M9 21H3v-6M3 3l6 6m12-6-6 6M21 21l-6-6M3 21l6-6"/></symbol>
+    <symbol id="trade-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></symbol>
+    <symbol id="quote" viewBox="0 0 24 24"><path d="M3 21c3 0 7-2 7-9V5H2v8h5c0 3-1 5-4 6ZM15 21c3 0 7-2 7-9V5h-8v8h5c0 3-1 5-4 6Z"/></symbol>
   </svg>
 
   <header class="site-header" id="haut">
@@ -55,7 +67,7 @@
       <div class="container">
         <div class="hero-grid">
           <div class="hero-copy">
-            <h1 id="hero-title">L’espace,<br><span class="hero-underline">à votre mesure.</span></h1>
+            <h1 id="hero-title">L’espace,<br><span class="hero-underline gradient-text gradient-text-light">à votre mesure.</span></h1>
             <p class="hero-description">De l’idée au chantier, D-SIGN accompagne les particuliers et les professionnels dans leurs projets de construction, d’extension et de rénovation.</p>
             <a class="button button-primary hero-action" href="#contact">Parlons de votre projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></a>
           </div>
@@ -72,8 +84,8 @@
 
     <section class="how-it-works section-space" id="comment-ca-marche" aria-labelledby="how-title">
       <div class="container">
-        <div class="section-heading section-heading-split">
-          <h2 id="how-title">Comment<br>ça marche <span>?</span></h2>
+        <div class="section-heading section-heading-centered">
+          <h2 id="how-title">Comment <span class="gradient-text">ça marche ?</span></h2>
           <p>Une idée, des décisions, un chantier.<br>Voici comment nous avançons ensemble, selon la mission que vous nous confiez.</p>
         </div>
         <ol class="process-steps">
@@ -89,38 +101,333 @@
 
     <section class="trades section-space" id="expertises" aria-labelledby="trades-title">
       <div class="container">
-        <div class="section-heading section-heading-split">
-          <h2 id="trades-title">Nos métiers<span>.</span></h2>
-          <p>Transformer, agrandir, construire.<br>Trois façons de donner forme à vos envies, pour votre logement ou vos locaux professionnels.</p>
+        <div class="section-heading section-heading-centered">
+          <h2 id="trades-title">Nos <span class="gradient-text">métiers</span></h2>
+          <p>Du chauffage à la rénovation complète, trouvez les travaux qui correspondent à votre projet. D-SIGN vous accompagne pour leur donner forme.</p>
         </div>
-        <div class="trade-filters" role="group" aria-label="Filtrer nos métiers" hidden>
-          <button type="button" data-trade-filter="all" aria-pressed="true" aria-controls="trade-grid">Tous les métiers</button>
-          <button type="button" data-trade-filter="renovation" aria-pressed="false" aria-controls="trade-grid">Rénovation</button>
-          <button type="button" data-trade-filter="extension" aria-pressed="false" aria-controls="trade-grid">Extension</button>
-          <button type="button" data-trade-filter="construction" aria-pressed="false" aria-controls="trade-grid">Construction</button>
+        <div class="trade-filters" role="group" aria-label="Choisir une catégorie de métiers" hidden>
+          <button type="button" data-trade-filter="chauffage" aria-pressed="true" aria-controls="trade-chauffage"><svg class="icon" aria-hidden="true"><use href="#trade-heat"/></svg><span>Chauffage &amp; Climatisation</span></button>
+          <button type="button" data-trade-filter="isolation" aria-pressed="false" aria-controls="trade-isolation"><svg class="icon" aria-hidden="true"><use href="#trade-shield"/></svg><span>Isolation</span></button>
+          <button type="button" data-trade-filter="menuiseries" aria-pressed="false" aria-controls="trade-menuiseries"><svg class="icon" aria-hidden="true"><use href="#trade-window"/></svg><span>Menuiseries</span></button>
+          <button type="button" data-trade-filter="bain-cuisine" aria-pressed="false" aria-controls="trade-bain-cuisine"><svg class="icon" aria-hidden="true"><use href="#trade-bath"/></svg><span>Salle de bain &amp; Cuisine</span></button>
+          <button type="button" data-trade-filter="interieur" aria-pressed="false" aria-controls="trade-interieur"><svg class="icon" aria-hidden="true"><use href="#trade-home"/></svg><span>Aménagement intérieur</span></button>
+          <button type="button" data-trade-filter="adaptation" aria-pressed="false" aria-controls="trade-adaptation"><svg class="icon" aria-hidden="true"><use href="#trade-accessibility"/></svg><span>Adaptation du logement</span></button>
+          <button type="button" data-trade-filter="toiture" aria-pressed="false" aria-controls="trade-toiture"><svg class="icon" aria-hidden="true"><use href="#trade-roof"/></svg><span>Toiture &amp; Façade</span></button>
+          <button type="button" data-trade-filter="exterieur" aria-pressed="false" aria-controls="trade-exterieur"><svg class="icon" aria-hidden="true"><use href="#trade-tree"/></svg><span>Extérieur</span></button>
+          <button type="button" data-trade-filter="gros-oeuvre" aria-pressed="false" aria-controls="trade-gros-oeuvre"><svg class="icon" aria-hidden="true"><use href="#trade-hammer"/></svg><span>Gros œuvre</span></button>
+          <button type="button" data-trade-filter="extension" aria-pressed="false" aria-controls="trade-extension"><svg class="icon" aria-hidden="true"><use href="#trade-expand"/></svg><span>Extension &amp; Surélévation</span></button>
+          <button type="button" data-trade-filter="renovation-globale" aria-pressed="false" aria-controls="trade-renovation-globale"><svg class="icon" aria-hidden="true"><use href="#trade-sun"/></svg><span>Rénovation globale</span></button>
         </div>
-        <div class="trade-grid" id="trade-grid">
-          <a class="trade" data-trade="renovation" href="https://dsign-gbs.fr/nos-services/renovation/">
-            <img src="assets/images/interieur-800.webp" width="800" height="533" alt="Salon lumineux aux matières naturelles, visuel d’ambiance" loading="lazy" decoding="async">
-            <div class="trade-copy"><h3>Rénovation</h3><p>Réinventer l’existant et adapter vos espaces à votre façon de vivre.</p><span class="trade-link">Découvrir la rénovation<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
-          </a>
-          <a class="trade" data-trade="extension" href="https://dsign-gbs.fr/nos-services/extension/">
-            <img src="assets/images/extension-800.webp" width="800" height="533" alt="Extension contemporaine d’une maison en brique, visuel d’ambiance" loading="lazy" decoding="async">
-            <div class="trade-copy"><h3>Extension</h3><p>Gagner de la place et faire dialoguer votre bâtiment avec de nouveaux usages.</p><span class="trade-link">Découvrir l’extension<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
-          </a>
-          <a class="trade" data-trade="construction" href="https://dsign-gbs.fr/nos-services/construction/">
-            <img src="assets/images/maison-800.webp" width="800" height="533" alt="Maison contemporaine en brique et enduit clair, visuel d’ambiance" loading="lazy" decoding="async">
-            <div class="trade-copy"><h3>Construction</h3><p>Imaginer un lieu à votre mesure, des premiers plans au suivi du chantier.</p><span class="trade-link">Découvrir la construction<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
-          </a>
+        <div class="trade-catalogue" id="trade-catalogue">
+          <section class="trade-panel" id="trade-chauffage" data-trade-category="chauffage" aria-labelledby="trade-title-chauffage">
+            <div class="trade-category-heading"><h3 id="trade-title-chauffage">Chauffage &amp; Climatisation</h3><p>8 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Pompe à chaleur air/eau">
+                <img src="assets/trades/pompe-chaleur-D7GU_EUS.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Pompe à chaleur air/eau</h4><p>Relier le chauffage et la production d’eau chaude à une pompe à chaleur.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Pompe à chaleur air/air (clim réversible)">
+                <img src="assets/trades/pompe-chaleur-air-air-BIy2zbKL.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Pompe à chaleur air/air (clim réversible)</h4><p>Chauffer ou rafraîchir les pièces avec une climatisation réversible.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Chaudière gaz condensation">
+                <img src="assets/trades/chauffage-performant--2gVWcnc.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Chaudière gaz condensation</h4><p>Étudier le remplacement de votre chaudière et son raccordement.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Chaudière fioul à condensation">
+                <img src="assets/trades/chaudiere-fioul-condensation-BuXgLO3b.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Chaudière fioul à condensation</h4><p>Adapter une installation existante et préparer son renouvellement.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Radiateurs électriques dernière génération">
+                <img src="assets/trades/radiateur-electrique-atlantic-BFsEy3By.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Radiateurs électriques dernière génération</h4><p>Choisir des émetteurs adaptés à vos pièces et à leurs usages.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Plancher chauffant">
+                <img src="assets/trades/plancher-chauffant-BBDx4z0A.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Plancher chauffant</h4><p>Intégrer le chauffage au sol dans votre projet de travaux.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Poêles à bois / granulés">
+                <img src="assets/trades/poele-granules-MiVdOKlQ.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Poêles à bois / granulés</h4><p>Installer un chauffage au bois avec un emplacement et un conduit adaptés.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Ballon thermodynamique">
+                <img src="assets/trades/chauffe-eau-thermodynamique-CKJo4RxW.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Ballon thermodynamique</h4><p>Préparer la production d’eau chaude et son implantation dans le logement.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-isolation" data-trade-category="isolation" aria-labelledby="trade-title-isolation">
+            <div class="trade-category-heading"><h3 id="trade-title-isolation">Isolation</h3><p>5 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Isolation des combles perdus">
+                <img src="assets/trades/isolation-combles-perdus-DX00JylR.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Isolation des combles perdus</h4><p>Isoler les espaces non habités sous votre toiture.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Isolation des combles aménagés">
+                <img src="assets/trades/isolation-combles-amenages-BepRynTN.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Isolation des combles aménagés</h4><p>Améliorer l’isolation sous les rampants des pièces à vivre.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Isolation des murs par l’intérieur">
+                <img src="assets/trades/isolation-murs-interieur-CCMf91Gi.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Isolation des murs par l’intérieur</h4><p>Reprendre les parois intérieures avec une solution adaptée au bâti.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Isolation thermique par l’extérieur (ITE)">
+                <img src="assets/trades/isolation-murs-exterieur-DmFIorbI.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Isolation thermique par l’extérieur (ITE)</h4><p>Traiter l’enveloppe du bâtiment en intervenant sur les façades.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Isolation du plancher bas">
+                <img src="assets/trades/isolation-sol-D6fPztJf.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Isolation du plancher bas</h4><p>Étudier l’isolation des sols au-dessus d’un vide sanitaire ou d’un sous-sol.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-menuiseries" data-trade-category="menuiseries" aria-labelledby="trade-title-menuiseries">
+            <div class="trade-category-heading"><h3 id="trade-title-menuiseries">Menuiseries</h3><p>3 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Fenêtres PVC / Aluminium / Bois">
+                <img src="assets/trades/menuiserie-pvc-alu-bois-DiEXOnDQ.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Fenêtres PVC / Aluminium / Bois</h4><p>Choisir les ouvertures, les matériaux et les dimensions de vos fenêtres.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Volets roulants &amp; battants">
+                <img src="assets/trades/volets-roulants-HBCsTCpF.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Volets roulants &amp; battants</h4><p>Adapter l’occultation et la fermeture de vos ouvertures.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Portes d’entrée &amp; portes de garage">
+                <img src="assets/trades/porte-entree-garage-QZXwIDhA.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Portes d’entrée &amp; portes de garage</h4><p>Repenser les accès à votre maison et à votre garage.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-bain-cuisine" data-trade-category="bain-cuisine" aria-labelledby="trade-title-bain-cuisine">
+            <div class="trade-category-heading"><h3 id="trade-title-bain-cuisine">Salle de bain &amp; Cuisine</h3><p>7 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Création ou rénovation complète">
+                <img src="assets/trades/salle-bain-renovation-CfNE-L5T.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Création ou rénovation complète</h4><p>Repenser l’agencement, les réseaux et les équipements de votre salle de bain.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Douches à l’italienne">
+                <img src="assets/trades/douche-italienne-B1FAUFPz.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Douches à l’italienne</h4><p>Composer une douche ouverte avec une étanchéité et des finitions adaptées.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Aménagement PMR">
+                <img src="assets/trades/salle-bain-pmr--oTtr4GM.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Aménagement PMR</h4><p>Faciliter l’accès et les déplacements autour des équipements.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Remplacement baignoire par douche">
+                <img src="assets/trades/remplacement-baignoire-douche-CGUY2sfW.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Remplacement baignoire par douche</h4><p>Transformer l’espace de bain pour l’adapter à votre quotidien.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Carrelage &amp; faïence">
+                <img src="assets/trades/carrelage-faience-B8ofJduv.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Carrelage &amp; faïence</h4><p>Accorder les revêtements de sol et les surfaces murales.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Meubles &amp; équipements sur-mesure">
+                <img src="assets/trades/meubles-sur-mesure-KR5hy4Sj.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Meubles &amp; équipements sur-mesure</h4><p>Dessiner des rangements et choisir les équipements selon votre espace.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Cuisine équipée / rénovation">
+                <img src="assets/trades/cuisine-renovation-CWfNWvRC.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Cuisine équipée / rénovation</h4><p>Organiser les usages, le mobilier et les raccordements de votre cuisine.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-interieur" data-trade-category="interieur" aria-labelledby="trade-title-interieur">
+            <div class="trade-category-heading"><h3 id="trade-title-interieur">Aménagement intérieur</h3><p>7 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Cloisons &amp; plâtrerie">
+                <img src="assets/trades/amenagement-interieur-ChnpCDSb.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Cloisons &amp; plâtrerie</h4><p>Redistribuer les pièces et créer de nouvelles séparations.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Faux plafonds">
+                <img src="assets/trades/amenagement-interieur-ChnpCDSb.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Faux plafonds</h4><p>Intégrer les réseaux et l’éclairage dans un plafond adapté.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Escaliers &amp; garde-corps">
+                <img src="assets/trades/monte-escalier-C_KslRC0.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Escaliers &amp; garde-corps</h4><p>Relier les niveaux et définir les protections autour des circulations.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Parquet &amp; stratifié">
+                <img src="assets/trades/amenagement-interieur-ChnpCDSb.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Parquet &amp; stratifié</h4><p>Choisir un sol en accord avec vos usages et l’ambiance recherchée.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Carrelage &amp; sols souples">
+                <img src="assets/trades/salle-bain-renovation-CfNE-L5T.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Carrelage &amp; sols souples</h4><p>Adapter les surfaces aux pièces de vie et aux zones de passage.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Peinture &amp; décoration murale">
+                <img src="assets/trades/amenagement-interieur-ChnpCDSb.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Peinture &amp; décoration murale</h4><p>Composer les teintes et les finitions de vos murs.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Dressing &amp; rangements sur-mesure">
+                <img src="assets/trades/amenagement-interieur-ChnpCDSb.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Dressing &amp; rangements sur-mesure</h4><p>Exploiter les volumes disponibles avec des rangements adaptés.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-adaptation" data-trade-category="adaptation" aria-labelledby="trade-title-adaptation">
+            <div class="trade-category-heading"><h3 id="trade-title-adaptation">Adaptation du logement</h3><p>7 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Salle de bain PMR (Douche / Barre de maintien, …)">
+                <img src="assets/trades/salle-bain-pmr-QL-5U7t9.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Salle de bain PMR (Douche / Barre de maintien, …)</h4><p>Étudier une douche accessible et les équipements d’appui utiles.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Monte-escalier">
+                <img src="assets/trades/monte-escalier-BED7QeRp.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Monte-escalier</h4><p>Faciliter le passage entre les étages selon la configuration de l’escalier.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Cuisine">
+                <img src="assets/trades/cuisine-pmr-Bey1JsPu.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Cuisine</h4><p>Adapter les hauteurs, les rangements et les espaces de circulation.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Chambre">
+                <img src="assets/trades/chambre-pmr-CeA1bgfz.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Chambre</h4><p>Repenser les accès et l’agencement autour du lit.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Élargissement des portes">
+                <img src="assets/trades/portes-pmr-fUS7addK.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Élargissement des portes</h4><p>Prévoir des passages compatibles avec vos besoins de mobilité.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Rampes d’accès">
+                <img src="assets/trades/rampes-acces-DFHX_ipL.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Rampes d’accès</h4><p>Étudier les niveaux et les pentes pour rejoindre votre logement.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Accessibilité extérieure">
+                <img src="assets/trades/accessibilite-exterieur-BXrtNQhf.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Accessibilité extérieure</h4><p>Organiser un cheminement entre les accès extérieurs et la maison.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-toiture" data-trade-category="toiture" aria-labelledby="trade-title-toiture">
+            <div class="trade-category-heading"><h3 id="trade-title-toiture">Toiture &amp; Façade</h3><p>5 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Couverture (tuiles, ardoises, zinc)">
+                <img src="assets/trades/couverture-tuiles-D3HDyvQ8.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Couverture (tuiles, ardoises, zinc)</h4><p>Choisir la couverture et préparer les interventions sur votre toiture.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Étanchéité toit-terrasse">
+                <img src="assets/trades/toit-terrasse-1qrYCVHD.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Étanchéité toit-terrasse</h4><p>Reprendre les surfaces et les points sensibles d’une toiture plate.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Ravalement de façade">
+                <img src="assets/trades/ravalement-facade-DCuEc2tS.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Ravalement de façade</h4><p>Étudier l’état des murs et les finitions de votre façade.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Nettoyage &amp; traitement hydrofuge">
+                <img src="assets/trades/traitement-hydrofuge-NictZbJI.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Nettoyage &amp; traitement hydrofuge</h4><p>Préparer le traitement des supports selon leur état et leur matériau.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Charpente &amp; bardage bois">
+                <img src="assets/trades/charpente-YJsp_tGx.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Charpente &amp; bardage bois</h4><p>Faire évoluer la structure ou l’habillage bois de votre bâtiment.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-exterieur" data-trade-category="exterieur" aria-labelledby="trade-title-exterieur">
+            <div class="trade-category-heading"><h3 id="trade-title-exterieur">Extérieur</h3><p>6 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Terrasses bois, composite ou carrelage">
+                <img src="assets/trades/terrasse-bois-Di-cm3lk.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Terrasses bois, composite ou carrelage</h4><p>Créer un espace extérieur en choisissant les supports et les finitions.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Allées, cours &amp; accès">
+                <img src="assets/trades/allee-cours-acces-BsXnLGwJ.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Allées, cours &amp; accès</h4><p>Dessiner les cheminements et les surfaces autour de votre maison.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Clôtures &amp; portails">
+                <img src="assets/trades/cloture-portail-CeRecrqs.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Clôtures &amp; portails</h4><p>Délimiter le terrain et organiser les entrées de la propriété.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Pergolas &amp; carports">
+                <img src="assets/trades/pergola-carport-CHzhAKKT.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Pergolas &amp; carports</h4><p>Abriter une terrasse ou un véhicule avec une structure adaptée.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Aménagement paysager">
+                <img src="assets/trades/amenagement-paysager-BmfTocoq.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Aménagement paysager</h4><p>Relier les plantations, les circulations et les lieux de détente.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Piscines &amp; abris">
+                <img src="assets/trades/piscine-abris-BT0ZJyEi.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Piscines &amp; abris</h4><p>Intégrer un bassin et ses équipements dans votre espace extérieur.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-gros-oeuvre" data-trade-category="gros-oeuvre" aria-labelledby="trade-title-gros-oeuvre">
+            <div class="trade-category-heading"><h3 id="trade-title-gros-oeuvre">Gros œuvre</h3><p>3 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Maçonnerie générale">
+                <img src="assets/trades/maconnerie-generale-Pf19QxY4.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Maçonnerie générale</h4><p>Préparer les ouvrages de structure et les travaux de maçonnerie.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Démolition &amp; préparation">
+                <img src="assets/trades/demolition-7KmZwxAj.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Démolition &amp; préparation</h4><p>Organiser la dépose et la préparation avant les nouveaux aménagements.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Fondations &amp; ouverture de murs porteurs">
+                <img src="assets/trades/fondations-CLL40Vwp.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Fondations &amp; ouverture de murs porteurs</h4><p>Étudier les appuis et les modifications de structure avec les intervenants concernés.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-extension" data-trade-category="extension" aria-labelledby="trade-title-extension">
+            <div class="trade-category-heading"><h3 id="trade-title-extension">Extension &amp; Surélévation</h3><p>6 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Extension de maison">
+                <img src="assets/trades/extension-maison-r8BOzVxE.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Extension de maison</h4><p>Créer de la surface en continuité avec votre habitation.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Surélévation">
+                <img src="assets/trades/surelevation-CBhOvJfg.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Surélévation</h4><p>Étudier un niveau supplémentaire en tenant compte du bâtiment existant.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Véranda &amp; jardin d’hiver">
+                <img src="assets/trades/veranda-jardin-hiver-CbRps7BT.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Véranda &amp; jardin d’hiver</h4><p>Imaginer un espace vitré ouvert sur les extérieurs.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Aménagement de combles">
+                <img src="assets/trades/amenagement-combles-DpnnGRmd.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Aménagement de combles</h4><p>Transformer le volume sous toiture en pièces utilisables.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Garage &amp; dépendances">
+                <img src="assets/trades/garage-dependances-BRlTkVQ9.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Garage &amp; dépendances</h4><p>Créer un espace annexe pour le stationnement ou de nouveaux usages.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Extensions spécifiques">
+                <img src="assets/trades/extension-maison-r8BOzVxE.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Extensions spécifiques</h4><p>Étudier un agrandissement adapté à un besoin particulier.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
+          <section class="trade-panel" id="trade-renovation-globale" data-trade-category="renovation-globale" aria-labelledby="trade-title-renovation-globale">
+            <div class="trade-category-heading"><h3 id="trade-title-renovation-globale">Rénovation globale</h3><p>4 exemples de travaux</p></div>
+            <div class="trade-grid">
+              <a class="trade" href="#contact" data-project="Rénovation maison">
+                <img src="assets/trades/extension-maison-r8BOzVxE.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Rénovation maison</h4><p>Relier les travaux de structure, d’aménagement et de finition de votre maison.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Rénovation appartement">
+                <img src="assets/trades/amenagement-interieur-ChnpCDSb.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Rénovation appartement</h4><p>Repenser la distribution et les équipements de votre appartement.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Rénovation grange">
+                <img src="assets/trades/maconnerie-gros-oeuvre-DabJfiGI.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Rénovation grange</h4><p>Étudier la transformation d’un ancien bâtiment et de ses volumes.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+              <a class="trade" href="#contact" data-project="Local professionnel">
+                <img src="assets/trades/amenagement-interieur-ChnpCDSb.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+                <div class="trade-copy"><h4>Local professionnel</h4><p>Adapter vos locaux à votre activité et aux usages de vos équipes.</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
+              </a>
+            </div>
+          </section>
         </div>
-        <p class="sr-only" id="trade-status" role="status" aria-live="polite"></p>
+        <p class="sr-only" id="trade-status" role="status" aria-live="polite" aria-atomic="true"></p>
+        <p class="trade-illustration-note">Les visuels illustrent des types de travaux, sans représenter des réalisations D-SIGN.</p>
       </div>
     </section>
 
     <section class="choice section-space" id="pourquoi" aria-labelledby="choice-title">
       <div class="container">
-        <div class="section-heading section-heading-split">
-          <h2 id="choice-title">Pourquoi<br>nous choisir <span>?</span></h2>
+        <div class="section-heading section-heading-centered">
+          <h2 id="choice-title">Pourquoi <span class="gradient-text gradient-text-light">nous choisir ?</span></h2>
           <p>Des choix éclairés, des étapes lisibles et un accompagnement qui tient compte de votre projet dans son ensemble.</p>
         </div>
         <div class="choice-layout">
@@ -140,13 +447,14 @@
 
     <section class="founder section-space" id="fondateur" aria-labelledby="founder-title">
       <div class="container">
-        <h2 id="founder-title">Le mot<br>du fondateur<span>.</span></h2>
+        <h2 id="founder-title">Le mot du <span class="gradient-text">fondateur</span></h2>
         <div class="founder-layout">
           <figure class="founder-visual">
-            <img src="assets/images/interieur-800.webp" width="800" height="533" alt="Un intérieur ouvert sur le jardin, visuel d’ambiance" loading="lazy" decoding="async">
-            <figcaption>Des lieux pensés pour ceux qui les vivent.<span>Visuel d’ambiance</span></figcaption>
+            <div class="founder-portrait"><img src="assets/images/kevin-huart.webp" width="1200" height="1600" alt="Kevin HUART, fondateur de D-SIGN" loading="lazy" decoding="async"></div>
+            <figcaption><strong>Kevin HUART</strong><span>Fondateur de D-SIGN</span></figcaption>
           </figure>
           <div class="founder-message">
+            <svg class="icon founder-quote" aria-hidden="true"><use href="#quote"/></svg>
             <blockquote>
               <p class="founder-lead">Un projet de travaux commence par un lieu, mais surtout par les personnes qui vont y vivre ou y travailler.</p>
               <p>Chez D-SIGN, nous prenons le temps de comprendre ce que vous souhaitez changer, créer ou agrandir. Notre rôle est de vous aider à traduire ces envies en choix concrets, avec des plans, un chiffrage et un accompagnement adapté à votre projet.</p>
@@ -226,7 +534,7 @@
         <a class="brand footer-brand" href="#haut" aria-label="D-SIGN GBS — Retour en haut"><img src="assets/logo.svg" width="2519" height="1005" alt="D-SIGN Global Building Solutions" loading="lazy"></a>
         <div class="footer-navigation"><p>D-SIGN GBS · Boves</p><nav aria-label="Navigation de pied de page"><a href="#comment-ca-marche">Comment ça marche</a><a href="#expertises">Nos métiers</a><a href="#pourquoi">Pourquoi D-SIGN</a><a href="#fondateur">Le fondateur</a><a href="#apropos">À propos</a><a href="nos-materiaux.html">Matériaux</a><a href="#contact">Contact</a></nav></div>
       </div>
-      <div class="footer-bottom"><p>© 2026 D-SIGN</p><div><p>Visuels d’ambiance à titre d’illustration.</p><details class="site-information" id="informations"><summary>Informations du site</summary><div><p>D-SIGN GBS · 5 rue des Indes Noires, 80440 Boves.<br><a href="mailto:contact@dsign-gbs.fr">contact@dsign-gbs.fr</a> · <a href="tel:+33607954046">06 07 95 40 46</a></p><p>Les images d’ambiance sont des illustrations architecturales créées pour cette présentation. Elles ne représentent pas des réalisations livrées ni des membres de l’équipe D-SIGN.</p></div></details></div></div>
+      <div class="footer-bottom"><p>© 2026 D-SIGN</p><div><p>Visuels de travaux à titre d’illustration.</p><details class="site-information" id="informations"><summary>Informations du site</summary><div><p>D-SIGN GBS · 5 rue des Indes Noires, 80440 Boves.<br><a href="mailto:contact@dsign-gbs.fr">contact@dsign-gbs.fr</a> · <a href="tel:+33607954046">06 07 95 40 46</a></p><p>Le portrait représente Kevin HUART. Les autres visuels illustrent des types de travaux et des ambiances architecturales ; ils ne représentent pas un portfolio de réalisations livrées par D-SIGN.</p></div></details></div></div>
     </div>
   </footer>
 </body>

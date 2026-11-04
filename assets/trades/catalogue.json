@@ -1,0 +1,445 @@
+[
+  {
+    "id": "chauffage",
+    "label": "Chauffage & Climatisation",
+    "icon": "heat",
+    "items": [
+      {
+        "title": "Pompe à chaleur air/eau",
+        "description": "Relier le chauffage et la production d’eau chaude à une pompe à chaleur.",
+        "image": "assets/trades/pompe-chaleur-D7GU_EUS.webp",
+        "sourceImage": "https://kovan.fr/assets/pompe-chaleur-D7GU_EUS.jpg"
+      },
+      {
+        "title": "Pompe à chaleur air/air (clim réversible)",
+        "description": "Chauffer ou rafraîchir les pièces avec une climatisation réversible.",
+        "image": "assets/trades/pompe-chaleur-air-air-BIy2zbKL.webp",
+        "sourceImage": "https://kovan.fr/assets/pompe-chaleur-air-air-BIy2zbKL.jpg"
+      },
+      {
+        "title": "Chaudière gaz condensation",
+        "description": "Étudier le remplacement de votre chaudière et son raccordement.",
+        "image": "assets/trades/chauffage-performant--2gVWcnc.webp",
+        "sourceImage": "https://kovan.fr/assets/chauffage-performant--2gVWcnc.jpg"
+      },
+      {
+        "title": "Chaudière fioul à condensation",
+        "description": "Adapter une installation existante et préparer son renouvellement.",
+        "image": "assets/trades/chaudiere-fioul-condensation-BuXgLO3b.webp",
+        "sourceImage": "https://kovan.fr/assets/chaudiere-fioul-condensation-BuXgLO3b.jpg"
+      },
+      {
+        "title": "Radiateurs électriques dernière génération",
+        "description": "Choisir des émetteurs adaptés à vos pièces et à leurs usages.",
+        "image": "assets/trades/radiateur-electrique-atlantic-BFsEy3By.webp",
+        "sourceImage": "https://kovan.fr/assets/radiateur-electrique-atlantic-BFsEy3By.jpg"
+      },
+      {
+        "title": "Plancher chauffant",
+        "description": "Intégrer le chauffage au sol dans votre projet de travaux.",
+        "image": "assets/trades/plancher-chauffant-BBDx4z0A.webp",
+        "sourceImage": "https://kovan.fr/assets/plancher-chauffant-BBDx4z0A.jpg"
+      },
+      {
+        "title": "Poêles à bois / granulés",
+        "description": "Installer un chauffage au bois avec un emplacement et un conduit adaptés.",
+        "image": "assets/trades/poele-granules-MiVdOKlQ.webp",
+        "sourceImage": "https://kovan.fr/assets/poele-granules-MiVdOKlQ.jpg"
+      },
+      {
+        "title": "Ballon thermodynamique",
+        "description": "Préparer la production d’eau chaude et son implantation dans le logement.",
+        "image": "assets/trades/chauffe-eau-thermodynamique-CKJo4RxW.webp",
+        "sourceImage": "https://kovan.fr/assets/chauffe-eau-thermodynamique-CKJo4RxW.png"
+      }
+    ]
+  },
+  {
+    "id": "isolation",
+    "label": "Isolation",
+    "icon": "shield",
+    "items": [
+      {
+        "title": "Isolation des combles perdus",
+        "description": "Isoler les espaces non habités sous votre toiture.",
+        "image": "assets/trades/isolation-combles-perdus-DX00JylR.webp",
+        "sourceImage": "https://kovan.fr/assets/isolation-combles-perdus-DX00JylR.jpg"
+      },
+      {
+        "title": "Isolation des combles aménagés",
+        "description": "Améliorer l’isolation sous les rampants des pièces à vivre.",
+        "image": "assets/trades/isolation-combles-amenages-BepRynTN.webp",
+        "sourceImage": "https://kovan.fr/assets/isolation-combles-amenages-BepRynTN.jpg"
+      },
+      {
+        "title": "Isolation des murs par l’intérieur",
+        "description": "Reprendre les parois intérieures avec une solution adaptée au bâti.",
+        "image": "assets/trades/isolation-murs-interieur-CCMf91Gi.webp",
+        "sourceImage": "https://kovan.fr/assets/isolation-murs-interieur-CCMf91Gi.jpg"
+      },
+      {
+        "title": "Isolation thermique par l’extérieur (ITE)",
+        "description": "Traiter l’enveloppe du bâtiment en intervenant sur les façades.",
+        "image": "assets/trades/isolation-murs-exterieur-DmFIorbI.webp",
+        "sourceImage": "https://kovan.fr/assets/isolation-murs-exterieur-DmFIorbI.jpg"
+      },
+      {
+        "title": "Isolation du plancher bas",
+        "description": "Étudier l’isolation des sols au-dessus d’un vide sanitaire ou d’un sous-sol.",
+        "image": "assets/trades/isolation-sol-D6fPztJf.webp",
+        "sourceImage": "https://kovan.fr/assets/isolation-sol-D6fPztJf.jpg"
+      }
+    ]
+  },
+  {
+    "id": "menuiseries",
+    "label": "Menuiseries",
+    "icon": "window",
+    "items": [
+      {
+        "title": "Fenêtres PVC / Aluminium / Bois",
+        "description": "Choisir les ouvertures, les matériaux et les dimensions de vos fenêtres.",
+        "image": "assets/trades/menuiserie-pvc-alu-bois-DiEXOnDQ.webp",
+        "sourceImage": "https://kovan.fr/assets/menuiserie-pvc-alu-bois-DiEXOnDQ.jpg"
+      },
+      {
+        "title": "Volets roulants & battants",
+        "description": "Adapter l’occultation et la fermeture de vos ouvertures.",
+        "image": "assets/trades/volets-roulants-HBCsTCpF.webp",
+        "sourceImage": "https://kovan.fr/assets/volets-roulants-HBCsTCpF.jpg"
+      },
+      {
+        "title": "Portes d’entrée & portes de garage",
+        "description": "Repenser les accès à votre maison et à votre garage.",
+        "image": "assets/trades/porte-entree-garage-QZXwIDhA.webp",
+        "sourceImage": "https://kovan.fr/assets/porte-entree-garage-QZXwIDhA.jpg"
+      }
+    ]
+  },
+  {
+    "id": "bain-cuisine",
+    "label": "Salle de bain & Cuisine",
+    "icon": "bath",
+    "items": [
+      {
+        "title": "Création ou rénovation complète",
+        "description": "Repenser l’agencement, les réseaux et les équipements de votre salle de bain.",
+        "image": "assets/trades/salle-bain-renovation-CfNE-L5T.webp",
+        "sourceImage": "https://kovan.fr/assets/salle-bain-renovation-CfNE-L5T.jpg"
+      },
+      {
+        "title": "Douches à l’italienne",
+        "description": "Composer une douche ouverte avec une étanchéité et des finitions adaptées.",
+        "image": "assets/trades/douche-italienne-B1FAUFPz.webp",
+        "sourceImage": "https://kovan.fr/assets/douche-italienne-B1FAUFPz.jpg"
+      },
+      {
+        "title": "Aménagement PMR",
+        "description": "Faciliter l’accès et les déplacements autour des équipements.",
+        "image": "assets/trades/salle-bain-pmr--oTtr4GM.webp",
+        "sourceImage": "https://kovan.fr/assets/salle-bain-pmr--oTtr4GM.jpg"
+      },
+      {
+        "title": "Remplacement baignoire par douche",
+        "description": "Transformer l’espace de bain pour l’adapter à votre quotidien.",
+        "image": "assets/trades/remplacement-baignoire-douche-CGUY2sfW.webp",
+        "sourceImage": "https://kovan.fr/assets/remplacement-baignoire-douche-CGUY2sfW.jpg"
+      },
+      {
+        "title": "Carrelage & faïence",
+        "description": "Accorder les revêtements de sol et les surfaces murales.",
+        "image": "assets/trades/carrelage-faience-B8ofJduv.webp",
+        "sourceImage": "https://kovan.fr/assets/carrelage-faience-B8ofJduv.jpg"
+      },
+      {
+        "title": "Meubles & équipements sur-mesure",
+        "description": "Dessiner des rangements et choisir les équipements selon votre espace.",
+        "image": "assets/trades/meubles-sur-mesure-KR5hy4Sj.webp",
+        "sourceImage": "https://kovan.fr/assets/meubles-sur-mesure-KR5hy4Sj.jpg"
+      },
+      {
+        "title": "Cuisine équipée / rénovation",
+        "description": "Organiser les usages, le mobilier et les raccordements de votre cuisine.",
+        "image": "assets/trades/cuisine-renovation-CWfNWvRC.webp",
+        "sourceImage": "https://kovan.fr/assets/cuisine-renovation-CWfNWvRC.jpg"
+      }
+    ]
+  },
+  {
+    "id": "interieur",
+    "label": "Aménagement intérieur",
+    "icon": "home",
+    "items": [
+      {
+        "title": "Cloisons & plâtrerie",
+        "description": "Redistribuer les pièces et créer de nouvelles séparations.",
+        "image": "assets/trades/amenagement-interieur-ChnpCDSb.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-interieur-ChnpCDSb.jpg"
+      },
+      {
+        "title": "Faux plafonds",
+        "description": "Intégrer les réseaux et l’éclairage dans un plafond adapté.",
+        "image": "assets/trades/amenagement-interieur-ChnpCDSb.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-interieur-ChnpCDSb.jpg"
+      },
+      {
+        "title": "Escaliers & garde-corps",
+        "description": "Relier les niveaux et définir les protections autour des circulations.",
+        "image": "assets/trades/monte-escalier-C_KslRC0.webp",
+        "sourceImage": "https://kovan.fr/assets/monte-escalier-C_KslRC0.jpg"
+      },
+      {
+        "title": "Parquet & stratifié",
+        "description": "Choisir un sol en accord avec vos usages et l’ambiance recherchée.",
+        "image": "assets/trades/amenagement-interieur-ChnpCDSb.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-interieur-ChnpCDSb.jpg"
+      },
+      {
+        "title": "Carrelage & sols souples",
+        "description": "Adapter les surfaces aux pièces de vie et aux zones de passage.",
+        "image": "assets/trades/salle-bain-renovation-CfNE-L5T.webp",
+        "sourceImage": "https://kovan.fr/assets/salle-bain-renovation-CfNE-L5T.jpg"
+      },
+      {
+        "title": "Peinture & décoration murale",
+        "description": "Composer les teintes et les finitions de vos murs.",
+        "image": "assets/trades/amenagement-interieur-ChnpCDSb.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-interieur-ChnpCDSb.jpg"
+      },
+      {
+        "title": "Dressing & rangements sur-mesure",
+        "description": "Exploiter les volumes disponibles avec des rangements adaptés.",
+        "image": "assets/trades/amenagement-interieur-ChnpCDSb.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-interieur-ChnpCDSb.jpg"
+      }
+    ]
+  },
+  {
+    "id": "adaptation",
+    "label": "Adaptation du logement",
+    "icon": "accessibility",
+    "items": [
+      {
+        "title": "Salle de bain PMR (Douche / Barre de maintien, …)",
+        "description": "Étudier une douche accessible et les équipements d’appui utiles.",
+        "image": "assets/trades/salle-bain-pmr-QL-5U7t9.webp",
+        "sourceImage": "https://kovan.fr/assets/salle-bain-pmr-QL-5U7t9.png"
+      },
+      {
+        "title": "Monte-escalier",
+        "description": "Faciliter le passage entre les étages selon la configuration de l’escalier.",
+        "image": "assets/trades/monte-escalier-BED7QeRp.webp",
+        "sourceImage": "https://kovan.fr/assets/monte-escalier-BED7QeRp.png"
+      },
+      {
+        "title": "Cuisine",
+        "description": "Adapter les hauteurs, les rangements et les espaces de circulation.",
+        "image": "assets/trades/cuisine-pmr-Bey1JsPu.webp",
+        "sourceImage": "https://kovan.fr/assets/cuisine-pmr-Bey1JsPu.png"
+      },
+      {
+        "title": "Chambre",
+        "description": "Repenser les accès et l’agencement autour du lit.",
+        "image": "assets/trades/chambre-pmr-CeA1bgfz.webp",
+        "sourceImage": "https://kovan.fr/assets/chambre-pmr-CeA1bgfz.png"
+      },
+      {
+        "title": "Élargissement des portes",
+        "description": "Prévoir des passages compatibles avec vos besoins de mobilité.",
+        "image": "assets/trades/portes-pmr-fUS7addK.webp",
+        "sourceImage": "https://kovan.fr/assets/portes-pmr-fUS7addK.png"
+      },
+      {
+        "title": "Rampes d’accès",
+        "description": "Étudier les niveaux et les pentes pour rejoindre votre logement.",
+        "image": "assets/trades/rampes-acces-DFHX_ipL.webp",
+        "sourceImage": "https://kovan.fr/assets/rampes-acces-DFHX_ipL.png"
+      },
+      {
+        "title": "Accessibilité extérieure",
+        "description": "Organiser un cheminement entre les accès extérieurs et la maison.",
+        "image": "assets/trades/accessibilite-exterieur-BXrtNQhf.webp",
+        "sourceImage": "https://kovan.fr/assets/accessibilite-exterieur-BXrtNQhf.png"
+      }
+    ]
+  },
+  {
+    "id": "toiture",
+    "label": "Toiture & Façade",
+    "icon": "roof",
+    "items": [
+      {
+        "title": "Couverture (tuiles, ardoises, zinc)",
+        "description": "Choisir la couverture et préparer les interventions sur votre toiture.",
+        "image": "assets/trades/couverture-tuiles-D3HDyvQ8.webp",
+        "sourceImage": "https://kovan.fr/assets/couverture-tuiles-D3HDyvQ8.jpg"
+      },
+      {
+        "title": "Étanchéité toit-terrasse",
+        "description": "Reprendre les surfaces et les points sensibles d’une toiture plate.",
+        "image": "assets/trades/toit-terrasse-1qrYCVHD.webp",
+        "sourceImage": "https://kovan.fr/assets/toit-terrasse-1qrYCVHD.jpg"
+      },
+      {
+        "title": "Ravalement de façade",
+        "description": "Étudier l’état des murs et les finitions de votre façade.",
+        "image": "assets/trades/ravalement-facade-DCuEc2tS.webp",
+        "sourceImage": "https://kovan.fr/assets/ravalement-facade-DCuEc2tS.jpg"
+      },
+      {
+        "title": "Nettoyage & traitement hydrofuge",
+        "description": "Préparer le traitement des supports selon leur état et leur matériau.",
+        "image": "assets/trades/traitement-hydrofuge-NictZbJI.webp",
+        "sourceImage": "https://kovan.fr/assets/traitement-hydrofuge-NictZbJI.jpg"
+      },
+      {
+        "title": "Charpente & bardage bois",
+        "description": "Faire évoluer la structure ou l’habillage bois de votre bâtiment.",
+        "image": "assets/trades/charpente-YJsp_tGx.webp",
+        "sourceImage": "https://kovan.fr/assets/charpente-YJsp_tGx.jpg"
+      }
+    ]
+  },
+  {
+    "id": "exterieur",
+    "label": "Extérieur",
+    "icon": "tree",
+    "items": [
+      {
+        "title": "Terrasses bois, composite ou carrelage",
+        "description": "Créer un espace extérieur en choisissant les supports et les finitions.",
+        "image": "assets/trades/terrasse-bois-Di-cm3lk.webp",
+        "sourceImage": "https://kovan.fr/assets/terrasse-bois-Di-cm3lk.jpg"
+      },
+      {
+        "title": "Allées, cours & accès",
+        "description": "Dessiner les cheminements et les surfaces autour de votre maison.",
+        "image": "assets/trades/allee-cours-acces-BsXnLGwJ.webp",
+        "sourceImage": "https://kovan.fr/assets/allee-cours-acces-BsXnLGwJ.jpg"
+      },
+      {
+        "title": "Clôtures & portails",
+        "description": "Délimiter le terrain et organiser les entrées de la propriété.",
+        "image": "assets/trades/cloture-portail-CeRecrqs.webp",
+        "sourceImage": "https://kovan.fr/assets/cloture-portail-CeRecrqs.jpg"
+      },
+      {
+        "title": "Pergolas & carports",
+        "description": "Abriter une terrasse ou un véhicule avec une structure adaptée.",
+        "image": "assets/trades/pergola-carport-CHzhAKKT.webp",
+        "sourceImage": "https://kovan.fr/assets/pergola-carport-CHzhAKKT.jpg"
+      },
+      {
+        "title": "Aménagement paysager",
+        "description": "Relier les plantations, les circulations et les lieux de détente.",
+        "image": "assets/trades/amenagement-paysager-BmfTocoq.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-paysager-BmfTocoq.jpg"
+      },
+      {
+        "title": "Piscines & abris",
+        "description": "Intégrer un bassin et ses équipements dans votre espace extérieur.",
+        "image": "assets/trades/piscine-abris-BT0ZJyEi.webp",
+        "sourceImage": "https://kovan.fr/assets/piscine-abris-BT0ZJyEi.jpg"
+      }
+    ]
+  },
+  {
+    "id": "gros-oeuvre",
+    "label": "Gros œuvre",
+    "icon": "hammer",
+    "items": [
+      {
+        "title": "Maçonnerie générale",
+        "description": "Préparer les ouvrages de structure et les travaux de maçonnerie.",
+        "image": "assets/trades/maconnerie-generale-Pf19QxY4.webp",
+        "sourceImage": "https://kovan.fr/assets/maconnerie-generale-Pf19QxY4.jpg"
+      },
+      {
+        "title": "Démolition & préparation",
+        "description": "Organiser la dépose et la préparation avant les nouveaux aménagements.",
+        "image": "assets/trades/demolition-7KmZwxAj.webp",
+        "sourceImage": "https://kovan.fr/assets/demolition-7KmZwxAj.jpg"
+      },
+      {
+        "title": "Fondations & ouverture de murs porteurs",
+        "description": "Étudier les appuis et les modifications de structure avec les intervenants concernés.",
+        "image": "assets/trades/fondations-CLL40Vwp.webp",
+        "sourceImage": "https://kovan.fr/assets/fondations-CLL40Vwp.jpg"
+      }
+    ]
+  },
+  {
+    "id": "extension",
+    "label": "Extension & Surélévation",
+    "icon": "expand",
+    "items": [
+      {
+        "title": "Extension de maison",
+        "description": "Créer de la surface en continuité avec votre habitation.",
+        "image": "assets/trades/extension-maison-r8BOzVxE.webp",
+        "sourceImage": "https://kovan.fr/assets/extension-maison-r8BOzVxE.jpg"
+      },
+      {
+        "title": "Surélévation",
+        "description": "Étudier un niveau supplémentaire en tenant compte du bâtiment existant.",
+        "image": "assets/trades/surelevation-CBhOvJfg.webp",
+        "sourceImage": "https://kovan.fr/assets/surelevation-CBhOvJfg.jpg"
+      },
+      {
+        "title": "Véranda & jardin d’hiver",
+        "description": "Imaginer un espace vitré ouvert sur les extérieurs.",
+        "image": "assets/trades/veranda-jardin-hiver-CbRps7BT.webp",
+        "sourceImage": "https://kovan.fr/assets/veranda-jardin-hiver-CbRps7BT.jpg"
+      },
+      {
+        "title": "Aménagement de combles",
+        "description": "Transformer le volume sous toiture en pièces utilisables.",
+        "image": "assets/trades/amenagement-combles-DpnnGRmd.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-combles-DpnnGRmd.jpg"
+      },
+      {
+        "title": "Garage & dépendances",
+        "description": "Créer un espace annexe pour le stationnement ou de nouveaux usages.",
+        "image": "assets/trades/garage-dependances-BRlTkVQ9.webp",
+        "sourceImage": "https://kovan.fr/assets/garage-dependances-BRlTkVQ9.jpg"
+      },
+      {
+        "title": "Extensions spécifiques",
+        "description": "Étudier un agrandissement adapté à un besoin particulier.",
+        "image": "assets/trades/extension-maison-r8BOzVxE.webp",
+        "sourceImage": "https://kovan.fr/assets/extension-maison-r8BOzVxE.jpg"
+      }
+    ]
+  },
+  {
+    "id": "renovation-globale",
+    "label": "Rénovation globale",
+    "icon": "sun",
+    "items": [
+      {
+        "title": "Rénovation maison",
+        "description": "Relier les travaux de structure, d’aménagement et de finition de votre maison.",
+        "image": "assets/trades/extension-maison-r8BOzVxE.webp",
+        "sourceImage": "https://kovan.fr/assets/extension-maison-r8BOzVxE.jpg"
+      },
+      {
+        "title": "Rénovation appartement",
+        "description": "Repenser la distribution et les équipements de votre appartement.",
+        "image": "assets/trades/amenagement-interieur-ChnpCDSb.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-interieur-ChnpCDSb.jpg"
+      },
+      {
+        "title": "Rénovation grange",
+        "description": "Étudier la transformation d’un ancien bâtiment et de ses volumes.",
+        "image": "assets/trades/maconnerie-gros-oeuvre-DabJfiGI.webp",
+        "sourceImage": "https://kovan.fr/assets/maconnerie-gros-oeuvre-DabJfiGI.jpg"
+      },
+      {
+        "title": "Local professionnel",
+        "description": "Adapter vos locaux à votre activité et aux usages de vos équipes.",
+        "image": "assets/trades/amenagement-interieur-ChnpCDSb.webp",
+        "sourceImage": "https://kovan.fr/assets/amenagement-interieur-ChnpCDSb.jpg"
+      }
+    ]
+  }
+]
