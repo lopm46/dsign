@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-04T06:17:00.683756+00:00",
+  "generatedAt": "2026-11-04T10:12:55.172226+00:00",
   "title": "Design System: D-SIGN GBS",
   "extensions": {
     "colorMeta": {
@@ -143,6 +143,20 @@
           "oklch(83% 0.0247 284.89)",
           "oklch(95% 0.0079 284.89)"
         ]
+      },
+      "mineral": {
+        "role": "neutral",
+        "displayName": "Minéral clair",
+        "tonalRamp": [
+          "oklch(15% 0.003 85)",
+          "oklch(25% 0.006 85)",
+          "oklch(35% 0.008 85)",
+          "oklch(47% 0.010 85)",
+          "oklch(59% 0.012 85)",
+          "oklch(71% 0.010 85)",
+          "oklch(83% 0.008 85)",
+          "oklch(95% 0.004 85)"
+        ]
       }
     },
     "typographyMeta": {
@@ -250,8 +264,8 @@
       "name": "Détail de méthode",
       "kind": "custom",
       "description": "Trois étapes dépliables dans le flux.",
-      "html": "<div class=\"ds-stage ds-dark\"><details class=\"ds-method-details\">\n            <summary class=\"ds-text-link\">Notre façon de travailler<svg viewBox=\"0 0 24 24\" class=\"ds-icon\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></summary>\n            <ol>\n              <li><h3>Comprendre votre projet</h3><p>Le lieu, les usages, les priorités et les contraintes déjà connues.</p></li>\n              <li><h3>Concevoir et chiffrer</h3><p>Préciser les plans et préparer les éléments nécessaires au chiffrage.</p></li>\n              <li><h3>Consulter et coordonner</h3><p>Préparer les décisions et suivre les travaux selon la mission convenue.</p></li>\n            </ol>\n          </details></div>",
-      "css": ".ds-stage {font-family:var(--font-body, \"Instrument Sans\", Arial, sans-serif);font-size:16px;line-height:1.55;color:var(--color-navy,#1c1c58);padding:24px;} .ds-dark {background:var(--color-navy,#1c1c58);color:var(--color-white,#fff);} .ds-stage :focus-visible {outline:3px solid currentColor;outline-offset:6px;}\n.ds-icon {display: inline-block; width: 24px; height: 24px; flex: 0 0 24px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: square; stroke-linejoin: miter;}\n.ds-text-link {display: inline-flex; align-items: center; justify-content: space-between; min-height: 44px; gap: 17px; padding-block: 8px; border-bottom: 1px solid var(--color-green, #70c875); font-size: 16px; line-height: 1.35; font-weight: 700; text-decoration: none;}\n.ds-text-link .ds-icon {width: 21px; height: 21px; flex-basis: 21px; transition: transform var(--transition, 220ms cubic-bezier(.22, 1, .36, 1));}\n.ds-text-link:hover .ds-icon {transform: translate(3px, -3px);}\n.ds-method-details {margin-top: 28px;}\n.ds-method-details > summary {cursor: pointer; list-style: none; width: fit-content;}\n.ds-method-details > summary::-webkit-details-marker {display: none;}\n.ds-method-details[open] > summary .ds-icon {transform: rotate(90deg);}\n.ds-method-details ol {margin: 22px 0 0; padding-left: 24px;}\n.ds-method-details li {padding-left: 8px;}\n.ds-method-details li + li {margin-top: 20px;}\n.ds-method-details li::marker {color: var(--color-green, #70c875); font-weight: 700;}\n.ds-method-details h3 {font-size: 18px; line-height: 1.4; letter-spacing: -.01em;}\n.ds-method-details li p {margin-top: 5px; font-size: 15px; line-height: 1.55; color: var(--color-on-dark-muted, #d2d5e7);}\n.ds-method-details {margin-top:0;max-width:520px;}"
+      "html": "<div class=\"ds-stage\"><details class=\"ds-method-details\">\n            <summary class=\"ds-text-link\">Notre façon de travailler<svg viewBox=\"0 0 24 24\" class=\"ds-icon\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></summary>\n            <ol>\n              <li><h3>Comprendre votre projet</h3><p>Le lieu, les usages, les priorités et les contraintes déjà connues.</p></li>\n              <li><h3>Concevoir et chiffrer</h3><p>Préciser les plans et préparer les éléments nécessaires au chiffrage.</p></li>\n              <li><h3>Consulter et coordonner</h3><p>Préparer les décisions et suivre les travaux selon la mission convenue.</p></li>\n            </ol>\n          </details></div>",
+      "css": ".ds-stage {font-family:var(--font-body, \"Instrument Sans\", Arial, sans-serif);font-size:16px;line-height:1.55;color:var(--color-navy,#1c1c58);padding:24px;} .ds-dark {background:var(--color-navy,#1c1c58);color:var(--color-white,#fff);} .ds-stage :focus-visible {outline:3px solid currentColor;outline-offset:6px;}\n.ds-icon {display: inline-block; width: 24px; height: 24px; flex: 0 0 24px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: square; stroke-linejoin: miter;}\n.ds-text-link {display: inline-flex; align-items: center; justify-content: space-between; min-height: 44px; gap: 17px; padding-block: 8px; border-bottom: 1px solid var(--color-green, #70c875); font-size: 16px; line-height: 1.35; font-weight: 700; text-decoration: none;}\n.ds-text-link .ds-icon {width: 21px; height: 21px; flex-basis: 21px; transition: transform var(--transition, 220ms cubic-bezier(.22, 1, .36, 1));}\n.ds-text-link:hover .ds-icon {transform: translate(3px, -3px);}\n.ds-method-details {margin-top: 28px;}\n.ds-method-details > summary {cursor: pointer; list-style: none; width: fit-content;}\n.ds-method-details > summary::-webkit-details-marker {display: none;}\n.ds-method-details[open] > summary .ds-icon {transform: rotate(90deg);}\n.ds-method-details ol {margin: 22px 0 0; padding-left: 24px;}\n.ds-method-details li {padding-left: 8px;}\n.ds-method-details li + li {margin-top: 20px;}\n.ds-method-details li::marker {color: var(--color-green-ink, #337f40); font-weight: 700;}\n.ds-method-details h3 {font-size: 18px; line-height: 1.4; letter-spacing: -.01em;}\n.ds-method-details li p {margin-top: 5px; font-size: 15px; line-height: 1.55; color: var(--color-muted, #5c5d76);}\n.ds-method-details {margin-top:0;max-width:520px;}"
     },
     {
       "name": "Ligne d’expertise",

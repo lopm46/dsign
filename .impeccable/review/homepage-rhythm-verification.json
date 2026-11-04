@@ -1,0 +1,322 @@
+[
+  {
+    "width": 320,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "surfaces": [
+      {
+        "id": "hero",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "apropos",
+        "background": "rgb(255, 255, 255)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "pourquoi",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "expertises",
+        "background": "rgba(0, 0, 0, 0)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "materiaux",
+        "background": "rgb(243, 240, 234)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "contact",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      }
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "surfaces": [
+      {
+        "id": "hero",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "apropos",
+        "background": "rgb(255, 255, 255)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "pourquoi",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "expertises",
+        "background": "rgba(0, 0, 0, 0)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "materiaux",
+        "background": "rgb(243, 240, 234)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "contact",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      }
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false,
+    "axe": []
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "surfaces": [
+      {
+        "id": "hero",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "apropos",
+        "background": "rgb(255, 255, 255)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "pourquoi",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "expertises",
+        "background": "rgba(0, 0, 0, 0)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      },
+      {
+        "id": "materiaux",
+        "background": "rgb(243, 240, 234)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "contact",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "64px",
+        "paddingBottom": "64px"
+      }
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "surfaces": [
+      {
+        "id": "hero",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "apropos",
+        "background": "rgb(255, 255, 255)",
+        "paddingTop": "71.68px",
+        "paddingBottom": "71.68px"
+      },
+      {
+        "id": "pourquoi",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "71.68px",
+        "paddingBottom": "71.68px"
+      },
+      {
+        "id": "expertises",
+        "background": "rgba(0, 0, 0, 0)",
+        "paddingTop": "71.68px",
+        "paddingBottom": "71.68px"
+      },
+      {
+        "id": "materiaux",
+        "background": "rgb(243, 240, 234)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "contact",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "71.68px",
+        "paddingBottom": "71.68px"
+      }
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "surfaces": [
+      {
+        "id": "hero",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "apropos",
+        "background": "rgb(255, 255, 255)",
+        "paddingTop": "100.8px",
+        "paddingBottom": "100.8px"
+      },
+      {
+        "id": "pourquoi",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "100.8px",
+        "paddingBottom": "100.8px"
+      },
+      {
+        "id": "expertises",
+        "background": "rgba(0, 0, 0, 0)",
+        "paddingTop": "100.8px",
+        "paddingBottom": "100.8px"
+      },
+      {
+        "id": "materiaux",
+        "background": "rgb(243, 240, 234)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "contact",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "100.8px",
+        "paddingBottom": "100.8px"
+      }
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false,
+    "axe": []
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "surfaces": [
+      {
+        "id": "hero",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "apropos",
+        "background": "rgb(255, 255, 255)",
+        "paddingTop": "104px",
+        "paddingBottom": "104px"
+      },
+      {
+        "id": "pourquoi",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "104px",
+        "paddingBottom": "104px"
+      },
+      {
+        "id": "expertises",
+        "background": "rgba(0, 0, 0, 0)",
+        "paddingTop": "104px",
+        "paddingBottom": "104px"
+      },
+      {
+        "id": "materiaux",
+        "background": "rgb(243, 240, 234)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      {
+        "id": "contact",
+        "background": "rgb(28, 28, 88)",
+        "paddingTop": "104px",
+        "paddingBottom": "104px"
+      }
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false
+  }
+]

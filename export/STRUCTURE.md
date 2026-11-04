@@ -1,5 +1,7 @@
 # Homepage — ordre V4
 
+Cet ordre est conservé dans la V5. La correction du rythme visuel et des fonds est documentée dans `RYTHME.md`.
+
 Ordre demandé par le client le 4 novembre 2026, identique dans le DOM sur desktop et mobile :
 
 1. Hero avec l’image en D : balisage, contenu et visuel conservés à l’identique.

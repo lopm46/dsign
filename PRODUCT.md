@@ -16,6 +16,8 @@ La page fournie par le client dans `nos materieux.zip` est intégrée sous `expo
 
 **Ordre courant confirmé par le client le 4 novembre 2026 :** hero inchangé, À propos, Pourquoi nous confier votre projet, services, matériaux, contact. La section « Des espaces qui changent la vie » est supprimée. Cet ordre remplace la composition des références et versions antérieures, sans changer la charte. Voir `export/STRUCTURE.md`.
 
+**Rythme courant V5 :** hero bleu, À propos blanc, raisons de choix bleues, services blancs, matériaux sur neutre minéral photographique, contact bleu. Cette correction répond au constat client de sections consécutives qui se confondaient. Les nouveaux rôles sont consignés dans `DESIGN.md` et `export/RYTHME.md` ; contenu, ordre et hero restent conservés.
+
 ## Users
 
 - Particuliers qui préparent un projet de rénovation, d’extension ou de construction.

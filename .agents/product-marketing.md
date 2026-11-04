@@ -1,6 +1,6 @@
 # Product Marketing Context
 
-**Document version:** v8
+**Document version:** v9
 **Last updated:** 2026-11-04
 
 ## Product Overview
@@ -139,6 +139,8 @@
 |------|----------|----------|------------|--------|
 
 ## Changelog
+
+- v9 (2026-11-04) — Rythme V5 : présentation sur blanc, raisons de choix sur bleu et matériaux sur minéral clair ; mêmes textes, ordre, hero et formulaire.
 
 - v8 (2026-11-04) — Homepage réordonnée : hero inchangé, À propos, raisons de choix, services, matériaux, contact. Section projets supprimée ; les éléments et preuves des versions précédentes restent historiques.
 
