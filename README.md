@@ -1,6 +1,6 @@
 # D-SIGN — export HTML / CSS
 
-Version 3 du 4 novembre 2026. L’export comprend la homepage améliorée et la page « Nos matériaux » fournie par le client, reliées entre elles. La homepage conserve les contenus et le formulaire de la version 2.
+Version 4 du 4 novembre 2026. L’export comprend la homepage réordonnée et la page « Nos matériaux », reliées entre elles. Ordre courant : hero, À propos, raisons de choisir D-SIGN, services, matériaux, contact. La section projets est supprimée ; le hero et le formulaire existants sont conservés. Voir `STRUCTURE.md`.
 
 ## Ouvrir la page
 
