@@ -4,6 +4,8 @@ Redesign de la homepage WordPress de D-SIGN GBS. Base métier : **cadrage V2**. 
 
 ## Documents
 
+- `export/STRUCTURE.md` : ordre courant de la homepage V4 et contrôles associés.
+- `dist/dsign-site-html-css-v4.zip` : livraison courante après réorganisation des six sections, avec la page matériaux.
 - `GITHUB-PAGES.md` : activation de l’hébergement V3 et synchronisation de la branche `gh-pages`.
 - `export/nos-materiaux.html` : page matériaux fournie par le client, intégrée à la même charte et reliée à la homepage.
 - `export/MATERIAUX.md` : provenance des visuels, contrôles de la galerie et intégration WordPress.

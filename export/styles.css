@@ -103,8 +103,9 @@ body { scrollbar-color: var(--color-green) var(--color-navy); }
 .service-content .icon { position: absolute; right: 16px; top: 50%; margin-top: -12px; width: 22px; height: 22px; color: var(--color-green-ink); transition: transform var(--transition); }
 .service:hover .icon { transform: translate(2px, -2px); }
 
-.reasons { margin-top: 64px; padding-top: 36px; border-top: 1px solid var(--color-line); }
-.reasons > h3 { font-size: clamp(28px, 2.7vw, 38px); line-height: 1.12; max-width: 25ch; }
+.reasons-section { padding-bottom: 0; }
+.reasons { margin-top: 0; }
+.reasons > h2 { font-size: clamp(28px, 2.7vw, 38px); line-height: 1.12; max-width: 25ch; }
 .reasons-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin: 32px 0 0; }
 .reasons-list dt { font-size: 19px; line-height: 1.35; font-weight: 700; }
 .reasons-list dd { margin: 12px 0 0; color: var(--color-muted); max-width: 36ch; }
@@ -305,8 +306,8 @@ body { scrollbar-color: var(--color-green) var(--color-navy); }
   .project-caption { padding-top: 14px; }
   .project-caption h3 { font-size: 20px; }
   .projects-disclosure { font-size: 12px; margin-top: 24px; }
-  .reasons { margin-top: 42px; padding-top: 30px; }
-  .reasons > h3 { font-size: 30px; }
+  .reasons { margin-top: 0; }
+  .reasons > h2 { font-size: 30px; }
   .reasons-list { grid-template-columns: 1fr; gap: 24px; margin-top: 28px; }
   .reasons-list dd { max-width: 45ch; margin-top: 8px; }
   .reasons-signature { margin-top: 24px; }

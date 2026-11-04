@@ -1,0 +1,94 @@
+[
+  {
+    "width": 320,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false,
+    "axe": []
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false,
+    "axe": []
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "sections": [
+      "hero",
+      "apropos",
+      "pourquoi",
+      "expertises",
+      "materiaux",
+      "contact"
+    ],
+    "dead": [],
+    "missing": false,
+    "projects": false
+  }
+]

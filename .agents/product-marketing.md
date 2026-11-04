@@ -1,6 +1,6 @@
 # Product Marketing Context
 
-**Document version:** v7
+**Document version:** v8
 **Last updated:** 2026-11-04
 
 ## Product Overview
@@ -139,6 +139,8 @@
 |------|----------|----------|------------|--------|
 
 ## Changelog
+
+- v8 (2026-11-04) — Homepage réordonnée : hero inchangé, À propos, raisons de choix, services, matériaux, contact. Section projets supprimée ; les éléments et preuves des versions précédentes restent historiques.
 
 - v7 (2026-11-04) — Textes fournis par le client intégrés à la homepage ; informations de contact complètes, formulaire Contact Form 7 intégré et estimation conservée en lien secondaire. Aucun changement de direction visuelle ni publication.
 - v6 (2026-11-03) — Contexte aligné sur l’export HTML/CSS de la direction choisie : CTA harmonisés, publics explicites, visuels d’ambiance générés et aucun faux formulaire ; positionnement métier inchangé.

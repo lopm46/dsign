@@ -134,7 +134,7 @@ Conserver les retours à la ligne éditoriaux des grands titres. Ne pas transfor
 
 Le conteneur central a une largeur maximale de 1440 px. La marge latérale et l’espacement vertical des sections utilisent les deux valeurs fluides du frontmatter. Sous 760 px, la marge latérale passe à 24 px ; sous 360 px, à 20 px. Les alignements partagés par les titres, images et actions structurent la page.
 
-La composition livrée suit l’ordre hero, expertises, projets, approche, matériaux, contact, footer. Ce séquençage appartient à cette homepage ; il ne prescrit pas la composition de toutes les futures pages.
+La composition livrée suit l’ordre hero, À propos, Pourquoi nous confier votre projet, services, matériaux, contact, footer. La section projets a été retirée à la demande du client. Ce séquençage appartient à cette homepage ; il ne prescrit pas la composition de toutes les futures pages.
 
 Sur grand écran, le hero répartit texte et image en colonnes `.9fr / 1.1fr`, séparées par 48 px. Les expertises et l’approche associent une introduction à une zone visuelle plus large. Les projets sont en deux colonnes, avec un décalage vertical de 24 px sur le second. Le contact utilise deux colonnes égales.
 

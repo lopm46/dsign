@@ -14,6 +14,8 @@ L’export actuel est `export/index.html` avec `styles.css`, `script.js` et ses 
 
 La page fournie par le client dans `nos materieux.zip` est intégrée sous `export/nos-materiaux.html`, avec ses contenus, huit visuels et une galerie de sept matières. Elle reprend le header/footer et les polices de la homepage ; ses actions de contact rejoignent le formulaire de celle-ci. Les règles locales et les contrôles sont décrits dans `export/MATERIAUX.md`.
 
+**Ordre courant confirmé par le client le 4 novembre 2026 :** hero inchangé, À propos, Pourquoi nous confier votre projet, services, matériaux, contact. La section « Des espaces qui changent la vie » est supprimée. Cet ordre remplace la composition des références et versions antérieures, sans changer la charte. Voir `export/STRUCTURE.md`.
+
 ## Users
 
 - Particuliers qui préparent un projet de rénovation, d’extension ou de construction.
