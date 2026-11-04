@@ -5,7 +5,8 @@
 À la demande du propriétaire, après chaque modification demandée et vérifiée :
 
 - Créer un commit décrivant le résultat et pousser sur `main` du dépôt `lopm46/dsign`.
-- Inclure les sources, les assets, la documentation et les exports concernés ; respecter les exclusions de `.gitignore`.
+- Inclure les sources, les assets et la documentation concernés ; respecter les exclusions de `.gitignore`.
+- À la demande du propriétaire, ne plus générer ni actualiser de ZIP à chaque modification. Pousser les changements sur GitHub ; produire une archive uniquement sur demande explicite. Les anciennes archives restent historiques.
 - Vérifier le résultat du push et signaler tout blocage. Ne pas forcer le push ni écraser des modifications distantes.
 - Le push GitHub est autorisé sans nouvelle confirmation. La publication du site reste une action distincte, à ne pas effectuer sans demande.
 
