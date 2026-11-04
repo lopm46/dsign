@@ -1,0 +1,53 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "missing": [],
+      "dead": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "missing": [],
+      "dead": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "missing": [],
+      "dead": []
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "missing": [],
+      "dead": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "missing": [],
+      "dead": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "missing": [],
+      "dead": []
+    }
+  ],
+  "states": [
+    {
+      "width": 390,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "noJS": true,
+  "scrollGallery": "true"
+}

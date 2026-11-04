@@ -1,0 +1,42 @@
+[
+  {
+    "name": "hero",
+    "file": "maison",
+    "source": "/workspace/generated_images/exec-89d31af1-00a2-4530-83f8-9113e9afd479.png",
+    "prompt": "Create ONE standalone architectural photograph for the hero of a French construction and renovation website, using the attached full web screenshot ONLY as the architectural mood reference. Output the photo only, no website, no text, no borders, no logos. A contemporary detached home in northern France with pale cream brick at ground level, white mineral render and a charcoal standing-seam metal box upstairs, large black-framed windows, a furnished stone terrace, lush but restrained gardens and a neat lawn. Faithful to the top-right house image in the reference. Eye-level 3/4 architectural viewpoint from the garden, facade occupies center and right, a branch entering top left, sunny soft blue sky, beautiful realistic natural light, tactile materials, premium architectural editorial photography. Landscape 3:2 composition. Keep entire home away from all edges to permit cropping into a broad D shape. No people. This is an illustrative architectural atmosphere, not a documented built project.",
+    "kind": "AI-generated architectural atmosphere; not a documented D-SIGN project",
+    "reference": "https://i.imgur.com/KfDjzWy.jpeg"
+  },
+  {
+    "name": "extension",
+    "file": "extension",
+    "source": "/workspace/generated_images/exec-ad4f6497-e1ea-429d-afc6-4c8914c6d709.png",
+    "prompt": "Create ONE standalone architectural photograph using the attached webpage screenshot ONLY as reference for the brick extension pictured in its project and service sections. No website, text, border, logos or watermarks. A northern French long brick farmhouse beautifully renovated with a crisp single-storey charcoal zinc extension and large black sliding windows. Warm red-brown brick walls, old pitched tile roof above, gentle landscaping, potted olive tree, quiet terrace furniture and ornamental grasses. 3/4 garden view from close enough to read masonry detail but wide enough to see extension meeting old house, warm late-summer daylight, high-end realistic editorial architecture photograph. Landscape 3:2. No people. No false construction documentation, only architectural atmosphere.",
+    "kind": "AI-generated architectural atmosphere; not a documented D-SIGN project",
+    "reference": "https://i.imgur.com/KfDjzWy.jpeg"
+  },
+  {
+    "name": "interior",
+    "file": "interieur",
+    "source": "/workspace/generated_images/exec-6d14932e-bce6-41e9-ba2e-00a842d5b1b9.png",
+    "prompt": "Create ONE standalone interior architectural photograph inspired by the warm living-room scene in the attached webpage screenshot, image only. No website, words, logos, watermark or border. An elegant lived-in French open living/dining area after renovation, natural oak floor, pale beige linen curved sofa, low travertine round coffee table, textured mineral walls, simple oak dining table and pendant lamps behind, huge black framed glass doors on the right opening to a green garden. Calm warm neutrals, a few ceramic objects and plants, soft morning daylight with authentic gentle shadows, premium architectural editorial photography, no sterile showroom shine. Landscape 3:2, slightly wide view with material depth. No people.",
+    "kind": "AI-generated architectural atmosphere; not a documented D-SIGN project",
+    "reference": "https://i.imgur.com/KfDjzWy.jpeg"
+  },
+  {
+    "name": "approach",
+    "file": "conception",
+    "source": "/workspace/generated_images/exec-052670bb-7b7a-4dbf-9583-db880acf23c8.png",
+    "prompt": "Create ONE standalone close-up photographic image for the approach section of a French architecture and construction website, inspired by the drawing photograph in the supplied webpage screenshot. Photo only, no web layout, no typeset text, no logos or watermarks. Close view from above and at a slight angle of a real human right hand with exactly five fingers holding a graphite pencil over an architectural floor-plan sheet spread over a pale oak desk. The left hand steadies the plan. Beside it small travertine, off-white plaster and warm brick material samples. Well drafted plan, plausible room divisions and technical linework, do not add readable labels. Warm side daylight, subtle tactile paper, authentic calm working moment. Horizontal 16:9 crop, hands and drawing to center/right with a few samples on left. Not a portrait or claim about a real team member.",
+    "kind": "AI-generated architectural atmosphere; not a documented D-SIGN project",
+    "reference": "https://i.imgur.com/KfDjzWy.jpeg"
+  },
+  {
+    "name": "materials",
+    "file": "matieres",
+    "source": "/workspace/generated_images/exec-b947d4e7-e9d3-4732-af55-2f4289b45938.png",
+    "prompt": "Create ONE standalone ultra realistic architectural detail photograph inspired by the materials band in the attached webpage screenshot. No web UI, no text, no watermark. Extreme close view of the junction of a textured white mineral render wall on the LEFT, a slender charcoal aluminium window frame near the CENTER, and authentic warm northern French red clay brick with fine lime mortar on the RIGHT. Through the edge of glass an out-of-focus green garden glows in summer sun. The white plaster must fill 45 percent of image on the left with subtle even light and very few shadows so navy typography can later be overlaid there. Honest material texture, premium architectural editorial photography, horizontal 2:1 image. No people.",
+    "kind": "AI-generated architectural atmosphere; not a documented D-SIGN project",
+    "reference": "https://i.imgur.com/KfDjzWy.jpeg"
+  }
+]

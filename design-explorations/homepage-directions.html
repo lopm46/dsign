@@ -1,0 +1,252 @@
+<!--
+  D-SIGN GBS — homepage and graphic charter directions
+  Source: PRODUCT.md, current WordPress homepage, direct competitor benchmark
+  Date: 2026-11-03
+-->
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>D-SIGN GBS — quatre directions de homepage</title>
+  <link rel="icon" href="data:,">
+  <style>
+    @font-face { font-family: "Instrument Sans"; src: url("assets/fonts/InstrumentSans-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+    @font-face { font-family: "Instrument Sans"; src: url("assets/fonts/InstrumentSans-Bold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+    @font-face { font-family: "Gloock"; src: url("assets/fonts/Gloock-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+    @font-face { font-family: "Big Shoulders"; src: url("assets/fonts/BigShoulders-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+    @font-face { font-family: "Big Shoulders"; src: url("assets/fonts/BigShoulders-Bold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+    @font-face { font-family: "IBM Plex Mono"; src: url("assets/fonts/IBMPlexMono-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+    @font-face { font-family: "IBM Plex Mono"; src: url("assets/fonts/IBMPlexMono-Bold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+    @font-face { font-family: "Bricolage Grotesque"; src: url("assets/fonts/BricolageGrotesque-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+    @font-face { font-family: "Bricolage Grotesque"; src: url("assets/fonts/BricolageGrotesque-Bold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+    :root {
+      --brand-50: #ecebf2;
+      --brand-100: #d8d6e4;
+      --brand-500: #3b3a52;
+      --accent-700: #3a7771;
+      --ink: #1a1a24;
+      --ink-soft: #4a4a5a;
+      --ink-mute: #7a7a8a;
+      --line: #e4e1d9;
+      --paper: #fff;
+      --bg: #f7f6f1;
+      --shadow: 0 24px 64px -32px rgba(20, 16, 70, .24), 0 3px 12px rgba(20, 16, 70, .06);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Instrument Sans", sans-serif; line-height: 1.5; }
+    img { display: block; max-width: 100%; }
+    button, a { font: inherit; }
+    a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+    .mobile-menu { display: none; }
+    .page { max-width: 1360px; margin: 0 auto; padding: 72px 48px 144px; }
+    .doc-header { border-bottom: 1px solid var(--line); padding-bottom: 40px; margin-bottom: 64px; }
+    .doc-label { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; background: var(--brand-50); color: var(--brand-500); border-radius: 999px; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .doc-label::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--brand-500); }
+    .doc-title { max-width: 920px; margin: 20px 0 16px; font: 400 clamp(2.5rem, 6vw, 4.25rem)/1.02 "Gloock", serif; letter-spacing: -.03em; }
+    .doc-subtitle { max-width: 780px; margin: 0; color: var(--ink-soft); font-size: 18px; }
+    .doc-meta { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 28px; font-size: 13px; color: var(--ink-mute); }
+    .doc-meta b { color: var(--ink-soft); }
+    .shared-brief { display: grid; grid-template-columns: 1.1fr repeat(3, 1fr); gap: 1px; margin: 0 0 96px; background: var(--line); border: 1px solid var(--line); }
+    .brief-cell { min-height: 132px; padding: 24px; background: rgba(255,255,255,.72); }
+    .brief-cell strong { display: block; margin-bottom: 8px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--brand-500); }
+    .brief-cell span { font-size: 14px; color: var(--ink-soft); }
+    .brief-cell:first-child span { font: 400 24px/1.25 "Gloock", serif; color: var(--ink); }
+    .variant { margin-bottom: 112px; }
+    .variant-head { display: grid; grid-template-columns: 64px 1fr; gap: 20px; margin-bottom: 28px; }
+    .variant-letter { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: white; font: 400 22px "Gloock", serif; }
+    .variant h2 { margin: 2px 0 6px; font-size: 27px; letter-spacing: -.02em; }
+    .variant-tradeoff { margin: 0; color: var(--ink-soft); font-size: 15px; }
+    .variant-tradeoff b { color: var(--brand-500); }
+    .preview-frame { margin-left: 84px; overflow: hidden; background: var(--paper); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
+    .preview-bar { padding: 13px 18px; border-bottom: 1px solid var(--line); background: #fbfaf6; color: var(--ink-mute); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .analysis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 22px 0 0 84px; }
+    .analysis article { padding: 18px 20px; background: white; border: 1px solid var(--line); border-radius: 10px; }
+    .analysis h3 { margin: 0 0 6px; color: var(--brand-500); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+    .analysis article:nth-child(2) h3 { color: #a83b2a; }
+    .analysis article:nth-child(3) h3 { color: var(--accent-700); }
+    .analysis p { margin: 0; color: var(--ink-soft); font-size: 14px; }
+    .charter { display: grid; grid-template-columns: 1.1fr .9fr 1fr; gap: 1px; background: rgba(255,255,255,.22); border-top: 1px solid rgba(255,255,255,.22); }
+    .charter > div { padding: 18px 22px; background: rgba(0,0,0,.08); }
+    .charter strong { display: block; margin-bottom: 8px; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; opacity: .72; }
+    .swatches { display: flex; gap: 7px; }
+    .swatches i { width: 22px; height: 22px; border: 1px solid rgba(0,0,0,.12); border-radius: 50%; }
+    .charter span { font-size: 13px; line-height: 1.45; }
+    .va { --blue: #112844; --paper: #f1eee5; --red: #b84232; --green: #557261; background: var(--paper); color: var(--blue); font-family: "Instrument Sans", sans-serif; }
+    .va-nav { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 28px; padding: 22px 30px; border-bottom: 1px solid rgba(17,40,68,.2); }
+    .va-logo { white-space: nowrap; font: 700 24px "Big Shoulders", sans-serif; letter-spacing: -.04em; }
+    .va-nav nav { display: flex; gap: 22px; font-size: 12px; font-weight: 600; }
+    .va-nav nav a { color: inherit; text-decoration: none; }
+    .va-cta { padding: 13px 14px; background: var(--red); color: white; text-decoration: none; font-size: 12px; font-weight: 700; }
+    .va-hero { position: relative; display: grid; grid-template-columns: 1.05fr .95fr; min-height: 560px; background-image: linear-gradient(rgba(17,40,68,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(17,40,68,.08) 1px, transparent 1px); background-size: 40px 40px; }
+    .va-copy { padding: 64px 42px 56px 48px; }
+    .va-code { font: 500 12px "IBM Plex Mono", monospace; color: var(--red); }
+    .va .hero-title { max-width: 640px; margin: 26px 0 20px; font: 700 clamp(2.8rem, 5vw, 5rem)/.94 "Big Shoulders", sans-serif; letter-spacing: -.045em; text-wrap: balance; }
+    .va-lede { max-width: 520px; margin: 0 0 30px; font-size: 17px; line-height: 1.6; }
+    .va-actions { display: flex; align-items: center; gap: 20px; }
+    .va-actions a { color: var(--blue); font-size: 13px; font-weight: 700; }
+    .va-actions a:first-child { padding: 14px 18px; background: var(--blue); color: white; text-decoration: none; }
+    .va-steps { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 56px; border-top: 1px solid rgba(17,40,68,.25); }
+    .va-steps div { padding: 15px 12px 0 0; font-size: 12px; }
+    .va-steps b { display: block; color: var(--red); font-family: "IBM Plex Mono", monospace; }
+    .va-visual { position: relative; overflow: hidden; margin: 28px 28px 28px 0; background: var(--blue); }
+    .va-visual img { width: 100%; height: 100%; object-fit: cover; opacity: .82; mix-blend-mode: luminosity; }
+    .va-stamp { position: absolute; right: 22px; bottom: 22px; max-width: 210px; padding: 16px; background: var(--paper); font-size: 12px; box-shadow: 0 10px 30px rgba(17,40,68,.22); }
+    .va-stamp b { display: block; margin-bottom: 5px; color: var(--red); }
+    .va .charter { background: var(--blue); color: white; }
+    .vb { --ink: #1c211d; --cream: #f0ece1; --olive: #4d6556; --brick: #a74332; background: var(--cream); color: var(--ink); font-family: "Instrument Sans", sans-serif; }
+    .vb-nav { display: flex; align-items: center; justify-content: space-between; padding: 22px 30px; }
+    .vb-logo { white-space: nowrap; font-size: 19px; font-weight: 800; letter-spacing: -.04em; }
+    .vb-nav nav { display: flex; gap: 28px; font-size: 12px; }
+    .vb-nav nav a { color: inherit; text-decoration: none; }
+    .vb-hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr); min-height: 590px; }
+    .vb-photo { position: relative; overflow: hidden; margin: 0 0 34px 30px; border-radius: 0 88px 0 0; }
+    .vb-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .vb-caption { position: absolute; left: 20px; bottom: 20px; padding: 10px 13px; background: var(--cream); font-size: 12px; }
+    .vb-copy { display: flex; flex-direction: column; justify-content: center; padding: 48px 42px; }
+    .vb .hero-title { margin: 0 0 24px; font: 400 clamp(3rem, 5vw, 5.4rem)/.94 "Gloock", serif; letter-spacing: -.045em; }
+    .vb-copy p { margin: 0 0 28px; font-size: 16px; line-height: 1.65; }
+    .vb-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .vb-actions a { padding: 13px 17px; border: 1px solid var(--ink); color: var(--ink); text-decoration: none; font-size: 12px; font-weight: 700; }
+    .vb-actions a:first-child { background: var(--ink); color: var(--cream); }
+    .vb-proof { display: grid; grid-template-columns: 1fr 1fr; margin-top: auto; padding-top: 36px; gap: 20px; border-top: 1px solid rgba(28,33,29,.2); font-size: 12px; }
+    .vb-proof b { display: block; font: 400 21px "Gloock", serif; color: var(--brick); }
+    .vb .charter { background: var(--olive); color: white; }
+    .vc { --indigo: #1c1c58; --green: #287448; --mist: #e7e8e3; --ink: #121329; background: #f6f6f1; color: var(--ink); font-family: "Instrument Sans", sans-serif; }
+    .vc-nav { display: grid; grid-template-columns: auto 1fr auto; align-items: center; padding: 20px 26px; background: var(--indigo); color: white; }
+    .vc-logo { white-space: nowrap; font-size: 21px; font-weight: 700; letter-spacing: -.05em; }
+    .vc-nav nav { display: flex; justify-content: center; gap: 28px; font-size: 12px; }
+    .vc-nav a { color: inherit; text-decoration: none; }
+    .vc-nav > a { padding: 13px 14px; border: 1px solid rgba(255,255,255,.5); font-size: 12px; }
+    .vc-hero { min-height: 550px; }
+    .vc-stage { position: relative; display: grid; grid-template-columns: 1fr 1fr; min-height: 350px; }
+    .vc-panel { position: relative; overflow: hidden; }
+    .vc-panel img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.75); }
+    .vc-panel:first-child img { filter: grayscale(1) contrast(.82); }
+    .vc-panel span { position: absolute; left: 18px; top: 18px; padding: 7px 10px; background: white; color: var(--indigo); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .vc-stage::after { content: "→"; position: absolute; left: 50%; top: 50%; z-index: 2; display: grid; width: 38px; height: 38px; place-items: center; border-radius: 50%; background: white; color: var(--indigo); font-weight: 700; transform: translate(-50%, -50%); box-shadow: 0 8px 24px rgba(28,28,88,.18); }
+    .vc-copy { position: relative; display: grid; grid-template-columns: 1.2fr .8fr; gap: 32px; align-items: end; margin: -54px 28px 0; padding: 28px 30px; background: white; box-shadow: 0 16px 40px rgba(28,28,88,.16); }
+    .vc .hero-title { margin: 0; color: var(--indigo); font: 700 clamp(2.5rem, 4vw, 4rem)/1 "Big Shoulders", sans-serif; letter-spacing: -.035em; }
+    .vc-copy p { margin: 0 0 18px; font-size: 14px; line-height: 1.55; }
+    .vc-copy a { display: inline-block; padding: 13px 15px; background: var(--green); color: white; text-decoration: none; font-size: 12px; font-weight: 700; }
+    .vc-paths { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin-top: 28px; background: rgba(28,28,88,.16); border-top: 1px solid rgba(28,28,88,.16); }
+    .vc-paths div { padding: 18px 28px; background: #f6f6f1; font-size: 12px; }
+    .vc-paths b { display: block; color: var(--indigo); font-size: 15px; }
+    .vc .charter { background: var(--indigo); color: white; }
+    .vd { --navy: #15265c; --green: #4e9d68; --paper: #f4f0e8; --ink: #151a18; background: var(--paper); color: var(--ink); font-family: "Bricolage Grotesque", sans-serif; }
+    .vd-nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 26px; }
+    .vd-logo { white-space: nowrap; font-size: 20px; font-weight: 700; letter-spacing: -.05em; }
+    .vd-nav nav { display: flex; gap: 18px; font-size: 12px; }
+    .vd-nav a { color: inherit; text-decoration: none; }
+    .vd-face { position: relative; min-height: 520px; padding: 54px 32px 190px; overflow: hidden; }
+    .vd-mark { position: absolute; right: -10px; top: -38px; color: rgba(21,38,92,.07); font-size: 360px; font-weight: 700; line-height: 1; letter-spacing: -.12em; }
+    .vd .hero-title { position: relative; z-index: 1; max-width: 760px; margin: 0; font-size: clamp(3.2rem, 7vw, 7.4rem); font-weight: 600; line-height: .88; letter-spacing: -.065em; }
+    .vd .hero-title span { display: block; color: var(--navy); }
+    .vd-band { position: absolute; inset: auto 0 0; display: grid; grid-template-columns: 1.2fr 1fr .75fr; min-height: 170px; background: var(--green); color: #07170d; }
+    .vd-band > div { padding: 24px 26px; border-right: 1px solid rgba(7,23,13,.25); }
+    .vd-band small { display: block; margin-bottom: 10px; font: 500 11px "IBM Plex Mono", monospace; letter-spacing: .1em; text-transform: uppercase; }
+    .vd-band p { margin: 0; font-size: 14px; line-height: 1.45; }
+    .vd-band a { display: inline-flex; align-items: center; justify-content: center; height: 100%; min-height: 70px; background: var(--navy); color: white; text-decoration: none; text-align: center; font-size: 13px; font-weight: 700; }
+    .vd-project { display: grid; grid-template-columns: 1fr 1fr; background: var(--navy); color: white; }
+    .vd-project img { width: 100%; height: 210px; object-fit: cover; filter: saturate(.72); }
+    .vd-project div { padding: 30px; }
+    .vd-project strong { display: block; margin-bottom: 8px; font-size: 12px; color: #91caa2; }
+    .vd-project span { font-size: 25px; line-height: 1.15; }
+    .vd .charter { background: var(--navy); color: white; }
+    .decision { padding: 42px 48px; border-radius: 20px; background: var(--ink); color: white; }
+    .decision h2 { margin: 0 0 8px; font: 400 30px "Gloock", serif; }
+    .decision > p { margin: 0 0 28px; color: rgba(255,255,255,.68); }
+    .decision-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .decision-grid b { display: block; margin-bottom: 7px; color: #d8d6e4; font-size: 12px; letter-spacing: .08em; }
+    .decision-grid span { color: rgba(255,255,255,.86); font-size: 14px; }
+    @media (max-width: 980px) {
+      .page { padding: 44px 20px 88px; }
+      .shared-brief { grid-template-columns: 1fr 1fr; }
+      .preview-frame, .analysis { margin-left: 0; }
+      .va-hero, .vb-hero, .vc-copy { grid-template-columns: 1fr; }
+      .va-visual { min-height: 330px; margin: 0 28px 28px; }
+      .vb-photo { min-height: 420px; margin-right: 30px; }
+      .vc-copy { align-items: start; }
+      .decision-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 650px) {
+      .doc-title { font-size: 38px; }
+      .shared-brief, .analysis, .decision-grid { grid-template-columns: 1fr; }
+      .variant-head { grid-template-columns: 48px 1fr; gap: 12px; }
+      .va-nav nav, .vb-nav nav, .vc-nav nav, .vd-nav nav { display: none; }
+      .va-nav, .vc-nav { gap: 10px; padding: 16px 14px; }
+      .va-hero, .vb-hero, .vc-stage, .vc-paths, .vd-project { grid-template-columns: 1fr; }
+      .va-copy, .vb-copy { padding: 40px 24px; }
+      .va .hero-title, .vb .hero-title, .vd .hero-title { font-size: 44px; }
+      .mobile-menu { display: inline-flex; min-height: 44px; align-items: center; padding: 0 6px; color: inherit; text-decoration: none; font-size: 12px; font-weight: 700; }
+      .vb-nav > span { display: none; }
+      .va-steps { grid-template-columns: 1fr; }
+      .va-steps div { padding: 12px 0; border-bottom: 1px solid rgba(17,40,68,.15); }
+      .vc-copy { margin: -28px 16px 0; padding: 22px; }
+      .vc-stage::after { transform: translate(-50%, -50%) rotate(90deg); }
+      .vd-face { min-height: 620px; padding: 44px 22px 320px; }
+      .vd-band { grid-template-columns: 1fr; }
+      .vd-band > div { border-right: 0; border-bottom: 1px solid rgba(7,23,13,.25); }
+      .charter { grid-template-columns: 1fr; }
+      .decision { padding: 32px 24px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="doc-header">
+      <div class="doc-label">Exploration de direction</div>
+      <h1 class="doc-title">D-SIGN GBS : quatre façons de rendre le projet concret</h1>
+      <p class="doc-subtitle">Même entreprise, même contenu et même objectif de conversion. Chaque piste change la hiérarchie, la matière visuelle et le ton afin de choisir une charte avant d’écrire le thème WordPress.</p>
+      <div class="doc-meta"><span><b>Base</b> Site actuel + brief</span><span><b>Date</b> 3 novembre 2026</span><span><b>Surface</b> Homepage</span><span><b>Cible</b> WordPress</span></div>
+    </header>
+    <section class="shared-brief" aria-label="Contraintes communes">
+      <div class="brief-cell"><strong>Promesse commune</strong><span>Un interlocuteur pour cadrer et suivre votre projet de travaux.</span></div>
+      <div class="brief-cell"><strong>Publics</strong><span>Particuliers et professionnels, avec deux chemins de lecture visibles.</span></div>
+      <div class="brief-cell"><strong>Services</strong><span>Rénovation, extension et construction.</span></div>
+      <div class="brief-cell"><strong>Conversion</strong><span>Décrire le projet puis obtenir une première estimation ou un échange.</span></div>
+    </section>
+    <section class="variant" id="direction-a">
+      <div class="variant-head"><div class="variant-letter">A</div><div><h2>Dossier de projet</h2><p class="variant-tradeoff"><b>Optimise</b> la compréhension du rôle et des étapes. <b>Compromis</b> moins émotionnel qu’une direction très photographique.</p></div></div>
+      <div class="preview-frame"><div class="preview-bar">Direction A · premier écran et système</div><div class="va">
+        <header class="va-nav"><div class="va-logo">D-SIGN</div><nav aria-label="Navigation de la direction A"><a href="#">Services</a><a href="#">Projets</a><a href="#">Méthode</a><a href="#">Contact</a></nav><a class="mobile-menu" href="#">Menu</a><a class="va-cta" href="#">Décrire mon projet</a></header>
+        <div class="va-hero"><div class="va-copy"><span class="va-code">DOSSIER 01 / MAÎTRISE D’ŒUVRE</span><h3 class="hero-title">Votre projet, cadré de l’idée au chantier.</h3><p class="va-lede">D-SIGN accompagne particuliers et professionnels pour concevoir, chiffrer et coordonner leurs projets de rénovation, d’extension ou de construction.</p><div class="va-actions"><a href="#">Décrire mon projet</a><a href="#">Voir les réalisations →</a></div><div class="va-steps"><div><b>01</b>Définir le besoin</div><div><b>02</b>Concevoir et chiffrer</div><div><b>03</b>Coordonner le chantier</div></div></div><div class="va-visual"><img src="assets/current/project-vet.webp" alt="Rendu architectural d’un projet professionnel publié sur le site actuel"><div class="va-stamp"><b>Projet professionnel</b>Rendu publié sur le site actuel<br>Mission et lieu à confirmer</div></div></div>
+        <div class="charter"><div><strong>Palette</strong><div class="swatches"><i style="background:#112844"></i><i style="background:#f1eee5"></i><i style="background:#b84232"></i><i style="background:#557261"></i></div></div><div><strong>Typographie</strong><span>Big Shoulders / Instrument Sans / IBM Plex Mono pour les références.</span></div><div><strong>Principe photo</strong><span>Plans, détails techniques et réalisations légendées comme des pièces de dossier.</span></div></div>
+      </div></div>
+      <div class="analysis"><article><h3>Ce qui fonctionne</h3><p>Le visiteur comprend immédiatement le rôle de D-SIGN et la suite du parcours. La charte peut vivre dans des formulaires, devis et pages service.</p></article><article><h3>Risque</h3><p>Le langage du dossier peut devenir froid s’il n’est pas équilibré par des visages, de la matière et de vraies photos de chantier.</p></article><article><h3>À choisir si</h3><p>La priorité est de rassurer par la méthode et de rendre le métier lisible aux deux publics.</p></article></div>
+    </section>
+    <section class="variant" id="direction-b">
+      <div class="variant-head"><div class="variant-letter">B</div><div><h2>Monographie régionale</h2><p class="variant-tradeoff"><b>Optimise</b> la confiance par les réalisations et une présence humaine. <b>Compromis</b> exige une vraie banque d’images cohérente.</p></div></div>
+      <div class="preview-frame"><div class="preview-bar">Direction B · premier écran et système</div><div class="vb">
+        <header class="vb-nav"><div class="vb-logo">D-SIGN</div><nav aria-label="Navigation de la direction B"><a href="#">Notre savoir-faire</a><a href="#">Réalisations</a><a href="#">Pour les pros</a><a href="#">Contact</a></nav><a class="mobile-menu" href="#">Menu</a><span>Boves · 80440</span></header>
+        <div class="vb-hero"><div class="vb-photo"><img src="assets/current/project-04.jpg" alt="Rendu architectural d’une maison publié sur le site actuel"><span class="vb-caption">Rendu publié · mission et lieu à confirmer</span></div><div class="vb-copy"><h3 class="hero-title">Votre projet, cadré de l’idée au chantier.</h3><p>D-SIGN accompagne particuliers et professionnels pour concevoir, chiffrer et coordonner leurs projets de rénovation, d’extension ou de construction.</p><div class="vb-actions"><a href="#">Décrire mon projet</a><a href="#">Voir les réalisations</a></div><div class="vb-proof"><span><b>Particuliers</b>Habitat, extension et rénovation</span><span><b>Professionnels</b>Locaux, bâtiments et contraintes d’activité</span></div></div></div>
+        <div class="charter"><div><strong>Palette</strong><div class="swatches"><i style="background:#1c211d"></i><i style="background:#f0ece1"></i><i style="background:#4d6556"></i><i style="background:#a74332"></i></div></div><div><strong>Typographie</strong><span>Gloock pour le récit / Instrument Sans pour l’information et les actions.</span></div><div><strong>Principe photo</strong><span>Images pleine matière, légendes précises, détails de chantier et portraits de l’équipe.</span></div></div>
+      </div></div>
+      <div class="analysis"><article><h3>Ce qui fonctionne</h3><p>La page ressemble à un travail d’architecture documenté, avec un ton chaleureux et régional. Elle donne envie de regarder les projets.</p></article><article><h3>Risque</h3><p>Sans photographies réelles, la promesse éditoriale s’effondre et les rendus 3D paraissent décoratifs.</p></article><article><h3>À choisir si</h3><p>D-SIGN peut organiser un shooting de réalisations, de chantiers et de l’équipe.</p></article></div>
+    </section>
+    <section class="variant" id="direction-c">
+      <div class="variant-head"><div class="variant-letter">C</div><div><h2>Transformation visible</h2><p class="variant-tradeoff"><b>Optimise</b> la preuve du changement et la double cible. <b>Compromis</b> dépend de couples avant/après réellement documentés.</p></div></div>
+      <div class="preview-frame"><div class="preview-bar">Direction C · premier écran et système</div><div class="vc">
+        <header class="vc-nav"><div class="vc-logo">D-SIGN</div><nav aria-label="Navigation de la direction C"><a href="#">Services</a><a href="#">Réalisations</a><a href="#">Notre méthode</a></nav><a class="mobile-menu" href="#">Menu</a><a href="#">Décrire mon projet</a></header>
+        <div class="vc-hero"><div class="vc-stage"><div class="vc-panel"><img src="assets/current/project-03.jpg" alt="Rendu intérieur en niveaux de gris publié sur le site actuel"><span>Visuel avant · à fournir</span></div><div class="vc-panel"><img src="assets/current/project-06.jpg" alt="Rendu intérieur d’un projet publié sur le site actuel"><span>Rendu publié · statut à confirmer</span></div></div><div class="vc-copy"><h3 class="hero-title">Votre projet, cadré de l’idée au chantier.</h3><div><p>D-SIGN accompagne particuliers et professionnels pour concevoir, chiffrer et coordonner leurs projets de rénovation, d’extension ou de construction.</p><a href="#">Décrire mon projet</a></div></div><div class="vc-paths"><div><b>Je suis un particulier</b>Habitat, extension et rénovation</div><div><b>Je suis un professionnel</b>Locaux, bâtiments et contraintes d’activité</div></div></div>
+        <div class="charter"><div><strong>Palette</strong><div class="swatches"><i style="background:#1c1c58"></i><i style="background:#f6f6f1"></i><i style="background:#287448"></i><i style="background:#e7e8e3"></i></div></div><div><strong>Typographie</strong><span>Big Shoulders / Instrument Sans. Évolution directe de l’identité actuelle.</span></div><div><strong>Principe photo</strong><span>Diptyques avant/après au même angle, avec contexte et nature de la mission.</span></div></div>
+      </div></div>
+      <div class="analysis"><article><h3>Ce qui fonctionne</h3><p>Le bénéfice devient visible et le bleu historique reste reconnaissable. Les deux chemins répondent au brief sans couper la marque en deux.</p></article><article><h3>Risque</h3><p>Les visuels actuels ne constituent pas encore de vrais avant/après. Cette piste demande une collecte précise des archives projet.</p></article><article><h3>À choisir si</h3><p>L’entreprise dispose de photos prises aux mêmes étapes ou accepte de les documenter à l’avenir.</p></article></div>
+    </section>
+    <section class="variant" id="direction-d">
+      <div class="variant-head"><div class="variant-letter">D</div><div><h2>La bande projet</h2><p class="variant-tradeoff"><b>Optimise</b> la mémorisation et la personnalité. <b>Compromis</b> direction plus polarisante, qui demande une exécution éditoriale stricte.</p></div></div>
+      <div class="preview-frame"><div class="preview-bar">Direction D · premier écran et système</div><div class="vd">
+        <header class="vd-nav"><div class="vd-logo">D-SIGN</div><nav aria-label="Navigation de la direction D"><a href="#">Rénover</a><a href="#">Agrandir</a><a href="#">Construire</a><a href="#">Projets</a></nav><a href="#">Menu</a></header>
+        <div class="vd-face"><div class="vd-mark">D</div><h3 class="hero-title">Votre projet. <span>Cadré de l’idée</span> au chantier.</h3><div class="vd-band"><div><small>Ce que nous faisons</small><p>D-SIGN conçoit, chiffre et coordonne des projets de rénovation, d’extension et de construction.</p></div><div><small>Pour qui</small><p>Particuliers et professionnels · zone d’intervention à confirmer.</p></div><a href="#">Décrire<br>mon projet ↗</a></div></div><div class="vd-project"><img src="assets/current/project-01.jpg" alt="Rendu d’un projet d’habitat publié sur le site actuel"><div><strong>PROJET / HABITAT</strong><span>Rendu publié · mission et lieu à confirmer</span></div></div>
+        <div class="charter"><div><strong>Palette</strong><div class="swatches"><i style="background:#15265c"></i><i style="background:#f4f0e8"></i><i style="background:#4e9d68"></i><i style="background:#151a18"></i></div></div><div><strong>Typographie</strong><span>Bricolage Grotesque / IBM Plex Mono pour les informations de projet.</span></div><div><strong>Principe photo</strong><span>Une grande image calme, puis une bande dense qui porte les faits et l’action.</span></div></div>
+      </div></div>
+      <div class="analysis"><article><h3>Ce qui fonctionne</h3><p>Le premier écran est immédiatement reconnaissable et ne ressemble pas aux homepages de rénovation observées. La bande devient un motif de marque réutilisable.</p></article><article><h3>Risque</h3><p>La très grande typographie peut dominer la preuve. Le rythme devra rester calme sur les pages de contenu.</p></article><article><h3>À choisir si</h3><p>La marque veut prendre une position plus créative tout en gardant un contenu très concret.</p></article></div>
+    </section>
+    <section class="decision"><h2>Comment choisir</h2><p>Choisissez sur le message et les contraintes de production, pas uniquement sur la palette.</p><div class="decision-grid"><div><b>A · Dossier · recommandé</b><span>La base la plus claire et robuste, à réchauffer avec le motif de bande de D.</span></div><div><b>B · Monographie</b><span>Si les réalisations et l’humain peuvent devenir la matière principale.</span></div><div><b>C · Transformation</b><span>Si vous pouvez documenter de vrais avant/après.</span></div><div><b>D · Bande projet</b><span>Si vous cherchez la direction la plus distinctive et éditoriale.</span></div></div></section>
+  </main>
+</body>
+</html>

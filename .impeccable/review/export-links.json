@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://dsign-gbs.fr/devis-en-ligne/",
+    "status": 200,
+    "resolved": "https://dsign-gbs.fr/devis-en-ligne/"
+  },
+  {
+    "url": "https://dsign-gbs.fr/nos-materiaux/",
+    "status": 200,
+    "resolved": "https://dsign-gbs.fr/nos-materiaux/"
+  },
+  {
+    "url": "https://dsign-gbs.fr/nos-projets/",
+    "status": 200,
+    "resolved": "https://dsign-gbs.fr/nos-projets/"
+  },
+  {
+    "url": "https://dsign-gbs.fr/nos-services/construction/",
+    "status": 200,
+    "resolved": "https://dsign-gbs.fr/construction/"
+  },
+  {
+    "url": "https://dsign-gbs.fr/nos-services/extension/",
+    "status": 200,
+    "resolved": "https://dsign-gbs.fr/extension/"
+  },
+  {
+    "url": "https://dsign-gbs.fr/nos-services/renovation/",
+    "status": 200,
+    "resolved": "https://dsign-gbs.fr/renovation/"
+  }
+]

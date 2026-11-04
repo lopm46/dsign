@@ -1,0 +1,113 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "missingImages": [],
+      "fontReady": true,
+      "h1": 1,
+      "deadAnchors": [],
+      "logoFilter": "none",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "missingImages": [],
+      "fontReady": true,
+      "h1": 1,
+      "deadAnchors": [],
+      "logoFilter": "none",
+      "errors": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "missingImages": [],
+      "fontReady": true,
+      "h1": 1,
+      "deadAnchors": [],
+      "logoFilter": "none",
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "missingImages": [],
+      "fontReady": true,
+      "h1": 1,
+      "deadAnchors": [],
+      "logoFilter": "none",
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "missingImages": [],
+      "fontReady": true,
+      "h1": 1,
+      "deadAnchors": [],
+      "logoFilter": "none",
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "missingImages": [],
+      "fontReady": true,
+      "h1": 1,
+      "deadAnchors": [],
+      "logoFilter": "none",
+      "errors": []
+    }
+  ],
+  "interactions": [
+    {
+      "width": 390,
+      "methodDisclosure": true,
+      "siteInformation": true
+    },
+    {
+      "width": 390,
+      "menuOpening": true,
+      "escapeClose": true,
+      "focusReturn": true,
+      "anchorClose": true,
+      "heroContact": true
+    },
+    {
+      "width": 1440,
+      "methodDisclosure": true,
+      "siteInformation": true
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 390,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "limitations": [
+    "Chromium headless; no physical device or full screen-reader session.",
+    "No form backend or WordPress runtime is included in this static export."
+  ],
+  "localFile": {
+    "tested": false,
+    "reason": "The managed Chromium blocks the file:// protocol. HTTP local preview and asset paths were tested; direct local-file navigation was not."
+  },
+  "noJavaScript": {
+    "menu": true,
+    "method": true,
+    "contentPresent": true
+  },
+  "failures": [],
+  "mobileContactHover": {
+    "text": "rgb(28, 28, 88)",
+    "background": "rgb(138, 211, 142)",
+    "pass": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-04T06:40:02.161584+00:00",
+  "archive": "/workspace/dsign/dist/dsign-homepage-html-css-v2.zip",
+  "files": 32,
+  "bytes": 2050938,
+  "crc": "pass",
+  "allFilesMatchSource": true,
+  "localReferences": [
+    "assets/fonts/instrument-sans-bold.woff2",
+    "assets/fonts/instrument-sans-regular.woff2",
+    "assets/images/conception-1600.webp",
+    "assets/images/conception-800.webp",
+    "assets/images/extension-1600.webp",
+    "assets/images/extension-800.webp",
+    "assets/images/interieur-1600.webp",
+    "assets/images/interieur-800.webp",
+    "assets/images/maison-1600.webp",
+    "assets/images/maison-800.webp",
+    "assets/images/matieres-1600.webp",
+    "assets/images/matieres-800.webp",
+    "assets/logo.svg",
+    "script.js",
+    "styles.css"
+  ],
+  "logoSHA256": "cfc31d8acfed3c19cf01688f9a0f42f86cc92d1cee3a241ad232626b63683841",
+  "sourceSHA256": {
+    "index.html": "67b417a4048088b3c12d6faaa758b8e6dab2139810966f63d809af6d9bd8f2a6",
+    "styles.css": "dfd58bfa4f48040867f930ec8dd649eb86eb5296f1923569a69319f223fa857a",
+    "script.js": "ffcfb35792115004b043fceb52e827164674206c8df6d26ea20af657bcbcc997"
+  },
+  "independentReview": "ship — static extension; real email delivery not tested",
+  "previousVersionPreserved": true
+}

@@ -1,0 +1,26 @@
+{
+  "archive": "/workspace/dsign/dist/dsign-homepage-html-css.zip",
+  "bytes": 2042881,
+  "files": 31,
+  "crc": "pass",
+  "logoSHA256": "pass",
+  "checkedLocalReferences": [
+    "assets/fonts/instrument-sans-bold.woff2",
+    "assets/fonts/instrument-sans-regular.woff2",
+    "assets/images/conception-1600.webp",
+    "assets/images/conception-800.webp",
+    "assets/images/extension-1600.webp",
+    "assets/images/extension-800.webp",
+    "assets/images/interieur-1600.webp",
+    "assets/images/interieur-800.webp",
+    "assets/images/maison-1600.webp",
+    "assets/images/maison-800.webp",
+    "assets/images/matieres-1600.webp",
+    "assets/images/matieres-800.webp",
+    "assets/logo.svg",
+    "script.js",
+    "styles.css"
+  ],
+  "charterIncluded": "DESIGN.md",
+  "sidecarComponents": 6
+}

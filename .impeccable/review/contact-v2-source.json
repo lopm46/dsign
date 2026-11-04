@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-11-04",
+  "sourcePage": "https://dsign-gbs.fr/",
+  "formId": 6,
+  "containerPost": 1647,
+  "fieldNames": [
+    "your-name",
+    "your-email",
+    "your-subject",
+    "your-message"
+  ],
+  "endpoint": "https://dsign-gbs.fr/wp-json/contact-form-7/v1/contact-forms/6/feedback",
+  "methodUsed": "OPTIONS",
+  "responseHeaders": [
+    "HTTP/1.1 200 OK",
+    "HTTP/2 200 ",
+    "allow: POST",
+    "access-control-allow-origin: http://127.0.0.1:4180",
+    "access-control-allow-methods: OPTIONS, GET, POST, PUT, PATCH, DELETE"
+  ],
+  "realSubmission": false
+}

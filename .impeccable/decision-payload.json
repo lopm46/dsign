@@ -1,0 +1,75 @@
+{
+  "title": "Choisir la direction de D-SIGN GBS",
+  "question": "Quelle charte doit porter la nouvelle homepage et les futures pages WordPress ?",
+  "options": [
+    {
+      "id": "dossier-projet",
+      "kind": "assigned",
+      "label": "Dossier de projet",
+      "kicker": "LE TIRAGE",
+      "lineage": "dossiers d’architecture, plans et pièces de chantier",
+      "thesis": "La méthode devient la matière visuelle de la marque.",
+      "palette": ["#112844", "#f1eee5", "#cf4f3c", "#557261"],
+      "materials": ["papier de dossier", "grille de plan", "tampons de projet"],
+      "viewport": "Une promesse directe, un projet légendé et trois étapes visibles dans le premier écran.",
+      "risk": "Peut paraître froid sans photographies humaines et détails de matière.",
+      "raised": [{"from":"challenger-bande","raise":"Le système doit alterner information dense et grands moments calmes."}],
+      "comp": ".impeccable/mocks/decision/a-dossier.png"
+    },
+    {
+      "id": "monographie-regionale",
+      "kind": "pick",
+      "label": "Monographie régionale",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "revues d’architecture et monographies de projets",
+      "thesis": "Les réalisations et les personnes prouvent le savoir-faire avant les affirmations.",
+      "palette": ["#1c211d", "#f0ece1", "#4d6556", "#b64c36"],
+      "materials": ["papier minéral", "photographie pleine page", "légendes éditoriales"],
+      "viewport": "Une réalisation occupe la majorité de l’écran et conduit vers les deux publics.",
+      "risk": "Familière dans l’architecture et dépendante d’un vrai shooting photo.",
+      "comp": ".impeccable/mocks/decision/b-monographie.png"
+    },
+    {
+      "id": "transformation-visible",
+      "kind": "grounded",
+      "label": "Transformation visible",
+      "lineage": "diptyques avant/après et dossiers de rénovation",
+      "thesis": "Le changement produit devient la preuve principale.",
+      "palette": ["#1c1c58", "#f6f6f1", "#287448", "#e7e8e3"],
+      "materials": ["diptyque photographique", "légende factuelle", "séparation nette"],
+      "viewport": "Deux états du même espace encadrent la promesse et les parcours particuliers/professionnels.",
+      "risk": "Impossible à tenir sans couples avant/après pris au même angle.",
+      "comp": ".impeccable/mocks/decision/c-transformation.png"
+    },
+    {
+      "id": "bande-projet",
+      "kind": "challenger",
+      "catalogId": "posters-covers-sleeves-shibuya-boutique-sleeve",
+      "label": "La bande projet",
+      "verdict": "competitive",
+      "lineage": "couvertures sobres et bandes d’information denses",
+      "thesis": "Une grande phrase calme rencontre une bande qui concentre tous les faits du projet.",
+      "palette": ["#15265c", "#f4f0e8", "#4e9d68", "#151a18"],
+      "materials": ["couverture mate", "bande imprimée", "fiche projet"],
+      "viewport": "Le mot d’ordre occupe la couverture et la bande porte services, publics et CTA.",
+      "case": "Très claire et mémorable, mais moins immédiatement associée au monde du chantier.",
+      "risk": "La typographie peut prendre le dessus sur les preuves si le rythme n’est pas discipliné.",
+      "comp": ".impeccable/mocks/decision/d-bande.png",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-shibuya-boutique-sleeve-hero.webp"
+    }
+  ],
+  "reroll": {"registers":["safer","bolder"]},
+  "buildPath": {"value":"comp","toggle":true},
+  "canon": true,
+  "canonCard": {
+    "kind": "canon",
+    "label": "Le standard du secteur",
+    "thesis": "Une grande photo de maison, une promesse générique et trois cartes service.",
+    "palette": ["#ffffff", "#1c1c58", "#70c875"],
+    "materials": ["hero photographique", "cartes services", "bouton arrondi"],
+    "viewport": "La composition attendue d’une entreprise de travaux, exécutée proprement.",
+    "risk": "Facile à comprendre mais difficile à distinguer de la concurrence.",
+    "comp": "design-explorations/references/current-desktop.png"
+  },
+  "steer": true
+}

@@ -1,0 +1,46 @@
+'use strict';
+const $ = (selector, root = document) => root.querySelector(selector);
+const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+$('#year').textContent = new Date().getFullYear();
+const menuButton = $('.menu-toggle');
+const mobileMenu = $('#mobile-menu');
+function closeMenu() { mobileMenu.hidden = true; menuButton.setAttribute('aria-expanded', 'false'); menuButton.setAttribute('aria-label', 'Ouvrir le menu'); }
+menuButton.addEventListener('click', () => {
+  const willOpen = mobileMenu.hidden;
+  mobileMenu.hidden = !willOpen;
+  menuButton.setAttribute('aria-expanded', String(willOpen));
+  menuButton.setAttribute('aria-label', willOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+});
+$$('a', mobileMenu).forEach(link => link.addEventListener('click', closeMenu));
+document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
+
+let previousFocus;
+function openDialog(dialog) { closeMenu(); const active=document.querySelector('dialog[open]'); if(active) active.close(); previousFocus = document.activeElement; dialog.showModal(); }
+$$('[data-contact]').forEach(button => button.addEventListener('click', () => openDialog($('#contact-dialog'))));
+$$('[data-method]').forEach(button => button.addEventListener('click', () => openDialog($('#method-dialog'))));
+$$('[data-legal]').forEach(button => button.addEventListener('click', () => openDialog($('#legal-dialog'))));
+$$('dialog').forEach(dialog => {
+  $('[data-close]', dialog).addEventListener('click', () => dialog.close());
+  dialog.addEventListener('close', () => { previousFocus?.focus(); });
+  dialog.addEventListener('click', event => { const r = dialog.getBoundingClientRect(); if (event.target === dialog && (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom)) dialog.close(); });
+});
+const projects = [
+  { image: 'assets/reference-extension.webp', title: 'Réinventer un lieu.', alt: 'Illustration d’ambiance : extension en brique et verre' },
+  { image: 'assets/reference-interior.webp', title: 'Ouvrir de nouvelles perspectives.', alt: 'Illustration d’ambiance : intérieur lumineux' }
+];
+$$('[data-project]').forEach(button => button.addEventListener('click', () => {
+  const project = projects[Number(button.dataset.project)];
+  $('#project-full').src = project.image; $('#project-full').alt = project.alt;
+  $('#project-dialog-title').textContent = project.title; openDialog($('#project-dialog'));
+}));
+$('#contact-form').addEventListener('submit', event => {
+  event.preventDefault();
+  const form = event.currentTarget;
+  if (!form.reportValidity()) return;
+  const values = new FormData(form);
+  const subject = 'Mon projet D-SIGN — ' + values.get('type');
+  const body = 'Bonjour D-SIGN,\n\nJe souhaite échanger avec vous à propos de mon projet.\n\nType : ' + values.get('type') + '\nLieu : ' + values.get('location') + '\nPrénom : ' + values.get('name') + '\n\n' + values.get('message') + '\n\nÀ bientôt !';
+  window.location.href = 'mailto:contact@dsign-gbs.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  $('#form-status').textContent = 'Votre message est prêt à s’ouvrir dans votre messagerie. Vous pouvez aussi écrire directement à contact@dsign-gbs.fr.';
+});
+

@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-04T06:33:50.596Z",
+  "viewports": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "missingImages": [],
+      "fontReady": true,
+      "deadAnchors": [],
+      "h1": 1,
+      "idsUnique": true,
+      "logoFilter": "none",
+      "formLabels": true,
+      "formOverflow": false,
+      "aboutParagraphs": 4,
+      "reasons": 3,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "missingImages": [],
+      "fontReady": true,
+      "deadAnchors": [],
+      "h1": 1,
+      "idsUnique": true,
+      "logoFilter": "none",
+      "formLabels": true,
+      "formOverflow": false,
+      "aboutParagraphs": 4,
+      "reasons": 3,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "missingImages": [],
+      "fontReady": true,
+      "deadAnchors": [],
+      "h1": 1,
+      "idsUnique": true,
+      "logoFilter": "none",
+      "formLabels": true,
+      "formOverflow": false,
+      "aboutParagraphs": 4,
+      "reasons": 3,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "missingImages": [],
+      "fontReady": true,
+      "deadAnchors": [],
+      "h1": 1,
+      "idsUnique": true,
+      "logoFilter": "none",
+      "formLabels": true,
+      "formOverflow": false,
+      "aboutParagraphs": 4,
+      "reasons": 3,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "missingImages": [],
+      "fontReady": true,
+      "deadAnchors": [],
+      "h1": 1,
+      "idsUnique": true,
+      "logoFilter": "none",
+      "formLabels": true,
+      "formOverflow": false,
+      "aboutParagraphs": 4,
+      "reasons": 3,
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "missingImages": [],
+      "fontReady": true,
+      "deadAnchors": [],
+      "h1": 1,
+      "idsUnique": true,
+      "logoFilter": "none",
+      "formLabels": true,
+      "formOverflow": false,
+      "aboutParagraphs": 4,
+      "reasons": 3,
+      "errors": []
+    }
+  ],
+  "interactions": [
+    {
+      "width": 390,
+      "skipLinkKeyboard": true
+    },
+    {
+      "width": 390,
+      "methodDisclosure": true,
+      "footerDisclosure": true
+    },
+    {
+      "width": 390,
+      "mobileMenu": true,
+      "aboutAnchor": true,
+      "heroContact": true
+    },
+    {
+      "width": 1440,
+      "methodDisclosure": true,
+      "footerDisclosure": true
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 390,
+      "state": "initial",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "state": "initial",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "state": "field-errors",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "state": "field-errors",
+      "violations": []
+    }
+  ],
+  "form": [
+    {
+      "width": 390,
+      "validation": true,
+      "linkedErrorSummary": true,
+      "loading": true,
+      "duplicatePrevention": true,
+      "serverValidation": true,
+      "failure": true,
+      "networkError": true,
+      "spam": true,
+      "successOnlyFromMailSent": true,
+      "dataRetained": true,
+      "mockedPosts": 5
+    },
+    {
+      "width": 1440,
+      "validation": true,
+      "linkedErrorSummary": true,
+      "loading": true,
+      "duplicatePrevention": true,
+      "serverValidation": true,
+      "failure": true,
+      "networkError": true,
+      "spam": true,
+      "successOnlyFromMailSent": true,
+      "dataRetained": true,
+      "mockedPosts": 5
+    }
+  ],
+  "screenshots": [
+    "/workspace/dsign/.impeccable/review/contact-v2-mobile.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-about-mobile.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-reasons-mobile.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-form-mobile.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-desktop.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-about-desktop.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-reasons-desktop.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-form-desktop.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-errors-mobile.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-failure-mobile.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-success-mobile.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-errors-desktop.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-sending-desktop.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-failure-desktop.png",
+    "/workspace/dsign/.impeccable/review/contact-v2-success-desktop.png"
+  ],
+  "realPosts": 0,
+  "failures": [],
+  "limitations": [
+    "Browser tests use intercepted contact responses; no message sent and no actual email delivery tested.",
+    "Public original form inspected; endpoint verified with read-only OPTIONS only.",
+    "No WordPress theme runtime, physical device or full screen-reader session."
+  ],
+  "noJavaScript": {
+    "nativeValidation": true,
+    "originalActionPresent": true,
+    "menuWorks": true,
+    "realPostTested": false
+  },
+  "enlargedText": {
+    "checked": true,
+    "horizontalOverflow": false
+  }
+}

@@ -1,0 +1,103 @@
+"use strict";
+function openDialog(dialog) { dialog.showModal(); }
+(() => {
+ const dialog = document.getElementById('material-dialog');
+ let previousFocus;
+ dialog.addEventListener('close', () => previousFocus?.focus());
+ dialog.querySelector('[data-close]').addEventListener('click', () => dialog.close());
+ document.querySelectorAll('[data-material-open]').forEach(button => button.addEventListener('click', () => { previousFocus = button; }));
+ dialog.addEventListener('click', event => { const r=dialog.getBoundingClientRect(); if(event.target===dialog && (event.clientX<r.left || event.clientX>r.right || event.clientY<r.top || event.clientY>r.bottom)) dialog.close(); });
+})();
+(() => {
+  const data = JSON.parse(document.getElementById('material-data').textContent);
+  const gallery = document.querySelector('.material-experience');
+  const stage = gallery.querySelector('.experience-sticky');
+  const buttons = [...gallery.querySelectorAll('[data-material-select]')];
+  const images = [...gallery.querySelectorAll('.texture-image')];
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const manualMode = () => reduced.matches || matchMedia('(max-width: 760px), (max-height: 590px)').matches;
+  const byId = id => document.getElementById(id);
+  let selected = -1, frame = 0, revision = 0;
+  const loaded = new Map();
+  function preload(index) {
+    if (!images[index]) return Promise.resolve(false);
+    if (loaded.has(index)) return loaded.get(index);
+    const img = images[index];
+    const ready = new Promise(resolve => {
+      img.onload = () => resolve(true);
+      img.onerror = () => resolve(false);
+      if (!img.getAttribute('src')) img.src = img.dataset.src;
+      if (img.complete && img.naturalWidth) resolve(true);
+    });
+    loaded.set(index, ready);
+    return ready;
+  }
+  function select(index, announce = false) {
+    if (index === selected) return;
+    selected = index;
+    const token = ++revision, material = data[index];
+    buttons.forEach((button, i) => {
+      button.classList.toggle('is-active', i === index);
+      button.setAttribute('aria-pressed', String(i === index));
+    });
+    byId('texture-title').textContent = material.name;
+    byId('texture-note').textContent = material.note;
+    byId('material-context-copy').textContent = material.mood;
+    byId('texture-counter').textContent = `${String(index + 1).padStart(2, '0')} / 07`;
+    byId('selection-count').textContent = `${String(index + 1).padStart(2, '0')} — 07`;
+    gallery.style.setProperty('--selection', (index + 1) / data.length);
+    const nav = buttons[index].parentElement;
+    if (nav.scrollWidth > nav.clientWidth) nav.scrollTo({left: buttons[index].offsetLeft - nav.offsetLeft - 20, behavior: reduced.matches ? 'instant' : 'smooth'});
+    if (announce) byId('material-announcement').textContent = `${material.name}. ${material.note}.`;
+    preload(index).then(ok => {
+      if (!ok || token !== revision) return;
+      images.forEach((img, i) => {
+        img.classList.toggle('is-active', i === index);
+        img.setAttribute('aria-hidden', String(i !== index));
+      });
+    });
+    preload(index + 1); preload(index - 1);
+  }
+  function geometry() {
+    return {top: gallery.getBoundingClientRect().top + window.scrollY, travel: Math.max(1, gallery.offsetHeight - stage.offsetHeight)};
+  }
+  function update() {
+    frame = 0;
+    if (manualMode()) return;
+    const {top, travel} = geometry();
+    const progress = Math.min(1, Math.max(0, (window.scrollY - top) / travel));
+    select(Math.round(progress * (data.length - 1)));
+    gallery.style.setProperty('--drift', reduced.matches ? 0 : progress);
+  }
+  function requestUpdate() { if (!frame) frame = requestAnimationFrame(update); }
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      const {top, travel} = geometry();
+      select(index, true);
+      if (!manualMode()) window.scrollTo({top: top + travel * index / (data.length - 1), behavior: 'instant'});
+    });
+    button.addEventListener('keydown', event => {
+      let next = index;
+      if (['ArrowDown', 'ArrowRight'].includes(event.key)) next = (index + 1) % data.length;
+      else if (['ArrowUp', 'ArrowLeft'].includes(event.key)) next = (index + data.length - 1) % data.length;
+      else if (event.key === 'Home') next = 0;
+      else if (event.key === 'End') next = data.length - 1;
+      else return;
+      event.preventDefault(); buttons[next].focus({preventScroll: true}); buttons[next].click();
+    });
+  });
+  gallery.querySelectorAll('[data-material-open]').forEach(button => button.addEventListener('click', () => {
+    const material = data[Math.max(0, selected)];
+    for (const [field, value] of Object.entries({title: material.name, note: material.note, description: material.desc, question: material.question, mood: material.mood})) byId(`material-dialog-${field}`).textContent = value;
+    byId('material-dialog-image').src = material.image;
+    byId('material-dialog-image').alt = material.alt;
+    openDialog(byId('material-dialog'));
+  }));
+  document.body.classList.add('materials-ready');
+  gallery.classList.add('is-enhanced');
+  select(0);
+  window.addEventListener('scroll', requestUpdate, {passive: true});
+  window.addEventListener('resize', requestUpdate);
+  window.addEventListener('pageshow', requestUpdate);
+  requestUpdate();
+})();

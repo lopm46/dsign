@@ -1,0 +1,314 @@
+{
+  "title": "D-SIGN — nouvelles directions V2",
+  "question": "Quelle direction doit porter la future homepage ?",
+  "options": [
+    {
+      "id": "a",
+      "kind": "assigned",
+      "label": "Galerie des lieux",
+      "thesis": "Les projets se regardent comme des lieux exposés, leur mission reste lisible.",
+      "palette": [
+        "#232522",
+        "#f1ede5",
+        "#e9a186"
+      ],
+      "materials": [
+        "fond de galerie",
+        "photographie architecturale",
+        "légendes"
+      ],
+      "viewport": "Un titre traversant, une grande vue et une seconde présence professionnelle.",
+      "risk": "Une expression exigeante qui devra être portée par de vraies photos.",
+      "raised": [
+        {
+          "from": "emigre-bitmap-specimen",
+          "raise": "La typographie prend une vraie ampleur sans sacrifier le texte courant."
+        },
+        {
+          "from": "stagecraft-theater-lighting-cyclorama-dawn",
+          "raise": "Le contraste sert une hiérarchie lumineuse, sans ajouter une animation."
+        },
+        {
+          "from": "light-shadow-caustics-indoor-weather-sun",
+          "raise": "Une image domine ; l'interface ne multiplie pas les effets."
+        },
+        {
+          "from": "signals-instruments-vu-meter-bridge",
+          "raise": "Les légendes suivent un alignement régulier et comparable."
+        },
+        {
+          "from": "design-canon-mloda-polska-secession-page",
+          "raise": "L'espace libre devient une matière de composition plutôt qu'un vide à remplir."
+        }
+      ],
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "Logo / navigation",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "Promesse",
+            "x": 0,
+            "y": 1,
+            "w": 12,
+            "h": 2
+          },
+          {
+            "label": "Lieu et légende",
+            "x": 0,
+            "y": 3,
+            "w": 9,
+            "h": 6,
+            "accent": true
+          },
+          {
+            "label": "Rôle / action",
+            "x": 9,
+            "y": 3,
+            "w": 3,
+            "h": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "b",
+      "kind": "pick",
+      "label": "Deux usages, une entreprise",
+      "thesis": "L'habitat et les locaux professionnels se reconnaissent dans une même entreprise.",
+      "palette": [
+        "#f5f4ed",
+        "#202a38",
+        "#37685e"
+      ],
+      "materials": [
+        "surface claire",
+        "diptyque d'usages",
+        "typographie sans serif"
+      ],
+      "viewport": "Message lisible puis deux vues de même importance.",
+      "risk": "La plus familière des pistes ; ses cas doivent la rendre spécifique.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "Logo / navigation",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "Offre et action",
+            "x": 0,
+            "y": 1,
+            "w": 12,
+            "h": 3
+          },
+          {
+            "label": "Habitat",
+            "x": 0,
+            "y": 4,
+            "w": 6,
+            "h": 5,
+            "accent": true
+          },
+          {
+            "label": "Professionnels",
+            "x": 6,
+            "y": 4,
+            "w": 6,
+            "h": 5,
+            "accent": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "c",
+      "kind": "challenger",
+      "catalogId": "risograph-web-system",
+      "verdict": "competitive",
+      "label": "Édition de chantier",
+      "thesis": "L'offre devient une publication graphique directe, structurée par les trois services.",
+      "palette": [
+        "#f6f1df",
+        "#293a9f",
+        "#bd325f"
+      ],
+      "materials": [
+        "papier",
+        "encres franches",
+        "titres condensés"
+      ],
+      "viewport": "Trois lignes de services structurent le titre ; un index accompagne les projets.",
+      "risk": "Plus polarisante ; la force des titres doit rester au service du métier.",
+      "case": "La distinction formelle est forte, la galerie garde l'avantage pour la lecture des lieux.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "Logo / index",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "Lignes de services",
+            "x": 0,
+            "y": 1,
+            "w": 8,
+            "h": 6,
+            "accent": true
+          },
+          {
+            "label": "Introduction / CTA",
+            "x": 8,
+            "y": 1,
+            "w": 4,
+            "h": 6
+          },
+          {
+            "label": "Diptyque de projets",
+            "x": 0,
+            "y": 7,
+            "w": 12,
+            "h": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "design-canon-mloda-polska-secession-page",
+      "kind": "challenger",
+      "catalogId": "design-canon-mloda-polska-secession-page",
+      "label": "Bordure florale",
+      "verdict": "declined",
+      "thesis": "Bordure florale",
+      "palette": [
+        "#f1ede5",
+        "#232522"
+      ],
+      "materials": [
+        "système de référence"
+      ],
+      "viewport": "Non retenu comme composition de la homepage.",
+      "risk": "L'ornement détourne du bâtiment et du rôle.",
+      "case": "L'ornement détourne du bâtiment et du rôle.",
+      "kept": "L'espace libre cadre l'information."
+    },
+    {
+      "id": "emigre-bitmap-specimen",
+      "kind": "challenger",
+      "catalogId": "emigre-bitmap-specimen",
+      "label": "Spécimen bitmap",
+      "verdict": "declined",
+      "thesis": "Spécimen bitmap",
+      "palette": [
+        "#f1ede5",
+        "#232522"
+      ],
+      "materials": [
+        "système de référence"
+      ],
+      "viewport": "Non retenu comme composition de la homepage.",
+      "risk": "Le pixel fait davantage penser au numérique qu'aux travaux.",
+      "case": "Le pixel fait davantage penser au numérique qu'aux travaux.",
+      "kept": "Une vraie hiérarchie d'échelles."
+    },
+    {
+      "id": "stagecraft-theater-lighting-cyclorama-dawn",
+      "kind": "challenger",
+      "catalogId": "stagecraft-theater-lighting-cyclorama-dawn",
+      "label": "Cyclorama",
+      "verdict": "declined",
+      "thesis": "Cyclorama",
+      "palette": [
+        "#f1ede5",
+        "#232522"
+      ],
+      "materials": [
+        "système de référence"
+      ],
+      "viewport": "Non retenu comme composition de la homepage.",
+      "risk": "L'ambiance d'aube explique moins bien le rôle et les publics.",
+      "case": "L'ambiance d'aube explique moins bien le rôle et les publics.",
+      "kept": "La lumière hiérarchise une composition calme."
+    },
+    {
+      "id": "light-shadow-caustics-indoor-weather-sun",
+      "kind": "challenger",
+      "catalogId": "light-shadow-caustics-indoor-weather-sun",
+      "label": "Soleil intérieur",
+      "verdict": "declined",
+      "thesis": "Soleil intérieur",
+      "palette": [
+        "#f1ede5",
+        "#232522"
+      ],
+      "materials": [
+        "système de référence"
+      ],
+      "viewport": "Non retenu comme composition de la homepage.",
+      "risk": "La scénographie masque les matériaux et les détails des projets.",
+      "case": "La scénographie masque les matériaux et les détails des projets.",
+      "kept": "Un seul mouvement focal."
+    },
+    {
+      "id": "signals-instruments-vu-meter-bridge",
+      "kind": "challenger",
+      "catalogId": "signals-instruments-vu-meter-bridge",
+      "label": "Console VU",
+      "verdict": "declined",
+      "thesis": "Console VU",
+      "palette": [
+        "#f1ede5",
+        "#232522"
+      ],
+      "materials": [
+        "système de référence"
+      ],
+      "viewport": "Non retenu comme composition de la homepage.",
+      "risk": "L'instrument ne correspond pas à une décision de travaux.",
+      "case": "L'instrument ne correspond pas à une décision de travaux.",
+      "kept": "La rigueur des légendes comparables."
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "code",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "kind": "canon",
+    "label": "Une composition plus classique",
+    "thesis": "Une homepage de services familière, exécutée avec soin.",
+    "palette": [
+      "#ffffff",
+      "#1c1c58",
+      "#287448"
+    ],
+    "materials": [
+      "grille",
+      "photos de projets"
+    ],
+    "viewport": "Promesse, photo et services dans un ordre conventionnel.",
+    "risk": "Moins distinctive."
+  },
+  "steer": true
+}
