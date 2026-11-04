@@ -1,6 +1,6 @@
 # D-SIGN — export HTML / CSS
 
-Version 4 du 4 novembre 2026. L’export comprend la homepage réordonnée et la page « Nos matériaux », reliées entre elles. Ordre courant : hero, À propos, raisons de choisir D-SIGN, services, matériaux, contact. La section projets est supprimée ; le hero et le formulaire existants sont conservés. Voir `STRUCTURE.md`.
+Version 5 du 4 novembre 2026. L’export comprend la homepage et la page « Nos matériaux », reliées entre elles. Ordre courant : hero, À propos, raisons de choisir D-SIGN, services, matériaux, contact. Le rythme des fonds devient bleu / blanc / bleu / blanc / minéral photographique / bleu pour distinguer chaque section. Hero, textes et formulaire conservés. Voir `STRUCTURE.md` et l’analyse `RYTHME.md`.
 
 ## Ouvrir la page
 

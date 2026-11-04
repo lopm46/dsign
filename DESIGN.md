@@ -7,6 +7,7 @@ colors:
   green-hover: "#8ad38e"
   green-ink: "#337f40"
   white: "#ffffff"
+  mineral: "#f3f0ea"
   muted: "#5c5d76"
   on-dark-muted: "#d2d5e7"
   line: "#d5d6df"
@@ -95,24 +96,25 @@ Les clés du frontmatter reprennent les noms des variables CSS. Leurs valeurs so
 
 ### Primary
 
-- **Bleu profond — `navy`** : fond du header, du hero, de l’approche et du contact ; texte principal sur blanc et texte des actions vertes.
+- **Bleu profond — `navy`** : fond du header, du hero, des raisons de choisir D-SIGN et du contact ; texte principal sur blanc et texte des actions vertes.
 
 ### Secondary
 
 - **Vert clair — `green`** : boutons principaux, trait sous la promesse, bord inférieur du hero et soulignement des liens.
 - **Vert de survol — `green-hover`** : état survolé des actions à fond vert.
-- **Vert foncé — `green-ink`** : flèches des services et des projets sur blanc, ainsi que bordure des services au survol. Garder cette variante pour ces éléments fins sur fond clair.
+- **Vert foncé — `green-ink`** : accents de la présentation À propos, numéros de méthode, flèches des services sur blanc et bordure des services au survol. Garder cette variante pour les textes et éléments fins sur fond clair.
 
 ### Neutral
 
 - **Blanc — `white`** : sections claires, texte sur bleu et survol du bouton encadré.
+- **Minéral clair — `mineral`** : fond et voile de la section matériaux, inspirés de l’enduit photographié. Ce neutre distingue les matériaux des services blancs sans ajouter une nouvelle couleur d’accent.
 - **Texte secondaire — `muted`** : mentions d’images, précision sous les projets et bas de page sur blanc.
 - **Texte secondaire sur bleu — `on-dark-muted`** : textes d’accompagnement sur les aplats foncés.
 - **Séparateur clair — `line`** : contours des services et séparation du footer.
-- **Séparateur sur bleu — `line-dark`** : filets de la séquence d’accompagnement.
+- **Séparateur sur bleu — `line-dark`** : filets du contact et des retours de formulaire sur fond foncé.
 - **Contour sur bleu — `outline`** : bouton encadré et commande du menu mobile.
 
-Les voiles blancs sur la photo des matériaux et les fonds d’attente des images restent des traitements locaux définis dans le CSS, pas une palette supplémentaire. Aucune gamme tonale n’est définie dans l’export.
+Le voile minéral sur la photo des matériaux et les fonds d’attente des images restent des traitements locaux définis dans le CSS. Aucune gamme tonale n’est définie dans l’export.
 
 ## Typography
 
@@ -136,9 +138,11 @@ Le conteneur central a une largeur maximale de 1440 px. La marge latérale et l�
 
 La composition livrée suit l’ordre hero, À propos, Pourquoi nous confier votre projet, services, matériaux, contact, footer. La section projets a été retirée à la demande du client. Ce séquençage appartient à cette homepage ; il ne prescrit pas la composition de toutes les futures pages.
 
+Le rythme de fonds de cette homepage est bleu / blanc / bleu / blanc / minéral photographique / bleu, puis footer blanc. La présentation utilise du texte bleu et gris sur blanc, avec des accents vert foncé. Les raisons de choix ont leur propre aplat bleu, leur espacement vertical complet, des intitulés verts et du texte secondaire teinté clair. Les services restent sur blanc ; le fond minéral des matériaux reste visible sur mobile lorsque le texte précède la photo.
+
 Sur grand écran, le hero répartit texte et image en colonnes `.9fr / 1.1fr`, séparées par 48 px. Les expertises et l’approche associent une introduction à une zone visuelle plus large. Les projets sont en deux colonnes, avec un décalage vertical de 24 px sur le second. Le contact utilise deux colonnes égales.
 
-Sous 1120 px, le CTA du header disparaît et plusieurs espacements se réduisent. Sous 900 px, le menu natif remplace la navigation desktop ; les expertises et l’approche passent en une colonne. Sous 760 px, le hero s’empile dans l’ordre message, action, image, les projets et le contact passent en une colonne, et le décalage du second projet disparaît. Les matériaux placent alors le texte sur blanc puis la photo, sans voile. Sous 360 px, chaque ligne d’expertise place sa photo au-dessus du texte.
+Sous 1120 px, le CTA du header disparaît et plusieurs espacements se réduisent. Sous 900 px, le menu natif remplace la navigation desktop ; les expertises et l’approche passent en une colonne. Sous 760 px, le hero s’empile dans l’ordre message, action, image, les projets et le contact passent en une colonne, et le décalage du second projet disparaît. Les matériaux placent alors le texte sur fond minéral puis la photo, sans voile. Sous 360 px, chaque ligne d’expertise place sa photo au-dessus du texte.
 
 ## Elevation & Depth
 
