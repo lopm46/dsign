@@ -1,4 +1,26 @@
-# Homepage — ordre V7
+# Site — structure V8
+
+L’export courant réunit sept pages dans le même système D-SIGN :
+
+| Fichier | Rôle |
+| --- | --- |
+| `index.html` | Homepage V7 conservée : onze catégories, 61 exemples et portrait du fondateur. |
+| `nos-materiaux.html` | Page matériaux et galerie conservées. |
+| `nos-projets.html` | Neuf fiches du portfolio public, filtres Tous / Agrandissement / Construction / Rénovation et galerie de deux vues de conception. |
+| `nos-services.html` | Trois accès aux services, puis cinq étapes de méthode avec progression verticale au défilement. |
+| `renovation.html` | Périmètre, besoins, points d’attention, phases, projets associés, FAQ et contact rénovation. |
+| `extension.html` | Même structure éditoriale pour l’extension. |
+| `construction.html` | Même structure éditoriale pour la construction. |
+
+Les pages intérieures chargent `pages.css` et `pages.js` en complément du socle. Le rail `.progress-container` du hub est vertical et reste visible au défilement ; il indique l’étape courante, les étapes parcourues et la progression. Les cinq contenus restent accessibles dans le flux, avec une version mobile à rail fin et prise en compte du mouvement réduit.
+
+Les filtres projets exposent leur sélection avec `aria-pressed`, annoncent le résultat et conservent la catégorie dans `?type=`. La galerie native `dialog` propose deux vues, précédent/suivant, flèches clavier, Échap, fermeture extérieure et retour du focus. Sans JavaScript, les neuf liens ouvrent leur image. Les CTA des services rejoignent le contact de l’accueil avec une valeur `?projet=` limitée aux trois services ; ils ne préremplissent qu’un message vide, sans soumission automatique.
+
+Les neuf fiches sources partagent deux vues de conception nettes ; leur reprise ne constitue pas neuf reportages de chantier distincts. Les titres fournissent la catégorie (3/3/3), tandis que la source attribuait les trois catégories à toutes les fiches. Voir `PROJETS-SERVICES.md` pour la provenance et les limites.
+
+Les contrôles V8 passent sur 40 combinaisons page/largeur et les interactions de galerie, filtres, progression, FAQ et contact. Axe ne détecte aucune violation automatisée à 390 et 1440 px. La revue initiale a demandé un seul correctif d’espacement du focus dans les FAQ ; les six états corrigés sont évalués résolus (`ship` à cette portée). Voir `VERIFICATION.md` pour les résultats et limites. Les contrôles V7 restent historiques pour la homepage.
+
+## Ordre de la homepage conservé depuis la V7
 
 Ordre demandé par le client le 4 novembre 2026, identique dans le DOM sur desktop et mobile :
 
@@ -11,7 +33,7 @@ Ordre demandé par le client le 4 novembre 2026, identique dans le DOM sur deskt
 7. Le beau commence dans les détails : accès à la page matériaux et à sa galerie conservée ; ancre `#materiaux`.
 8. Contact : informations et formulaire existants ; ancre `#contact`.
 
-Le header et le panneau du menu mobile sont blancs, avec texte bleu. La navigation desktop propose Comment ça marche, Nos métiers, À propos et la page Matériaux, puis l’action de contact lorsqu’il y a la place. Le menu mobile et les footers donnent aussi accès aux raisons de choix et au fondateur. Le header et le footer de la page matériaux suivent ces destinations.
+Le header et le panneau du menu mobile sont blancs, avec texte bleu. Les sept pages partagent les accès « Nos services », « Nos projets », « Nos métiers » et « Matériaux », puis le contact. Le menu mobile ajoute l’accueil, Comment ça marche et À propos ; le footer conserve À propos. Les pages intérieures ajoutent un fil d’Ariane et l’état courant de navigation.
 
 L’ancienne introduction « Un seul fil. Du début à la fin. », son détail « Notre façon de travailler » et l’ancienne section « Pourquoi nous confier votre projet ? » sont supprimés. Les anciennes lignes de services sont remplacées par les métiers à leur nouvelle place. La section « Des espaces qui changent la vie », supprimée auparavant, reste absente.
 
@@ -19,6 +41,6 @@ Kovan.fr fournit désormais les onze catégories et tous leurs exemples, à la d
 
 Le nom et le message du fondateur sont confirmés par le propriétaire. Le portrait demandé correspond au même cliché publié sur la page officielle H2Z ; l’original est conservé, le WebP recadré et présenté en miroir, sans génération de visage. La galerie matériaux et le raccordement WordPress du formulaire restent conservés.
 
-Les contrôles V7 passent sur huit largeurs, de 320 à 1920 px : onze filtres au clavier, 61 exemples, médias et ancres, absence de débordement, repli sans JavaScript, préremplissage du contact et conservation des saisies. Axe ne détecte aucune violation automatisée à 390 et 1440 px. La revue indépendante conclut `ship` à la portée de cette interface, sans correctif matériel demandé. Aucun envoi réel de formulaire ni recette WordPress n’est revendiqué ; voir `VERIFICATION.md` pour les limites. Les rapports des versions antérieures restent historiques.
+**Contrôles historiques V7 :** les contrôles passent sur huit largeurs, de 320 à 1920 px : onze filtres au clavier, 61 exemples, médias et ancres, absence de débordement, repli sans JavaScript, préremplissage du contact et conservation des saisies. Axe ne détecte aucune violation automatisée à 390 et 1440 px. La revue indépendante conclut `ship` à la portée de cette interface, sans correctif matériel demandé. Aucun envoi réel de formulaire ni recette WordPress n’est revendiqué ; voir `VERIFICATION.md` pour les limites. Les rapports des versions antérieures restent historiques.
 
 Cet ordre fait autorité pour la homepage courante. Les archives V4/V5/V6 et leurs rapports restent historiques ; le rythme actuel est décrit dans `RYTHME.md`.

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "2335",
+    "title": "Agrandissement à Vers-sur-Selle (80)",
+    "category": "agrandissement",
+    "location": "Vers-sur-Selle (80)",
+    "cover": "assets/projects/vue-projet-1.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Agrandissement à Vers-Sur-Selle (80)",
+    "imageKind": "Vues de conception"
+  },
+  {
+    "id": "2353",
+    "title": "Rénovation à Boves (80)",
+    "category": "renovation",
+    "location": "Boves (80)",
+    "cover": "assets/projects/vue-projet-2.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Rénovation à Boves (80)",
+    "imageKind": "Vues de conception"
+  },
+  {
+    "id": "2352",
+    "title": "Agrandissement à Vers-sur-Selle (80)",
+    "category": "agrandissement",
+    "location": "Vers-sur-Selle (80)",
+    "cover": "assets/projects/vue-projet-1.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Agrandissement à Vers-Sur-Selle (80)",
+    "imageKind": "Vues de conception"
+  },
+  {
+    "id": "2351",
+    "title": "Construction à Vers-sur-Selle (80)",
+    "category": "construction",
+    "location": "Vers-sur-Selle (80)",
+    "cover": "assets/projects/vue-projet-2.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Construction à Vers-Sur-Selle (80)",
+    "imageKind": "Vues de conception"
+  },
+  {
+    "id": "2350",
+    "title": "Construction à Boves (80)",
+    "category": "construction",
+    "location": "Boves (80)",
+    "cover": "assets/projects/vue-projet-1.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Construction à Boves (80)",
+    "imageKind": "Vues de conception"
+  },
+  {
+    "id": "2349",
+    "title": "Construction à Grattepanche (80)",
+    "category": "construction",
+    "location": "Grattepanche (80)",
+    "cover": "assets/projects/vue-projet-2.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Construction à Grattepanche (80)",
+    "imageKind": "Vues de conception"
+  },
+  {
+    "id": "2348",
+    "title": "Rénovation à Berck (62)",
+    "category": "renovation",
+    "location": "Berck (62)",
+    "cover": "assets/projects/vue-projet-1.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Rénovation à Berk (62)",
+    "imageKind": "Vues de conception"
+  },
+  {
+    "id": "2347",
+    "title": "Rénovation à Grattepanche (80)",
+    "category": "renovation",
+    "location": "Grattepanche (80)",
+    "cover": "assets/projects/vue-projet-2.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Renovation à Grattepanche (80)",
+    "imageKind": "Vues de conception"
+  },
+  {
+    "id": "2346",
+    "title": "Agrandissement à Vers-sur-Selle (80)",
+    "category": "agrandissement",
+    "location": "Vers-sur-Selle (80)",
+    "cover": "assets/projects/vue-projet-1.webp",
+    "images": [
+      "assets/projects/vue-projet-1.webp",
+      "assets/projects/vue-projet-2.webp"
+    ],
+    "source": "https://dsign-gbs.fr/nos-projets/",
+    "sourceGalleryShared": true,
+    "sourceTitle": "Agrandissement à Vers-Sur-Selle (80)",
+    "imageKind": "Vues de conception"
+  }
+]

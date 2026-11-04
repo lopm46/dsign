@@ -1,4 +1,22 @@
-# Vérification de l’export — version 7
+# Vérification de l’export — version 8
+
+Contrôles du 4 novembre 2026 pour les cinq nouvelles pages et leur intégration à la navigation du site.
+
+- **40 combinaisons : cinq pages à 320, 390, 768, 900, 1024, 1280, 1440 et 1920 px.** Un H1 par page, médias présents, ancres locales valides ; aucun débordement horizontal ou titre tronqué détecté. Les captures complètes desktop/mobile sont prises après chargement des fontes et images.
+- **Portfolio : neuf fiches, trois par catégorie.** Filtres au clavier, bouton sélectionné et nombre de résultats vérifiés. Galerie native : deux vues, flèches du clavier, précédent/suivant, Échap, clic extérieur et retour du focus. Liens directs vers une fiche, correction d’un filtre incompatible et catégorie dans l’URL vérifiés.
+- **Méthode : cinq étapes.** Remplissage intermédiaire, étape courante et position fixe du rail vérifiés en avançant, revenant et rejoignant les différentes étapes aux huit largeurs. Le défilement doux natif a été testé avec mouvements autorisés ; les autres captures et contrôles utilisent le mouvement réduit.
+- **Services :** dix besoins présents par page ; trois questions dépliables actionnées au clavier. Les liens vers les projets et la méthode sont locaux. Les trois CTA de service rejoignent le formulaire et préparent le bon sujet ; les valeurs étrangères à la liste autorisée, dont `__proto__`, sont ignorées. **Aucun message réel n’est envoyé par ces contrôles.**
+- **Accessibilité automatisée : zéro violation axe WCAG 2A/AA/2.1AA/2.2AA à 390 et 1440 px** sur les cinq pages, la galerie ouverte et les questions dépliées. Le petit libellé de méthode sur minéral a été corrigé en bleu pour son contraste. Le détecteur mécanique a été exécuté une fois et ses résultats sont expliqués dans les notes de revue du dépôt.
+- **Sans JavaScript :** neuf fiches et liens vers leurs images, cinq étapes de méthode et FAQ natives utilisables. Les filtres inactifs sont masqués. L’accueil conserve ses onze catégories/61 exemples ; la galerie matériaux et la navigation vers les nouvelles pages ont été contrôlées sur desktop/mobile.
+- Le logo officiel est inchangé. Les nouvelles images proviennent des pages officielles et possèdent une provenance. Le portfolio source partage les mêmes vues entre plusieurs fiches : les limites sont détaillées dans `PROJETS-SERVICES.md`, sans présenter ces vues de conception comme des photographies de chantiers livrés.
+
+La revue indépendante initiale a inspecté les cinq pages, la galerie et la méthode, puis demandé un seul correctif : séparer le focus des réponses dépliées. Une marge intérieure haute de 12 px a été ajoutée ; les six états ont été recapturés avec focus, revérifiés par axe et par mesure. Le verdict de correction évalue ce point **résolu (`ship` à cette portée)**, sans autre modification demandée.
+
+Ces contrôles ne remplacent pas une recette complète sur appareils physiques, avec lecteur d’écran, ni une validation du thème WordPress ou de la délivrabilité réelle du service de contact. La V8 est un export statique ; la vérification d’archive et la publication sont contrôlées séparément.
+
+## Historique des contrôles V7
+
+Les contrôles ci-dessous portent sur l’évolution de la homepage V7. La V8 conserve ses contenus et ajoute les pages intérieures selon `PROJETS-SERVICES.md`.
 
 Contrôles du 4 novembre 2026 pour le catalogue complet et l’évolution visuelle demandés par le propriétaire.
 

@@ -89,9 +89,11 @@ components:
 
 ## Overview
 
-La référence est la [homepage choisie par le client](https://i.imgur.com/KfDjzWy.jpeg), archivée dans le dépôt. Ce document décrit le système effectivement construit dans le dossier `export/` : `index.html`, `styles.css` et `script.js`. Une copie de cette charte accompagne ces fichiers dans l’archive de livraison. La capture fixe la direction ; les valeurs ci-dessus proviennent de l’implémentation, sans prétendre retrouver le CSS ou la police de la page source.
+La référence est la [homepage choisie par le client](https://i.imgur.com/KfDjzWy.jpeg), archivée dans le dépôt. Ce document décrit le système effectivement construit dans `export/` : sept pages HTML partageant `styles.css` et `script.js`, avec `pages.css` et `pages.js` pour les pages projets/services. Une copie de cette charte accompagne ces fichiers dans l’archive de livraison. La capture fixe la direction ; les valeurs ci-dessus proviennent de l’implémentation, sans prétendre retrouver le CSS ou la police de la page source.
 
 La page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le logo SVG officiel reste entier et intact. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V7 conserve le parcours et la navigation blanche, puis étend explicitement les règles à des boutons arrondis, cartes adoucies, titres dégradés et guillemet SVG. Le propriétaire demande les onze catégories et tous les exemples de Kovan.fr dans la touche D-SIGN ; voir `.impeccable/directions/homepage-v7-kovan.md`. Le logo, les couleurs, la police et le hero en D restent conservés.
+
+La V8 étend ce même système au portfolio, au hub services et aux trois pages de service, sans nouveau token ni changement de la homepage. Les ajouts et leurs limites sont décrits dans `.impeccable/directions/inner-pages-v8.md`.
 
 **Key Characteristics:**
 
@@ -188,13 +190,23 @@ Les champs conservent fond blanc, texte bleu, labels et états existants, avec u
 
 ### Navigation
 
-Le header blanc conserve le logo SVG complet à gauche, puis les liens « Comment ça marche », « Nos métiers », « À propos », « Matériaux » et l’action encadrée sur grand écran. Les liens se soulignent au survol. Le menu mobile utilise un élément natif `details`, un panneau blanc avec texte bleu et une action verte ; il ajoute les accès aux raisons de choix et au fondateur. Le symbole à deux traits devient une croix à l’ouverture. Le script le ferme au choix d’un lien, au clic extérieur, à Échap et au retour en affichage desktop. Échap rend le focus à la commande.
+Les sept pages partagent le header blanc, le logo SVG complet à gauche, puis « Nos services », « Nos projets », « Nos métiers », « Matériaux » et l’action de contact sur grand écran. Les pages intérieures ajoutent un fil d’Ariane et un état courant souligné/vert foncé. Le menu mobile utilise un élément natif `details`, un panneau blanc avec texte bleu et une action verte ; il ajoute l’accueil, Comment ça marche et À propos. Le symbole à deux traits devient une croix à l’ouverture. Le script le ferme au choix d’un lien, au clic extérieur, à Échap et au retour en affichage desktop. Échap rend le focus à la commande.
 
 ### Process and editorial sections
 
 Le parcours « Comment ça marche » expose cinq étapes dans une liste ordonnée : échange sur le projet, conception et chiffrage, validation des choix, coordination du chantier et réception selon la mission. Chaque numéro blanc occupe un disque bleu de 64 px ; des connecteurs verts relient les étapes sur grand écran. Sur mobile, les disques passent à 48 px et les connecteurs deviennent verticaux. La progression reste visible sans dépliage.
 
 Les quatre bénéfices des raisons de choix utilisent une liste de définitions, avec icônes vertes et filets sur bleu. Le message du fondateur utilise une citation et une signature sous un filet vert foncé ; le portrait réel de Kevin HUART est recadré et présenté en miroir pour correspondre à la photo demandée, avec son nom et sa fonction en cartouche blanc. Le visage n’est pas généré. La source officielle H2Z et le fichier original sont conservés dans la provenance. Les informations du footer conservent leur `details` / `summary` et se développent dans le flux, sans modale.
+
+### Projects and service pages
+
+Le portfolio associe des images arrondies à des titres et légendes vivants, sans fond de carte ajouté. Sur grand écran, une image large alterne avec deux tuiles ; la vue filtrée utilise trois colonnes, puis deux sous 1120 px et une sur mobile. Les filtres reprennent les pilules du système, avec `aria-pressed`, compte de résultats annoncé et catégorie conservée dans l’URL. Les visuels sont légendés « Vues de conception » ; les deux images sources communes ne deviennent pas des photographies distinctes de neuf chantiers.
+
+La galerie utilise un `dialog` natif blanc au rayon `card`, avec fond extérieur bleu assombri, commandes circulaires, titre et compteur. Elle conserve la navigation clavier, Échap, la fermeture extérieure et le retour du focus. Sans JavaScript, la tuile ouvre directement son image.
+
+Le hub présente trois cartes de services sur bleu et une méthode en cinq étapes sur minéral. Le rail vertical `.progress-container`, dans une colonne latérale fixe au défilement, associe numéros circulaires, remplissage vert progressif, étape courante avec `aria-current="step"` et étapes parcourues en vert. Sous 900 px, le rail se réduit à 48 px avec libellés toujours accessibles ; les cinq contenus restent dans le flux. Les ancres utilisent le défilement natif, et le mouvement réduit supprime zooms et transitions.
+
+Les pages de service alternent minéral, blanc et appel final bleu : introduction/image, périmètre et trois points d’attention, dix besoins, trois phases, projets associés et FAQ natives `details` / `summary`. Elles réutilisent les rayons et accents existants. Les actions rejoignent le contact de l’accueil avec l’un des trois contextes autorisés ; seul un message vide est prérempli, sans envoi automatique.
 
 ### Shared interaction states
 
