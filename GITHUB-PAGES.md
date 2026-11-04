@@ -2,6 +2,8 @@
 
 La V3 est prête à être publiée depuis la branche `gh-pages`. Sa racine correspond exactement au dossier `export/` : la homepage, la page matériaux, les scripts, images et fontes locales. Le reste du dépôt (skills, références de travail, archives) n’est pas déployé.
 
+**État vérifié le 4 novembre 2026 :** le propriétaire a activé Pages et rendu le dépôt public. La homepage et la page matériaux répondent HTTP 200 aux URLs ci-dessous. Les instructions d’activation suivantes sont conservées comme référence.
+
 ## Activation initiale
 
 Dans [Settings → Pages](https://github.com/lopm46/dsign/settings/pages) :
@@ -11,7 +13,7 @@ Dans [Settings → Pages](https://github.com/lopm46/dsign/settings/pages) :
 
 URL attendue après activation et déploiement : https://lopm46.github.io/dsign/ ; page matériaux : https://lopm46.github.io/dsign/nos-materiaux.html.
 
-L’accès Pages de la connexion GitHub utilisée par cet environnement est refusé (`403 Resource not accessible by integration`). La préparation et le push de la branche n’activent pas à eux seuls le site ; l’activation doit donc être effectuée depuis les paramètres du compte autorisé. La visibilité du dépôt reste inchangée.
+Lors de la préparation initiale, l’accès Pages de la connexion GitHub utilisée par cet environnement était refusé (`403 Resource not accessible by integration`). Le propriétaire a ensuite effectué l’activation depuis les paramètres GitHub. La publication continue désormais à partir de `gh-pages` ; aucun changement de visibilité du dépôt n’est requis pour les mises à jour.
 
 ## Mises à jour
 

@@ -1,2 +1,18 @@
 .agents/skills/screenshot/scripts/node_modules/
 .impeccable/cache/
+
+# Local credentials and private key material must not be committed.
+.env
+.env.*
+!.env.example
+!.env.sample
+.netrc
+.npmrc
+.aws/
+.ssh/
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx

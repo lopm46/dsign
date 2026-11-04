@@ -11,7 +11,7 @@
 
 ## Hébergement GitHub Pages
 
-Le propriétaire a demandé l’hébergement de la V3 sur GitHub Pages. Après les modifications d’`export/`, commiter et pousser sur `main`, puis exécuter `bash scripts/deploy-pages.sh` pour synchroniser `gh-pages`. Ne pas changer la visibilité du dépôt. L’activation initiale de Pages reste à effectuer dans GitHub, car la connexion cloud ne dispose pas de l’accès Pages (HTTP 403). Voir `GITHUB-PAGES.md`.
+Le propriétaire a demandé l’hébergement de la V3 sur GitHub Pages, a activé Pages et rendu le dépôt public. Après les modifications d’`export/`, commiter et pousser sur `main`, puis exécuter `bash scripts/deploy-pages.sh` pour synchroniser `gh-pages`. Ne pas changer la visibilité du dépôt. Voir `GITHUB-PAGES.md`.
 
 ## Direction et livraison
 
