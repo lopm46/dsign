@@ -1,0 +1,744 @@
+{
+  "pages": [
+    {
+      "route": "nos-projets",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "filters": [
+        {
+          "key": "agrandissement",
+          "count": 3
+        },
+        {
+          "key": "construction",
+          "count": 3
+        },
+        {
+          "key": "renovation",
+          "count": 3
+        },
+        {
+          "key": "tous",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "route": "nos-services",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "progress": [
+        {
+          "active": "contact",
+          "progress": 0.006982020365557497,
+          "top": 339.515625
+        },
+        {
+          "active": "chiffrage",
+          "progress": 0.5066913849061254,
+          "top": 24
+        },
+        {
+          "active": "realisation",
+          "progress": 1,
+          "top": 24
+        },
+        {
+          "active": "plans",
+          "progress": 0.25657840680333593,
+          "top": 24
+        },
+        {
+          "active": "contact",
+          "progress": 0.006982020365557497,
+          "top": 339.515625
+        }
+      ]
+    },
+    {
+      "route": "renovation",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "extension",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "construction",
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "nos-projets",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "filters": [
+        {
+          "key": "agrandissement",
+          "count": 3
+        },
+        {
+          "key": "construction",
+          "count": 3
+        },
+        {
+          "key": "renovation",
+          "count": 3
+        },
+        {
+          "key": "tous",
+          "count": 9
+        }
+      ],
+      "axe": []
+    },
+    {
+      "route": "nos-services",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "progress": [
+        {
+          "active": "contact",
+          "progress": 0.00704350728830533,
+          "top": 340.21875
+        },
+        {
+          "active": "chiffrage",
+          "progress": 0.5067059453668987,
+          "top": 24
+        },
+        {
+          "active": "realisation",
+          "progress": 1,
+          "top": 24
+        },
+        {
+          "active": "plans",
+          "progress": 0.257004562145321,
+          "top": 24
+        },
+        {
+          "active": "contact",
+          "progress": 0.00704350728830533,
+          "top": 340.21875
+        }
+      ],
+      "axe": []
+    },
+    {
+      "route": "renovation",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "axe": []
+    },
+    {
+      "route": "extension",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "axe": []
+    },
+    {
+      "route": "construction",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "axe": []
+    },
+    {
+      "route": "nos-projets",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "filters": [
+        {
+          "key": "agrandissement",
+          "count": 3
+        },
+        {
+          "key": "construction",
+          "count": 3
+        },
+        {
+          "key": "renovation",
+          "count": 3
+        },
+        {
+          "key": "tous",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "route": "nos-services",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "progress": [
+        {
+          "active": "contact",
+          "progress": 0.005761752002724063,
+          "top": 339.90625
+        },
+        {
+          "active": "chiffrage",
+          "progress": 0.505842398609294,
+          "top": 24
+        },
+        {
+          "active": "realisation",
+          "progress": 1,
+          "top": 24
+        },
+        {
+          "active": "plans",
+          "progress": 0.25580207530600907,
+          "top": 24
+        },
+        {
+          "active": "contact",
+          "progress": 0.005761752002724063,
+          "top": 339.90625
+        }
+      ]
+    },
+    {
+      "route": "renovation",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "extension",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "construction",
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "nos-projets",
+      "width": 900,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "filters": [
+        {
+          "key": "agrandissement",
+          "count": 3
+        },
+        {
+          "key": "construction",
+          "count": 3
+        },
+        {
+          "key": "renovation",
+          "count": 3
+        },
+        {
+          "key": "tous",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "route": "nos-services",
+      "width": 900,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "progress": [
+        {
+          "active": "contact",
+          "progress": 0.005428334124347413,
+          "top": 339.984375
+        },
+        {
+          "active": "chiffrage",
+          "progress": 0.5055300359346396,
+          "top": 24
+        },
+        {
+          "active": "realisation",
+          "progress": 1,
+          "top": 24
+        },
+        {
+          "active": "plans",
+          "progress": 0.2554791850294935,
+          "top": 24
+        },
+        {
+          "active": "contact",
+          "progress": 0.005428334124347413,
+          "top": 339.984375
+        }
+      ]
+    },
+    {
+      "route": "renovation",
+      "width": 900,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "extension",
+      "width": 900,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "construction",
+      "width": 900,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "nos-projets",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "filters": [
+        {
+          "key": "agrandissement",
+          "count": 3
+        },
+        {
+          "key": "construction",
+          "count": 3
+        },
+        {
+          "key": "renovation",
+          "count": 3
+        },
+        {
+          "key": "tous",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "route": "nos-services",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "progress": [
+        {
+          "active": "contact",
+          "progress": 0.00566079295154185,
+          "top": 339.921875
+        },
+        {
+          "active": "chiffrage",
+          "progress": 0.5055374449339207,
+          "top": 32
+        },
+        {
+          "active": "realisation",
+          "progress": 1,
+          "top": 32
+        },
+        {
+          "active": "plans",
+          "progress": 0.25574008810572685,
+          "top": 32
+        },
+        {
+          "active": "contact",
+          "progress": 0.00566079295154185,
+          "top": 339.921875
+        }
+      ]
+    },
+    {
+      "route": "renovation",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "extension",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "construction",
+      "width": 1024,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "nos-projets",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "filters": [
+        {
+          "key": "agrandissement",
+          "count": 3
+        },
+        {
+          "key": "construction",
+          "count": 3
+        },
+        {
+          "key": "renovation",
+          "count": 3
+        },
+        {
+          "key": "tous",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "route": "nos-services",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "progress": [
+        {
+          "active": "contact",
+          "progress": 0.006037285523669918,
+          "top": 339.921875
+        },
+        {
+          "active": "chiffrage",
+          "progress": 0.5058799491463858,
+          "top": 32
+        },
+        {
+          "active": "realisation",
+          "progress": 1,
+          "top": 32
+        },
+        {
+          "active": "plans",
+          "progress": 0.25591043205352276,
+          "top": 32
+        },
+        {
+          "active": "contact",
+          "progress": 0.006037285523669918,
+          "top": 339.921875
+        }
+      ]
+    },
+    {
+      "route": "renovation",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "extension",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "construction",
+      "width": 1280,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "nos-projets",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "filters": [
+        {
+          "key": "agrandissement",
+          "count": 3
+        },
+        {
+          "key": "construction",
+          "count": 3
+        },
+        {
+          "key": "renovation",
+          "count": 3
+        },
+        {
+          "key": "tous",
+          "count": 9
+        }
+      ],
+      "axe": []
+    },
+    {
+      "route": "nos-services",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "progress": [
+        {
+          "active": "contact",
+          "progress": 0.0056134085323809695,
+          "top": 340.15625
+        },
+        {
+          "active": "chiffrage",
+          "progress": 0.5057460087339333,
+          "top": 32
+        },
+        {
+          "active": "realisation",
+          "progress": 1,
+          "top": 32
+        },
+        {
+          "active": "plans",
+          "progress": 0.25567970863315714,
+          "top": 32
+        },
+        {
+          "active": "contact",
+          "progress": 0.0056134085323809695,
+          "top": 340.15625
+        }
+      ],
+      "axe": []
+    },
+    {
+      "route": "renovation",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "axe": []
+    },
+    {
+      "route": "extension",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "axe": []
+    },
+    {
+      "route": "construction",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "axe": []
+    },
+    {
+      "route": "nos-projets",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "filters": [
+        {
+          "key": "agrandissement",
+          "count": 3
+        },
+        {
+          "key": "construction",
+          "count": 3
+        },
+        {
+          "key": "renovation",
+          "count": 3
+        },
+        {
+          "key": "tous",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "route": "nos-services",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": [],
+      "progress": [
+        {
+          "active": "contact",
+          "progress": 0.005317996165708093,
+          "top": 340.0625
+        },
+        {
+          "active": "chiffrage",
+          "progress": 0.5054430274235225,
+          "top": 32
+        },
+        {
+          "active": "realisation",
+          "progress": 1,
+          "top": 32
+        },
+        {
+          "active": "plans",
+          "progress": 0.2552471451196132,
+          "top": 32
+        },
+        {
+          "active": "contact",
+          "progress": 0.005317996165708093,
+          "top": 340.0625
+        }
+      ]
+    },
+    {
+      "route": "renovation",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "extension",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    },
+    {
+      "route": "construction",
+      "width": 1920,
+      "overflow": false,
+      "h1": 1,
+      "missing": [],
+      "dead": [],
+      "clipped": []
+    }
+  ],
+  "interactions": [
+    "40 page/viewport combinations; correct media, headings and local anchors.",
+    "Portfolio filters 9/3/3/3 via keyboard; gallery arrows, Escape, backdrop, focus and deep links.",
+    "Vertical sticky method: all phases, intermediate fill, forwards/backwards and native smooth anchors.",
+    "Native FAQs, contextual contact whitelist, no real submission.",
+    "No-JS portfolio/method/FAQs; existing homepage and materials navigation retained.",
+    "WCAG 2A/AA/2.1AA/2.2AA axe at390/1440 on all five pages and open gallery/FAQs."
+  ],
+  "errors": [],
+  "result": "pass"
+}

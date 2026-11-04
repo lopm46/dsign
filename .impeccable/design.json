@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-04T11:04:41.603215+00:00",
+  "generatedAt": "2026-11-04T14:49:14.546332+00:00",
   "title": "Design System: D-SIGN GBS",
   "extensions": {
     "colorMeta": {
@@ -314,7 +314,7 @@
   ],
   "narrative": {
     "northStar": "",
-    "overview": "La référence est la [homepage choisie par le client](https://i.imgur.com/KfDjzWy.jpeg), archivée dans le dépôt. Ce document décrit le système effectivement construit dans le dossier `export/` : `index.html`, `styles.css` et `script.js`. Une copie de cette charte accompagne ces fichiers dans l’archive de livraison. La capture fixe la direction ; les valeurs ci-dessus proviennent de l’implémentation, sans prétendre retrouver le CSS ou la police de la page source.\n\nLa page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le logo SVG officiel reste entier et intact. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V7 conserve le parcours et la navigation blanche, puis étend explicitement les règles à des boutons arrondis, cartes adoucies, titres dégradés et guillemet SVG. Le propriétaire demande les onze catégories et tous les exemples de Kovan.fr dans la touche D-SIGN ; voir `.impeccable/directions/homepage-v7-kovan.md`. Le logo, les couleurs, la police et le hero en D restent conservés.",
+    "overview": "La référence est la [homepage choisie par le client](https://i.imgur.com/KfDjzWy.jpeg), archivée dans le dépôt. Ce document décrit le système effectivement construit dans `export/` : sept pages HTML partageant `styles.css` et `script.js`, avec `pages.css` et `pages.js` pour les pages projets/services. Une copie de cette charte accompagne ces fichiers dans l’archive de livraison. La capture fixe la direction ; les valeurs ci-dessus proviennent de l’implémentation, sans prétendre retrouver le CSS ou la police de la page source.\n\nLa page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le logo SVG officiel reste entier et intact. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V7 conserve le parcours et la navigation blanche, puis étend explicitement les règles à des boutons arrondis, cartes adoucies, titres dégradés et guillemet SVG. Le propriétaire demande les onze catégories et tous les exemples de Kovan.fr dans la touche D-SIGN ; voir `.impeccable/directions/homepage-v7-kovan.md`. Le logo, les couleurs, la police et le hero en D restent conservés.\n\nLa V8 étend ce même système au portfolio, au hub services et aux trois pages de service, sans nouveau token ni changement de la homepage. Les ajouts et leurs limites sont décrits dans `.impeccable/directions/inner-pages-v8.md`.",
     "keyCharacteristics": [
       "Bleu profond, blanc et vert issus de la direction retenue.",
       "Une seule famille sans empattements, en normal et gras.",

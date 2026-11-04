@@ -4,9 +4,12 @@ Redesign de la homepage WordPress de D-SIGN GBS. Base métier : **cadrage V2**. 
 
 ## Documents
 
-- `dist/dsign-site-html-css-v7.zip` : export courant avec onze catégories, 61 exemples, portrait réel du fondateur et formes arrondies dans la charte D-SIGN.
+- `dist/dsign-site-html-css-v8.zip` : export courant de sept pages, avec portfolio filtrable, hub services et trois pages de service ; homepage V7 et matériaux conservés.
+- `export/PROJETS-SERVICES.md` : contenus sources, galerie de projets, méthode verticale et limites de la V8.
+- `export/nos-projets.html`, `export/nos-services.html`, `export/renovation.html`, `export/extension.html`, `export/construction.html` : cinq nouvelles pages natives, avec `pages.css` et `pages.js`.
+- `dist/dsign-site-html-css-v7.zip` : archive historique avec onze catégories, 61 exemples, portrait réel du fondateur et formes arrondies dans la charte D-SIGN.
 - `dist/dsign-site-html-css-v6.zip` : archive historique du parcours à huit sections et de la navigation blanche.
-- `export/STRUCTURE.md` : ordre et navigation de la homepage V7, contrôles et limites.
+- `export/STRUCTURE.md` : sept pages et navigation V8 ; ordre conservé de la homepage, contrôles et limites.
 - `export/RYTHME.md` : surfaces et compositions de la V7 ; V6 et rythme V5 conservés comme historique.
 - `dist/dsign-site-html-css-v5.zip` : archive historique après correction du rythme visuel.
 - `dist/dsign-site-html-css-v4.zip` : archive historique après réorganisation des six sections, avec la page matériaux.

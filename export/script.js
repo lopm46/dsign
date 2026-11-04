@@ -83,6 +83,13 @@
   const form = document.getElementById("contact-form");
   if (!form) return;
 
+  const serviceLabels = { renovation: "de rénovation", extension: "d’extension", construction: "de construction" };
+  const requestedService = new URLSearchParams(window.location.search).get("projet");
+  const projectMessage = document.getElementById("contact-message");
+  if (Object.hasOwn(serviceLabels, requestedService) && projectMessage && !projectMessage.value.trim()) {
+    projectMessage.value = `Bonjour, je souhaite vous parler de mon projet ${serviceLabels[requestedService]}.`;
+  }
+
   const fields = [...form.querySelectorAll("input:not([type=hidden]), textarea")];
   const errorSummary = document.getElementById("form-errors");
   const errorList = errorSummary.querySelector("ul");

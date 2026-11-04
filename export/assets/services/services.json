@@ -1,0 +1,47 @@
+[
+  {
+    "id": "renovation",
+    "name": "Rénovation",
+    "title": "Réinventer l’existant.",
+    "intro": "Un intérieur à repenser, un bâtiment à réhabiliter, un confort à améliorer. Nous vous accompagnons pour faire évoluer votre lieu de vie ou de travail.",
+    "image": "assets/images/interieur-1600.webp",
+    "imageAlt": "Intérieur lumineux ouvert sur le jardin, visuel d’ambiance",
+    "source": "https://dsign-gbs.fr/renovation/",
+    "overviewTitle": "Faire mieux avec ce qui existe déjà.",
+    "overview": ["Rénover, c’est adapter un bâtiment à de nouveaux besoins tout en tenant compte de son état, de ses contraintes et de ce qui fait son caractère. La mission peut concerner une pièce, un ensemble d’espaces ou le bâtiment dans sa globalité.", "L’aménagement intérieur, l’isolation, les menuiseries et les équipements de chauffage font partie des sujets à étudier ensemble. Nous vous aidons à relier les choix d’usage, les solutions techniques et le budget du projet."],
+    "needs": ["Améliorer le confort au quotidien", "Repenser la distribution des pièces", "Étudier les besoins énergétiques", "Adapter le lieu à votre mode de vie", "Traiter les signes de vétusté", "Préparer les remises aux normes", "Faciliter l’accessibilité", "Choisir les ambiances et les finitions", "Créer des rangements adaptés", "Moderniser les équipements"],
+    "focus": [{"title":"L’existant comme point de départ","text":"L’état du bâtiment et les usages attendus orientent les travaux à prévoir."},{"title":"Des choix qui se répondent","text":"Plans, matériaux et équipements sont étudiés à l’échelle du projet."},{"title":"Un accompagnement défini ensemble","text":"Conception, consultation et suivi s’organisent selon la mission convenue."}],
+    "faq": [{"question":"Peut-on rénover seulement une partie du bâtiment ?","answer":"Le projet peut porter sur une pièce, plusieurs espaces ou une rénovation globale. Le premier échange permet d’en préciser les objectifs et le périmètre."},{"question":"Comment préparer le budget ?","answer":"Nous précisons les besoins et les travaux envisagés, puis préparons le chiffrage et la consultation des entreprises selon la mission. Les propositions vous donnent des éléments pour décider."},{"question":"Accompagnez-vous aussi les professionnels ?","answer":"D-SIGN accompagne les particuliers et les professionnels. Pour des locaux, l’activité, les usages et les contraintes du site font partie de l’étude du projet."}],
+    "projectCategory": "renovation"
+  },
+  {
+    "id": "extension",
+    "name": "Extension",
+    "title": "Faire place à de nouvelles envies.",
+    "intro": "Une famille qui s’agrandit, un bureau à créer, une pièce à vivre qui manque. Agrandissons votre espace en tenant compte du bâtiment et de votre quotidien.",
+    "image": "assets/images/extension-1600.webp",
+    "imageAlt": "Extension contemporaine ouverte sur un jardin, visuel d’ambiance",
+    "source": "https://dsign-gbs.fr/extension/",
+    "overviewTitle": "Plus d’espace. Un ensemble cohérent.",
+    "overview": ["Une extension peut ajouter une pièce, agrandir un espace existant ou créer un nouveau volume. Elle peut être envisagée en rez-de-chaussée, en étage ou par surélévation, selon les possibilités du bâtiment et du terrain.", "Nous étudions avec vous la relation entre l’existant et le nouvel espace : circulation, lumière, usages et choix de matériaux. Les contraintes du site et le budget accompagnent ces décisions dès la conception."],
+    "needs": ["Accueillir une famille qui s’agrandit", "Créer un bureau ou une salle de jeux", "Préparer l’évolution de votre bien", "Ajouter une salle de bain", "Imaginer une pièce de détente", "Étudier le confort du nouveau volume", "Simplifier les circulations", "Adapter les espaces à vos usages", "Prévoir de nouveaux rangements", "Relier la maison aux extérieurs"],
+    "focus": [{"title":"L’usage avant les mètres carrés","text":"Nous partons de ce que vous voulez faire dans ce nouvel espace."},{"title":"Le lien avec votre bâtiment","text":"Les volumes, les accès et les matériaux se pensent avec l’existant."},{"title":"Des possibilités à étudier","text":"Implantation, surélévation ou réorganisation dépendent du contexte de votre projet."}],
+    "faq": [{"question":"Extension ou surélévation : comment choisir ?","answer":"Le choix dépend notamment de l’espace disponible, du bâtiment existant et des besoins. Nous étudions ces éléments avec vous pour préciser une direction adaptée au projet."},{"question":"L’extension doit-elle reprendre les mêmes matériaux ?","answer":"Le nouvel espace peut prolonger l’expression du bâtiment ou créer un contraste. Le choix se travaille avec les volumes, la lumière, les contraintes de mise en œuvre et votre budget."},{"question":"À quel moment parler du budget ?","answer":"Dès les premiers échanges. Les priorités et les contraintes budgétaires orientent les plans ; le chiffrage permet ensuite de préciser les décisions avant les travaux."}],
+    "projectCategory": "agrandissement"
+  },
+  {
+    "id": "construction",
+    "name": "Construction",
+    "title": "Partir de vous. Bâtir pour demain.",
+    "intro": "Une maison, un lieu de travail, un bâtiment à imaginer. Nous vous accompagnons pour transformer vos besoins en un projet de construction qui vous ressemble.",
+    "image": "assets/images/maison-1600.webp",
+    "imageAlt": "Maison contemporaine entourée d’un jardin, visuel d’ambiance",
+    "source": "https://dsign-gbs.fr/construction/",
+    "overviewTitle": "Un lieu conçu autour de ses usages.",
+    "overview": ["Faire construire permet de penser le bâtiment à partir de vos besoins. Organisation des espaces, implantation, lumière, matériaux et équipements composent ensemble votre futur lieu de vie ou de travail.", "De la recherche du terrain à la conception des plans, au chiffrage et au suivi du chantier, D-SIGN vous accompagne selon la mission définie ensemble. Les choix techniques et les enjeux de confort se discutent à chaque étape."],
+    "needs": ["Dessiner un lieu à votre mesure", "Partir d’un bâtiment neuf", "Étudier les techniques constructives", "Préparer la durabilité du bâtiment", "Personnaliser les volumes et les finitions", "Intégrer les enjeux énergétiques", "Anticiper les règles de sécurité", "Choisir les matériaux du projet", "Prévoir l’évolution de vos besoins", "Relier le projet à son environnement"],
+    "focus": [{"title":"Votre façon d’habiter ou de travailler","text":"Les usages de votre famille ou de votre activité guident les premières décisions."},{"title":"Un projet dans son environnement","text":"Terrain, implantation, lumière et contraintes du site se travaillent ensemble."},{"title":"De l’idée au suivi du chantier","text":"Les plans, le chiffrage et la coordination s’enchaînent selon la mission confiée."}],
+    "faq": [{"question":"Faut-il déjà avoir trouvé un terrain ?","answer":"La recherche du terrain fait partie de l’accompagnement annoncé par D-SIGN. Nous pouvons donc échanger sur votre projet en amont et définir la mission adaptée à votre situation."},{"question":"Construisez-vous aussi pour les professionnels ?","answer":"D-SIGN accompagne les projets de particuliers et de professionnels. Les besoins de votre activité, de vos équipes et des utilisateurs du bâtiment font partie du cadrage."},{"question":"Quand les plans et le chiffrage sont-ils préparés ?","answer":"Après la définition des besoins et du contexte, les plans sont élaborés avec vous. Ils servent de base au chiffrage et à la consultation avant validation des propositions et lancement des travaux prévus."}],
+    "projectCategory": "construction"
+  }
+]

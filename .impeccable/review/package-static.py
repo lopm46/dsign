@@ -1,5 +1,6 @@
 from pathlib import Path
 import zipfile, re, json, hashlib, shutil, sys
+from urllib.parse import urlsplit, unquote
 
 root=Path(__file__).resolve().parents[2]
 export=root/'export'
@@ -20,7 +21,7 @@ with zipfile.ZipFile(archive) as z:
         for group in re.findall(r'srcset="([^"]+)"',s):refs.update(item.strip().split()[0] for item in group.split(','))
         for ref in refs:
             if ref.startswith(('http:','https:','tel:','mailto:','data:','#')):continue
-            assert 'dsign-homepage/'+ref.split('#')[0] in z.namelist(),ref
+            assert 'dsign-homepage/'+unquote(urlsplit(ref).path) in z.namelist(),ref
         ids=re.findall(r'\bid="([^"]+)"',s)
         assert len(ids)==len(set(ids)),p
     for p in export.glob('*.css'):

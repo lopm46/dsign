@@ -1,0 +1,140 @@
+[
+  {
+    "width": 390,
+    "slug": "renovation",
+    "gaps": [
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      }
+    ],
+    "axe": [],
+    "lastSummaryFocused": true
+  },
+  {
+    "width": 390,
+    "slug": "extension",
+    "gaps": [
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      }
+    ],
+    "axe": [],
+    "lastSummaryFocused": true
+  },
+  {
+    "width": 390,
+    "slug": "construction",
+    "gaps": [
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 15,
+        "ring": 9,
+        "padding": "12px"
+      }
+    ],
+    "axe": [],
+    "lastSummaryFocused": true
+  },
+  {
+    "width": 1440,
+    "slug": "renovation",
+    "gaps": [
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      }
+    ],
+    "axe": [],
+    "lastSummaryFocused": true
+  },
+  {
+    "width": 1440,
+    "slug": "extension",
+    "gaps": [
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      }
+    ],
+    "axe": [],
+    "lastSummaryFocused": true
+  },
+  {
+    "width": 1440,
+    "slug": "construction",
+    "gaps": [
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      },
+      {
+        "gap": 16,
+        "ring": 9,
+        "padding": "12px"
+      }
+    ],
+    "axe": [],
+    "lastSummaryFocused": true
+  }
+]
