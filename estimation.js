@@ -9,6 +9,7 @@
   const form = document.getElementById("estimate-form");
   const next = document.getElementById("estimate-next");
   const actions = document.getElementById("estimate-actions");
+  const toolbar = document.getElementById("estimate-toolbar");
   const question = document.getElementById("estimate-question");
   const hint = document.getElementById("estimate-hint");
   const selection = document.getElementById("estimate-selection");
@@ -24,6 +25,10 @@
   const state = { step: 0, domains: [], services: [], budget: "", timeline: "", complete: false };
   const session = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
   let countdown = null;
+  const syncToolbarHeight = () => {
+    document.documentElement.style.scrollPaddingTop = `${toolbar.offsetHeight + 24}px`;
+  };
+  new ResizeObserver(syncToolbarHeight).observe(toolbar);
 
   const budgetLabel = () => data.budgets.find(item => item.id === state.budget)?.label || "";
   const timelineLabel = () => data.timelines.find(item => item.id === state.timeline)?.label || "";
@@ -40,7 +45,7 @@
     error.textContent = text;
     error.hidden = false;
     panel?.querySelector("input")?.focus({ preventScroll: true });
-    error.scrollIntoView({ block: "center", behavior: "instant" });
+    error.scrollIntoView({ block: "start", behavior: "instant" });
   };
 
   function renderSummary(target) {
@@ -91,8 +96,7 @@
     panels.forEach((panel, index) => { panel.hidden = index !== step; });
     document.querySelector(".estimate-intro").hidden = step === 5;
     document.querySelector(".estimate-question").hidden = step === 5;
-    document.querySelector(".estimate-progress").hidden = step === 5;
-    actions.hidden = step >= 4;
+    toolbar.hidden = step === 5;
     progress.forEach((button, index) => {
       button.disabled = index > step;
       button.classList.toggle("is-complete", index < step);
@@ -104,7 +108,8 @@
       document.getElementById("estimate-step-count").textContent = `Étape ${step + 1} sur 5`;
       actions.querySelector("[data-estimate-back]").hidden = step === 0;
       next.disabled = false;
-      next.firstChild.textContent = "Continuer";
+      next.type = step === 4 ? "submit" : "button";
+      next.firstChild.textContent = step === 4 ? "Recevoir mon estimation" : "Continuer";
       updateSelection();
     }
     if (step === 1) refreshServices();
@@ -115,6 +120,7 @@
       form.elements.projectBudget.value = budgetLabel(); form.elements.projectTimeline.value = timelineLabel();
     }
     if (step === 5) { renderSummary(document.getElementById("estimate-final-summary")); startCountdown(); }
+    syncToolbarHeight();
     document.title = step === 5 ? "Simulation terminée — D-SIGN" : `${headings[step]} — Estimation D-SIGN`;
   }
 
@@ -125,7 +131,9 @@
     history[`${mode}State`]({ dsignEstimation: session, step: state.step }, "", url);
     render();
     const focus = state.step === 5 ? document.getElementById("estimate-thanks-title") : question;
-    focus.focus({ preventScroll: true }); window.scrollTo({ top: 0, behavior: "instant" });
+    focus.focus({ preventScroll: true });
+    if (state.step === 5) window.scrollTo({ top: 0, behavior: "instant" });
+    else window.scrollTo({ top: app.getBoundingClientRect().top + window.scrollY, behavior: "instant" });
   }
 
   function goBack() {
@@ -152,7 +160,9 @@
   for (const button of progress) button.addEventListener("click", () => { const target = Number(button.dataset.estimateProgress); if (target !== state.step) navigate(target); });
   for (const button of app.querySelectorAll("[data-estimate-edit]")) button.addEventListener("click", () => navigate(Number(button.dataset.estimateEdit)));
   for (const button of app.querySelectorAll("[data-estimate-back]")) button.addEventListener("click", goBack);
-  next.addEventListener("click", () => {
+  next.addEventListener("click", event => {
+    if (state.step === 4) return;
+    event.preventDefault();
     const messages = ["Veuillez sélectionner au moins un domaine.", "Veuillez sélectionner au moins un service pour continuer.", "Veuillez sélectionner une fourchette de budget pour continuer.", "Veuillez sélectionner un délai pour la réalisation de vos travaux."];
     if (!canReach(state.step + 1)) { showError(messages[state.step], panels[state.step]); return; }
     navigate(state.step + 1);
@@ -176,7 +186,7 @@
       fieldError(input, message);
       if (message && !first) first = input;
     }
-    if (first) { first.focus(); return false; }
+    if (first) { first.focus({ preventScroll: true }); first.scrollIntoView({ block: "start", behavior: "instant" }); return false; }
     return true;
   }
   document.getElementById("estimate-fill-demo").addEventListener("click", () => {
