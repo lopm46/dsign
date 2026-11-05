@@ -1,0 +1,507 @@
+{
+  "reference": {
+    "domains": 11,
+    "services": 61
+  },
+  "branches": [
+    {
+      "domain": "Chauffage",
+      "services": 8
+    },
+    {
+      "domain": "Isolation",
+      "services": 5
+    },
+    {
+      "domain": "Menuiseries",
+      "services": 3
+    },
+    {
+      "domain": "SalleDeBain",
+      "services": 7
+    },
+    {
+      "domain": "Amenagement",
+      "services": 7
+    },
+    {
+      "domain": "AdaptationLogement",
+      "services": 7
+    },
+    {
+      "domain": "Toiture",
+      "services": 5
+    },
+    {
+      "domain": "Exterieur",
+      "services": 6
+    },
+    {
+      "domain": "GrosOeuvre",
+      "services": 3
+    },
+    {
+      "domain": "Extension",
+      "services": 6
+    },
+    {
+      "domain": "Renovation",
+      "services": 4
+    }
+  ],
+  "combinations": [
+    {
+      "budget": "budget-1",
+      "timeline": "delai-1",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-1",
+      "timeline": "delai-2",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-1",
+      "timeline": "delai-3",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-1",
+      "timeline": "delai-4",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-2",
+      "timeline": "delai-1",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-2",
+      "timeline": "delai-2",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-2",
+      "timeline": "delai-3",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-2",
+      "timeline": "delai-4",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-3",
+      "timeline": "delai-1",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-3",
+      "timeline": "delai-2",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-3",
+      "timeline": "delai-3",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-3",
+      "timeline": "delai-4",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-4",
+      "timeline": "delai-1",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-4",
+      "timeline": "delai-2",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-4",
+      "timeline": "delai-3",
+      "networkRequests": 0
+    },
+    {
+      "budget": "budget-4",
+      "timeline": "delai-4",
+      "networkRequests": 0
+    }
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "step": 0,
+      "overflow": false,
+      "clipped": [],
+      "question": "Votre projet concerne :"
+    },
+    {
+      "width": 320,
+      "step": 1,
+      "overflow": false,
+      "clipped": [],
+      "question": "Choisissez vos travaux :"
+    },
+    {
+      "width": 320,
+      "step": 2,
+      "overflow": false,
+      "clipped": [],
+      "question": "Quel est votre budget prévisionnel ?"
+    },
+    {
+      "width": 320,
+      "step": 3,
+      "overflow": false,
+      "clipped": [],
+      "question": "Dans quels délais souhaitez-vous réaliser vos travaux ?"
+    },
+    {
+      "width": 320,
+      "step": 4,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 320,
+      "step": 5,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 390,
+      "step": 0,
+      "overflow": false,
+      "clipped": [],
+      "question": "Votre projet concerne :"
+    },
+    {
+      "width": 390,
+      "step": 1,
+      "overflow": false,
+      "clipped": [],
+      "question": "Choisissez vos travaux :"
+    },
+    {
+      "width": 390,
+      "step": 2,
+      "overflow": false,
+      "clipped": [],
+      "question": "Quel est votre budget prévisionnel ?"
+    },
+    {
+      "width": 390,
+      "step": 3,
+      "overflow": false,
+      "clipped": [],
+      "question": "Dans quels délais souhaitez-vous réaliser vos travaux ?"
+    },
+    {
+      "width": 390,
+      "step": 4,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 390,
+      "step": 5,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 600,
+      "step": 0,
+      "overflow": false,
+      "clipped": [],
+      "question": "Votre projet concerne :"
+    },
+    {
+      "width": 600,
+      "step": 1,
+      "overflow": false,
+      "clipped": [],
+      "question": "Choisissez vos travaux :"
+    },
+    {
+      "width": 600,
+      "step": 2,
+      "overflow": false,
+      "clipped": [],
+      "question": "Quel est votre budget prévisionnel ?"
+    },
+    {
+      "width": 600,
+      "step": 3,
+      "overflow": false,
+      "clipped": [],
+      "question": "Dans quels délais souhaitez-vous réaliser vos travaux ?"
+    },
+    {
+      "width": 600,
+      "step": 4,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 600,
+      "step": 5,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 768,
+      "step": 0,
+      "overflow": false,
+      "clipped": [],
+      "question": "Votre projet concerne :"
+    },
+    {
+      "width": 768,
+      "step": 1,
+      "overflow": false,
+      "clipped": [],
+      "question": "Choisissez vos travaux :"
+    },
+    {
+      "width": 768,
+      "step": 2,
+      "overflow": false,
+      "clipped": [],
+      "question": "Quel est votre budget prévisionnel ?"
+    },
+    {
+      "width": 768,
+      "step": 3,
+      "overflow": false,
+      "clipped": [],
+      "question": "Dans quels délais souhaitez-vous réaliser vos travaux ?"
+    },
+    {
+      "width": 768,
+      "step": 4,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 768,
+      "step": 5,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 1024,
+      "step": 0,
+      "overflow": false,
+      "clipped": [],
+      "question": "Votre projet concerne :"
+    },
+    {
+      "width": 1024,
+      "step": 1,
+      "overflow": false,
+      "clipped": [],
+      "question": "Choisissez vos travaux :"
+    },
+    {
+      "width": 1024,
+      "step": 2,
+      "overflow": false,
+      "clipped": [],
+      "question": "Quel est votre budget prévisionnel ?"
+    },
+    {
+      "width": 1024,
+      "step": 3,
+      "overflow": false,
+      "clipped": [],
+      "question": "Dans quels délais souhaitez-vous réaliser vos travaux ?"
+    },
+    {
+      "width": 1024,
+      "step": 4,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 1024,
+      "step": 5,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 1440,
+      "step": 0,
+      "overflow": false,
+      "clipped": [],
+      "question": "Votre projet concerne :"
+    },
+    {
+      "width": 1440,
+      "step": 1,
+      "overflow": false,
+      "clipped": [],
+      "question": "Choisissez vos travaux :"
+    },
+    {
+      "width": 1440,
+      "step": 2,
+      "overflow": false,
+      "clipped": [],
+      "question": "Quel est votre budget prévisionnel ?"
+    },
+    {
+      "width": 1440,
+      "step": 3,
+      "overflow": false,
+      "clipped": [],
+      "question": "Dans quels délais souhaitez-vous réaliser vos travaux ?"
+    },
+    {
+      "width": 1440,
+      "step": 4,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 1440,
+      "step": 5,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 1920,
+      "step": 0,
+      "overflow": false,
+      "clipped": [],
+      "question": "Votre projet concerne :"
+    },
+    {
+      "width": 1920,
+      "step": 1,
+      "overflow": false,
+      "clipped": [],
+      "question": "Choisissez vos travaux :"
+    },
+    {
+      "width": 1920,
+      "step": 2,
+      "overflow": false,
+      "clipped": [],
+      "question": "Quel est votre budget prévisionnel ?"
+    },
+    {
+      "width": 1920,
+      "step": 3,
+      "overflow": false,
+      "clipped": [],
+      "question": "Dans quels délais souhaitez-vous réaliser vos travaux ?"
+    },
+    {
+      "width": 1920,
+      "step": 4,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    },
+    {
+      "width": 1920,
+      "step": 5,
+      "overflow": false,
+      "clipped": [],
+      "question": "Vos coordonnées"
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 390,
+      "step": 4,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 0,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 1,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 2,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 3,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "step": 5,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 4,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 0,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 1,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 2,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 3,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "step": 5,
+      "violations": []
+    }
+  ],
+  "features": [
+    "10-second automatic return to homepage",
+    "Exact11domains/61services",
+    "All16budget/timelinecombinations",
+    "Multi-domain click-order union",
+    "Back/forward and compatible selection retention",
+    "No submission request, no persistent personal data",
+    "Seven required fields and invalid email/phone/postcode",
+    "Native keyboard selection and visible focus",
+    "Reset, stoppable countdown and no-JS fallback",
+    "Eight-page navigation and hero entry"
+  ],
+  "requestsAfterDemo": [],
+  "errors": [],
+  "complete": true
+}

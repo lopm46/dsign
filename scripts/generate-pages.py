@@ -1,4 +1,4 @@
-"""Generate the five native HTML pages from the curated D-SIGN content.
+"""Generate native service, project and estimation pages from curated D-SIGN content.
 
 The delivered site is static and needs no generation step to run.
 """
@@ -29,7 +29,7 @@ def button(text, href, secondary=False):
 
 def header(page):
     home_link = '#haut' if page == 'index.html' else 'index.html'
-    links = [('Nos services','nos-services.html'),('Nos projets','nos-projets.html'),('Nos métiers','index.html#expertises'),('Matériaux','nos-materiaux.html')]
+    links = [('Nos services','nos-services.html'),('Nos projets','nos-projets.html'),('Nos métiers','index.html#expertises'),('Matériaux','nos-materiaux.html'),('Estimation','estimation.html')]
     def link(text, href):
         current = ' aria-current="page"' if page == href else ''
         active = ' class="is-active"' if page in [s['id']+'.html' for s in services] and href == 'nos-services.html' else ''
@@ -121,7 +121,9 @@ for name in ['index.html','nos-materiaux.html']:
     s=re.sub(r'<footer class="site-footer".*?</footer>',lambda _:footer(name),s,count=1,flags=re.S)
     s=re.sub(r'<svg class="icon-definitions".*?</svg>',lambda _:icons,s,count=1,flags=re.S)
     p.write_text(s)
-print('5 pages générées ; navigation des 7 pages reliée.')
+from estimation_page import generate as generate_estimation
+generate_estimation(out, header, footer, icons)
+print('6 pages générées ; navigation des 8 pages reliée.')
 
 # Refresh local CSS/JS references after regenerating the static pages.
 import runpy

@@ -79,3 +79,7 @@ Les visiteurs évaluent un prestataire pour un projet engageant financièrement 
 ## Accessibility & Inclusion
 
 La homepage doit respecter le niveau WCAG 2.2 AA : contraste suffisant, navigation clavier, focus visible, structure sémantique, textes alternatifs, cibles tactiles confortables et prise en charge de `prefers-reduced-motion`.
+
+## Module d’estimation — 5 novembre 2026
+
+À la demande du propriétaire, `estimation.html` reprend le parcours public Kovan : onze domaines et 61 services à sélection multiple, budget, délai et coordonnées. La dernière étape est explicitement une démonstration sans envoi, en attendant Contact Form 7 lors du déploiement WordPress. Le hero comporte « J’estime mon projet » et la navigation relie la huitième page. Le module ne calcule pas de prix et n’ajoute pas de question de surface ; la référence n’en présente pas. Voir `export/ESTIMATION.md`.

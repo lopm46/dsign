@@ -16,3 +16,6 @@ service-account*.json
 *.key
 *.p12
 *.pfx
+
+# Python generator cache.
+__pycache__/

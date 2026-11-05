@@ -1,0 +1,435 @@
+{
+  "source": "https://kovan.fr/simulator",
+  "reviewedOn": "2026-11-05",
+  "domains": [
+    {
+      "id": "Chauffage",
+      "label": "Chauffage & Climatisation",
+      "description": "Pompes à chaleur, chaudières, poêles",
+      "icon": "trade-heat",
+      "services": [
+        {
+          "id": "Chauffage-1",
+          "value": "Pompe à chaleur air/eau",
+          "label": "Pompe à chaleur air/eau"
+        },
+        {
+          "id": "Chauffage-2",
+          "value": "Pompe à chaleur air/air (clim réversible)",
+          "label": "Pompe à chaleur air/air (clim réversible)"
+        },
+        {
+          "id": "Chauffage-3",
+          "value": "Chaudière gaz condensation",
+          "label": "Chaudière gaz condensation"
+        },
+        {
+          "id": "Chauffage-4",
+          "value": "Chaudière fioul (remplacement ou suppression)",
+          "label": "Chaudière fioul (remplacement/suppression)"
+        },
+        {
+          "id": "Chauffage-5",
+          "value": "Radiateurs électriques dernière génération",
+          "label": "Radiateurs électriques dernière génération"
+        },
+        {
+          "id": "Chauffage-6",
+          "value": "Plancher chauffant",
+          "label": "Plancher chauffant"
+        },
+        {
+          "id": "Chauffage-7",
+          "value": "Poêles à bois / granulés",
+          "label": "Poêles à bois / granulés"
+        },
+        {
+          "id": "Chauffage-8",
+          "value": "Ballon thermodynamique",
+          "label": "Ballon thermodynamique"
+        }
+      ]
+    },
+    {
+      "id": "Isolation",
+      "label": "Isolation",
+      "description": "Combles, murs, planchers",
+      "icon": "trade-shield",
+      "services": [
+        {
+          "id": "Isolation-1",
+          "value": "Isolation des combles perdus",
+          "label": "Isolation des combles perdus"
+        },
+        {
+          "id": "Isolation-2",
+          "value": "Isolation des combles aménagés",
+          "label": "Isolation des combles aménagés"
+        },
+        {
+          "id": "Isolation-3",
+          "value": "Isolation des murs par l'intérieur",
+          "label": "Isolation des murs par l'intérieur"
+        },
+        {
+          "id": "Isolation-4",
+          "value": "Isolation thermique par l'extérieur (ITE)",
+          "label": "Isolation thermique par l'extérieur (ITE)"
+        },
+        {
+          "id": "Isolation-5",
+          "value": "Isolation du plancher bas",
+          "label": "Isolation du plancher bas"
+        }
+      ]
+    },
+    {
+      "id": "Menuiseries",
+      "label": "Menuiseries",
+      "description": "Fenêtres, portes, volets",
+      "icon": "trade-window",
+      "services": [
+        {
+          "id": "Menuiseries-1",
+          "value": "Fenêtres PVC / Aluminium / Bois",
+          "label": "Fenêtres PVC / Aluminium / Bois"
+        },
+        {
+          "id": "Menuiseries-2",
+          "value": "Volets roulants & battants",
+          "label": "Volets roulants & battants"
+        },
+        {
+          "id": "Menuiseries-3",
+          "value": "Portes d'entrée & portes de garage",
+          "label": "Portes d'entrée & portes de garage"
+        }
+      ]
+    },
+    {
+      "id": "SalleDeBain",
+      "label": "Salle de bain & Cuisine",
+      "description": "Rénovation, équipement sur-mesure",
+      "icon": "trade-bath",
+      "services": [
+        {
+          "id": "SalleDeBain-1",
+          "value": "Création ou rénovation complète",
+          "label": "Création ou rénovation complète"
+        },
+        {
+          "id": "SalleDeBain-2",
+          "value": "Douches à l'italienne",
+          "label": "Douches à l'italienne"
+        },
+        {
+          "id": "SalleDeBain-3",
+          "value": "Aménagement PMR",
+          "label": "Aménagement PMR"
+        },
+        {
+          "id": "SalleDeBain-4",
+          "value": "Remplacement baignoire par douche",
+          "label": "Remplacement baignoire par douche"
+        },
+        {
+          "id": "SalleDeBain-5",
+          "value": "Carrelage & faïence",
+          "label": "Carrelage & faïence"
+        },
+        {
+          "id": "SalleDeBain-6",
+          "value": "Meubles & équipements sur-mesure",
+          "label": "Meubles & équipements sur-mesure"
+        },
+        {
+          "id": "SalleDeBain-7",
+          "value": "Cuisine équipée / rénovation",
+          "label": "Cuisine équipée / rénovation"
+        }
+      ]
+    },
+    {
+      "id": "Amenagement",
+      "label": "Aménagement intérieur",
+      "description": "Sols, peinture, rangements",
+      "icon": "trade-home",
+      "services": [
+        {
+          "id": "Amenagement-1",
+          "value": "Cloisons & plâtrerie",
+          "label": "Cloisons & plâtrerie"
+        },
+        {
+          "id": "Amenagement-2",
+          "value": "Faux plafonds",
+          "label": "Faux plafonds"
+        },
+        {
+          "id": "Amenagement-3",
+          "value": "Escaliers & garde-corps",
+          "label": "Escaliers & garde-corps"
+        },
+        {
+          "id": "Amenagement-4",
+          "value": "Parquet & stratifié",
+          "label": "Parquet & stratifié"
+        },
+        {
+          "id": "Amenagement-5",
+          "value": "Carrelage & sols souples",
+          "label": "Carrelage & sols souples"
+        },
+        {
+          "id": "Amenagement-6",
+          "value": "Peinture & décoration murale",
+          "label": "Peinture & décoration murale"
+        },
+        {
+          "id": "Amenagement-7",
+          "value": "Dressing & rangements sur-mesure",
+          "label": "Dressing & rangements sur-mesure"
+        }
+      ]
+    },
+    {
+      "id": "AdaptationLogement",
+      "label": "Adaptation du logement",
+      "description": "Accessibilité, PMR, autonomie",
+      "icon": "trade-accessibility",
+      "services": [
+        {
+          "id": "AdaptationLogement-1",
+          "value": "Salle de bain PMR (Douche / Barre de maintien, …)",
+          "label": "Salle de bain PMR (Douche / Barre de maintien, …)"
+        },
+        {
+          "id": "AdaptationLogement-2",
+          "value": "Monte-escalier",
+          "label": "Monte-escalier"
+        },
+        {
+          "id": "AdaptationLogement-3",
+          "value": "Cuisine",
+          "label": "Cuisine"
+        },
+        {
+          "id": "AdaptationLogement-4",
+          "value": "Chambre",
+          "label": "Chambre"
+        },
+        {
+          "id": "AdaptationLogement-5",
+          "value": "Elargissement des portes",
+          "label": "Elargissement des portes"
+        },
+        {
+          "id": "AdaptationLogement-6",
+          "value": "Rampes d'accès",
+          "label": "Rampes d'accès"
+        },
+        {
+          "id": "AdaptationLogement-7",
+          "value": "Accessibilité extérieure",
+          "label": "Accessibilité extérieure"
+        }
+      ]
+    },
+    {
+      "id": "Toiture",
+      "label": "Toiture & Façade",
+      "description": "Couverture, ravalement, étanchéité",
+      "icon": "trade-roof",
+      "services": [
+        {
+          "id": "Toiture-1",
+          "value": "Couverture (tuiles, ardoises, zinc)",
+          "label": "Couverture (tuiles, ardoises, zinc)"
+        },
+        {
+          "id": "Toiture-2",
+          "value": "Étanchéité toit-terrasse",
+          "label": "Étanchéité toit-terrasse"
+        },
+        {
+          "id": "Toiture-3",
+          "value": "Ravalement de façade",
+          "label": "Ravalement de façade"
+        },
+        {
+          "id": "Toiture-4",
+          "value": "Nettoyage & traitement hydrofuge",
+          "label": "Nettoyage & traitement hydrofuge"
+        },
+        {
+          "id": "Toiture-5",
+          "value": "Charpente & bardage bois",
+          "label": "Charpente & bardage bois"
+        }
+      ]
+    },
+    {
+      "id": "Exterieur",
+      "label": "Extérieur",
+      "description": "Terrasse, piscine, aménagement",
+      "icon": "trade-tree",
+      "services": [
+        {
+          "id": "Exterieur-1",
+          "value": "Terrasses bois, composite ou carrelage",
+          "label": "Terrasses bois, composite ou carrelage"
+        },
+        {
+          "id": "Exterieur-2",
+          "value": "Allées, cours & accès",
+          "label": "Allées, cours & accès"
+        },
+        {
+          "id": "Exterieur-3",
+          "value": "Clôtures & portails",
+          "label": "Clôtures & portails"
+        },
+        {
+          "id": "Exterieur-4",
+          "value": "Pergolas & carports",
+          "label": "Pergolas & carports"
+        },
+        {
+          "id": "Exterieur-5",
+          "value": "Aménagement paysager",
+          "label": "Aménagement paysager"
+        },
+        {
+          "id": "Exterieur-6",
+          "value": "Piscines & abris",
+          "label": "Piscines & abris"
+        }
+      ]
+    },
+    {
+      "id": "GrosOeuvre",
+      "label": "Gros œuvre",
+      "description": "Maçonnerie, fondations",
+      "icon": "trade-hammer",
+      "services": [
+        {
+          "id": "GrosOeuvre-1",
+          "value": "Maçonnerie générale",
+          "label": "Maçonnerie générale"
+        },
+        {
+          "id": "GrosOeuvre-2",
+          "value": "Démolition & préparation",
+          "label": "Démolition & préparation"
+        },
+        {
+          "id": "GrosOeuvre-3",
+          "value": "Fondations & ouverture de murs porteurs",
+          "label": "Fondations & ouverture de murs porteurs"
+        }
+      ]
+    },
+    {
+      "id": "Extension",
+      "label": "Extension & Surélévation",
+      "description": "Agrandissement, véranda, combles",
+      "icon": "trade-expand",
+      "services": [
+        {
+          "id": "Extension-1",
+          "value": "Extension de maison",
+          "label": "Extension de maison"
+        },
+        {
+          "id": "Extension-2",
+          "value": "Surélévation",
+          "label": "Surélévation"
+        },
+        {
+          "id": "Extension-3",
+          "value": "Véranda & jardin d'hiver",
+          "label": "Véranda & jardin d'hiver"
+        },
+        {
+          "id": "Extension-4",
+          "value": "Aménagement de combles",
+          "label": "Aménagement de combles"
+        },
+        {
+          "id": "Extension-5",
+          "value": "Garage & dépendances",
+          "label": "Garage & dépendances"
+        },
+        {
+          "id": "Extension-6",
+          "value": "Extensions spécifiques",
+          "label": "Extensions spécifiques"
+        }
+      ]
+    },
+    {
+      "id": "Renovation",
+      "label": "Rénovation globale",
+      "description": "Maison, appartement, local",
+      "icon": "trade-sun",
+      "services": [
+        {
+          "id": "Renovation-1",
+          "value": "Rénovation maison",
+          "label": "Rénovation maison"
+        },
+        {
+          "id": "Renovation-2",
+          "value": "Rénovation appartement",
+          "label": "Rénovation appartement"
+        },
+        {
+          "id": "Renovation-3",
+          "value": "Rénovation grange",
+          "label": "Rénovation grange"
+        },
+        {
+          "id": "Renovation-4",
+          "value": "Local professionnel",
+          "label": "Local professionnel"
+        }
+      ]
+    }
+  ],
+  "budgets": [
+    {
+      "id": "budget-1",
+      "label": "Moins de 5 000 €"
+    },
+    {
+      "id": "budget-2",
+      "label": "5 000 € - 15 000 €"
+    },
+    {
+      "id": "budget-3",
+      "label": "15 000 € - 30 000 €"
+    },
+    {
+      "id": "budget-4",
+      "label": "Plus de 30 000 €"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "delai-1",
+      "label": "Moins de 3 mois"
+    },
+    {
+      "id": "delai-2",
+      "label": "3 à 6 mois"
+    },
+    {
+      "id": "delai-3",
+      "label": "6 à 12 mois"
+    },
+    {
+      "id": "delai-4",
+      "label": "Plus de 12 mois"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "domains": [
+    {
+      "key": "Chauffage",
+      "services": [
+        "Pompe à chaleur air/eau",
+        "Pompe à chaleur air/air (clim réversible)",
+        "Chaudière gaz condensation",
+        "Chaudière fioul (remplacement/suppression)",
+        "Radiateurs électriques dernière génération",
+        "Plancher chauffant",
+        "Poêles à bois / granulés",
+        "Ballon thermodynamique"
+      ]
+    },
+    {
+      "key": "Isolation",
+      "services": [
+        "Isolation des combles perdus",
+        "Isolation des combles aménagés",
+        "Isolation des murs par l'intérieur",
+        "Isolation thermique par l'extérieur (ITE)",
+        "Isolation du plancher bas"
+      ]
+    },
+    {
+      "key": "Menuiseries",
+      "services": [
+        "Fenêtres PVC / Aluminium / Bois",
+        "Volets roulants & battants",
+        "Portes d'entrée & portes de garage"
+      ]
+    },
+    {
+      "key": "SalleDeBain",
+      "services": [
+        "Création ou rénovation complète",
+        "Douches à l'italienne",
+        "Aménagement PMR",
+        "Remplacement baignoire par douche",
+        "Carrelage & faïence",
+        "Meubles & équipements sur-mesure",
+        "Cuisine équipée / rénovation"
+      ]
+    },
+    {
+      "key": "Amenagement",
+      "services": [
+        "Cloisons & plâtrerie",
+        "Faux plafonds",
+        "Escaliers & garde-corps",
+        "Parquet & stratifié",
+        "Carrelage & sols souples",
+        "Peinture & décoration murale",
+        "Dressing & rangements sur-mesure"
+      ]
+    },
+    {
+      "key": "AdaptationLogement",
+      "services": [
+        "Salle de bain PMR (Douche / Barre de maintien, …)",
+        "Monte-escalier",
+        "Cuisine",
+        "Chambre",
+        "Elargissement des portes",
+        "Rampes d'accès",
+        "Accessibilité extérieure"
+      ]
+    },
+    {
+      "key": "Toiture",
+      "services": [
+        "Couverture (tuiles, ardoises, zinc)",
+        "Étanchéité toit-terrasse",
+        "Ravalement de façade",
+        "Nettoyage & traitement hydrofuge",
+        "Charpente & bardage bois"
+      ]
+    },
+    {
+      "key": "Exterieur",
+      "services": [
+        "Terrasses bois, composite ou carrelage",
+        "Allées, cours & accès",
+        "Clôtures & portails",
+        "Pergolas & carports",
+        "Aménagement paysager",
+        "Piscines & abris"
+      ]
+    },
+    {
+      "key": "GrosOeuvre",
+      "services": [
+        "Maçonnerie générale",
+        "Démolition & préparation",
+        "Fondations & ouverture de murs porteurs"
+      ]
+    },
+    {
+      "key": "Extension",
+      "services": [
+        "Extension de maison",
+        "Surélévation",
+        "Véranda & jardin d'hiver",
+        "Aménagement de combles",
+        "Garage & dépendances",
+        "Extensions spécifiques"
+      ]
+    },
+    {
+      "key": "Renovation",
+      "services": [
+        "Rénovation maison",
+        "Rénovation appartement",
+        "Rénovation grange",
+        "Local professionnel"
+      ]
+    }
+  ],
+  "sharedSteps": [
+    "Agences\nServices\nEstimation\nRéalisations\nBlog\nDevenir Franchisé\n07 56 85 86 55\nConnexion\nDevis gratuit\nEstimez le coût de vos travaux en 2 minutes\nQuel est votre budget prévisionnel ?\nMoins de 5 000 €\n5 000 € - 15 000 €\n15 000 € - 30 000 €\nPlus de 30 000 €\nRetour\nContinuer\n\nVotre partenaire de confiance pour tous vos projets de rénovation énergétique. Qualité, transparence et accompagnement personnalisé.\n\n07 56 85 86 55\nNos agences\n\nDécouvrez l'ensemble de nos agences Kovan réparties sur tout le territoire.\n\nLiens utiles\nServices\nRéalisations\nBlog\nJ'estime mon projet\nDevenir franchisé\nAccès rapide\nEspace MAIA\nBesoin d'aide ?\ncontact@kovan.fr\nDu lundi au vendredi, 9h-18h\n© 2025 KOVAN. Tous droits réservés.\nPolitique de confidentialité\nMentions légales\nCGU\nCGV",
+    "Agences\nServices\nEstimation\nRéalisations\nBlog\nDevenir Franchisé\n07 56 85 86 55\nConnexion\nDevis gratuit\nEstimez le coût de vos travaux en 2 minutes\nDans quels délais souhaitez-vous réaliser vos travaux ?\nMoins de 3 mois\n3 à 6 mois\n6 à 12 mois\nPlus de 12 mois\nRetour\nContinuer\n\nVotre partenaire de confiance pour tous vos projets de rénovation énergétique. Qualité, transparence et accompagnement personnalisé.\n\n07 56 85 86 55\nNos agences\n\nDécouvrez l'ensemble de nos agences Kovan réparties sur tout le territoire.\n\nLiens utiles\nServices\nRéalisations\nBlog\nJ'estime mon projet\nDevenir franchisé\nAccès rapide\nEspace MAIA\nBesoin d'aide ?\ncontact@kovan.fr\nDu lundi au vendredi, 9h-18h\n© 2025 KOVAN. Tous droits réservés.\nPolitique de confidentialité\nMentions légales\nCGU\nCGV",
+    "Agences\nServices\nEstimation\nRéalisations\nBlog\nDevenir Franchisé\n07 56 85 86 55\nConnexion\nVos coordonnées\n\nUn expert vous contactera pour finaliser votre estimation\n\nPrénom *\nNom *\nEmail *\nTéléphone *\nAdresse *\nCode postal *\nVille *\nJ'accepte de recevoir des informations et conseils de KOVAN par email.\nRetour\nRecevoir mon estimation\n\nVotre partenaire de confiance pour tous vos projets de rénovation énergétique. Qualité, transparence et accompagnement personnalisé.\n\n07 56 85 86 55\nNos agences\n\nDécouvrez l'ensemble de nos agences Kovan réparties sur tout le territoire.\n\nLiens utiles\nServices\nRéalisations\nBlog\nJ'estime mon projet\nDevenir franchisé\nAccès rapide\nEspace MAIA\nBesoin d'aide ?\ncontact@kovan.fr\nDu lundi au vendredi, 9h-18h\n© 2025 KOVAN. Tous droits réservés.\nPolitique de confidentialité\nMentions légales\nCGU\nCGV"
+  ],
+  "fields": [
+    {
+      "id": "firstName",
+      "type": "text",
+      "required": true,
+      "autocomplete": ""
+    },
+    {
+      "id": "lastName",
+      "type": "text",
+      "required": true,
+      "autocomplete": ""
+    },
+    {
+      "id": "email",
+      "type": "email",
+      "required": true,
+      "autocomplete": ""
+    },
+    {
+      "id": "phone",
+      "type": "tel",
+      "required": true,
+      "autocomplete": ""
+    },
+    {
+      "id": "address",
+      "type": "text",
+      "required": false,
+      "autocomplete": "off"
+    },
+    {
+      "id": "postalCode",
+      "type": "text",
+      "required": true,
+      "autocomplete": ""
+    },
+    {
+      "id": "city",
+      "type": "text",
+      "required": true,
+      "autocomplete": ""
+    },
+    {
+      "id": "",
+      "type": "checkbox",
+      "required": false,
+      "autocomplete": ""
+    }
+  ]
+}
