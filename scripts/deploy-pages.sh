@@ -2,6 +2,7 @@
 set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
+python3 scripts/version-styles.py --check
 git diff --exit-code HEAD -- export >/dev/null
 if [[ -n "$(git ls-files --others --exclude-standard -- export)" ]]; then
   echo "Commit the export files before deploying." >&2

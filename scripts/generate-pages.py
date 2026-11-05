@@ -122,3 +122,7 @@ for name in ['index.html','nos-materiaux.html']:
     s=re.sub(r'<svg class="icon-definitions".*?</svg>',lambda _:icons,s,count=1,flags=re.S)
     p.write_text(s)
 print('5 pages générées ; navigation des 7 pages reliée.')
+
+# Refresh shared CSS references after regenerating the static pages.
+import runpy
+runpy.run_path(str(root / "scripts/version-styles.py"), run_name="__main__")

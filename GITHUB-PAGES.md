@@ -17,6 +17,8 @@ Lors de la préparation initiale, l’accès Pages de la connexion GitHub utilis
 
 ## Mises à jour
 
+Après une modification du CSS partagé, exécuter `python3 scripts/version-styles.py` avant le commit : les sept pages reçoivent une URL `styles.css?v=<empreinte>` liée au contenu du fichier. Cela renouvelle le cache du navigateur lorsque le style change. Le générateur de pages actualise aussi ces références ; le déploiement refuse une version périmée.
+
 Après avoir commité et poussé les changements sur `main` :
 
 ```bash

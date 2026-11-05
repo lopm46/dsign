@@ -4,6 +4,7 @@
 
 À la demande du propriétaire, après chaque modification demandée et vérifiée :
 
+- Après une modification de `export/styles.css`, exécuter `python3 scripts/version-styles.py` avant le commit pour renouveler son URL dans les pages et éviter un ancien CSS en cache. Le déploiement vérifie ces références.
 - Créer un commit décrivant le résultat et pousser sur `main` du dépôt `lopm46/dsign`.
 - Inclure les sources, les assets et la documentation concernés ; respecter les exclusions de `.gitignore`.
 - À la demande du propriétaire, ne plus générer ni actualiser de ZIP à chaque modification. Pousser les changements sur GitHub ; produire une archive uniquement sur demande explicite. Les anciennes archives restent historiques.
