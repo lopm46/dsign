@@ -1,0 +1,434 @@
+[
+  {
+    "width": 320,
+    "route": "index",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 320,
+    "route": "nos-services",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 320,
+    "route": "nos-projets",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 320,
+    "route": "nos-materiaux",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 320,
+    "route": "renovation",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 320,
+    "route": "extension",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 320,
+    "route": "construction",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 320,
+    "route": "estimation",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 390,
+    "route": "index",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 390,
+    "route": "nos-services",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 390,
+    "route": "nos-projets",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 390,
+    "route": "nos-materiaux",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 390,
+    "route": "renovation",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 390,
+    "route": "extension",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 390,
+    "route": "construction",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 390,
+    "route": "estimation",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 760,
+    "route": "index",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 760,
+    "route": "nos-services",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 760,
+    "route": "nos-projets",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 760,
+    "route": "nos-materiaux",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 760,
+    "route": "renovation",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 760,
+    "route": "extension",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 760,
+    "route": "construction",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 760,
+    "route": "estimation",
+    "overflow": false,
+    "header": 96,
+    "logo": "36px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 768,
+    "route": "index",
+    "overflow": false,
+    "header": 100,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 768,
+    "route": "nos-services",
+    "overflow": false,
+    "header": 100,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 768,
+    "route": "nos-projets",
+    "overflow": false,
+    "header": 100,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 768,
+    "route": "nos-materiaux",
+    "overflow": false,
+    "header": 100,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 768,
+    "route": "renovation",
+    "overflow": false,
+    "header": 100,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 768,
+    "route": "extension",
+    "overflow": false,
+    "header": 100,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 768,
+    "route": "construction",
+    "overflow": false,
+    "header": 100,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 768,
+    "route": "estimation",
+    "overflow": false,
+    "header": 100,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1121,
+    "route": "index",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1121,
+    "route": "nos-services",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1121,
+    "route": "nos-projets",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1121,
+    "route": "nos-materiaux",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1121,
+    "route": "renovation",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1121,
+    "route": "extension",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1121,
+    "route": "construction",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1121,
+    "route": "estimation",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1440,
+    "route": "index",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1440,
+    "route": "nos-services",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1440,
+    "route": "nos-projets",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1440,
+    "route": "nos-materiaux",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1440,
+    "route": "renovation",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1440,
+    "route": "extension",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1440,
+    "route": "construction",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  },
+  {
+    "width": 1440,
+    "route": "estimation",
+    "overflow": false,
+    "header": 108,
+    "logo": "40px",
+    "footer": "D-SIGN",
+    "footerImg": false
+  }
+]

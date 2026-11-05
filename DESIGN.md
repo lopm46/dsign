@@ -91,7 +91,7 @@ components:
 
 La référence est la [homepage choisie par le client](https://i.imgur.com/KfDjzWy.jpeg), archivée dans le dépôt. Ce document décrit le système effectivement construit dans `export/` : huit pages HTML partageant `styles.css` et `script.js`, avec `pages.css` et `pages.js` pour les pages projets/services. Une copie de cette charte accompagne les fichiers de l’export. La capture fixe la direction ; les valeurs ci-dessus proviennent de l’implémentation, sans prétendre retrouver le CSS ou la police de la page source.
 
-La page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le fichier du logo SVG officiel reste intact et figure au footer ; à la demande du propriétaire le 5 novembre, la navigation affiche uniquement le nom D-SIGN en texte dégradé. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V7 conserve le parcours et la navigation blanche, puis étend explicitement les règles à des boutons arrondis, cartes adoucies, titres dégradés et guillemet SVG. Le propriétaire demande les onze catégories et tous les exemples de Kovan.fr dans la touche D-SIGN ; voir `.impeccable/directions/homepage-v7-kovan.md`. Les couleurs, la police et le hero en D restent conservés ; le hero occupe désormais 92 % de sa colonne, plafonné à 600 px.
+La page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le fichier du logo SVG officiel reste intact et est conservé comme référence ; à la demande du propriétaire le 5 novembre, la navigation affiche uniquement le nom D-SIGN en texte dégradé. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V7 conserve le parcours et la navigation blanche, puis étend explicitement les règles à des boutons arrondis, cartes adoucies, titres dégradés et guillemet SVG. Le propriétaire demande les onze catégories et tous les exemples de Kovan.fr dans la touche D-SIGN ; voir `.impeccable/directions/homepage-v7-kovan.md`. Les couleurs, la police et le hero en D restent conservés ; le hero occupe désormais 92 % de sa colonne, plafonné à 600 px.
 
 La V8 étend ce même système au portfolio, au hub services et aux trois pages de service, sans nouveau token ni changement de la homepage. Les ajouts et leurs limites sont décrits dans `.impeccable/directions/inner-pages-v8.md`.
 
@@ -150,7 +150,7 @@ Le conteneur central a une largeur maximale de 1240 px. La marge latérale et l�
 
 La composition livrée V7 suit l’ordre hero, Comment ça marche, Nos métiers, Pourquoi nous choisir, Le mot du fondateur, À propos, matériaux, contact, footer. L’ancienne introduction « Un seul fil. Du début à la fin. », son détail de méthode et l’ancienne section « Pourquoi nous confier votre projet ? » sont supprimés ; la section projets retirée auparavant reste absente. Ce séquençage appartient à cette homepage ; il ne prescrit pas la composition de toutes les futures pages.
 
-Le header est blanc. Le rythme des huit sections est bleu / blanc / minéral / bleu / minéral / blanc / minéral photographique / bleu, puis footer blanc. Le parcours expose cinq étapes numérotées sur blanc. Les métiers utilisent des photos avec un voile bleu et du texte clair sur une section minérale. Les raisons de choix ont leur propre aplat bleu, une image avec action et quatre bénéfices avec icônes vertes. Le fondateur associe son portrait réel, un cartouche d’identité et un message avec guillemet SVG sur minéral ; À propos reste blanc. Le fond minéral des matériaux reste visible sur mobile lorsque le texte précède la photo.
+Le header est blanc. Le rythme des huit sections est bleu / blanc / minéral / bleu / minéral / blanc / minéral photographique / bleu, puis footer blanc. Le parcours expose cinq étapes numérotées sur blanc. Les métiers utilisent des photos avec un voile sombre neutre et du texte clair sur une section minérale. Les raisons de choix ont leur propre aplat bleu, une image avec action et quatre bénéfices avec icônes vertes. Le fondateur associe son portrait réel, un cartouche d’identité et un message avec guillemet SVG sur minéral ; À propos reste blanc. Le fond minéral des matériaux reste visible sur mobile lorsque le texte précède la photo.
 
 Sur grand écran, le hero répartit texte et image en colonnes `.9fr / 1.1fr`, séparées par 48 px. Le parcours utilise cinq colonnes ; les exemples de métiers, trois colonnes avec un écart de 24 px, organisées par catégorie. Les raisons de choix utilisent deux colonnes égales ; le fondateur, `.9fr / 1.1fr` ; À propos, `.85fr / 1.15fr`. Le contact conserve deux colonnes égales.
 
@@ -180,7 +180,7 @@ Le lien de section associe un filet vert inférieur, du texte gras et une flèch
 
 ### Cards / Containers
 
-Les métiers regroupent onze catégories et 61 cartes photographiques arrondies, avec titre et description originale sur un voile bleu. L’action « Parlons de ce projet » est une action discrète de 12 px avec une flèche dans un cercle vert de 32 px, masqué au repos et révélé au survol ou au focus clavier ; la carte entière reste activable au toucher. Leur hauteur minimale est de 320 px sur grand écran, avec 24 px de marge intérieure ; sur mobile, 310 px et 23 px. Chaque carte rejoint `#contact` et préremplit un message vide ou remplace le précédent texte automatique resté intact ; un texte modifié par le visiteur est conservé. La photo s’agrandit au survol (`scale(1.035)`, 600 ms), sans déplacer la mise en page ; cet effet disparaît en mouvement réduit.
+Les métiers regroupent onze catégories et 61 cartes photographiques arrondies, avec titre et description originale sur un voile sombre neutre. L’action « Parlons de ce projet » est une action discrète de 12 px avec une flèche dans un cercle vert de 32 px, masqué au repos et révélé au survol ou au focus clavier ; la carte entière reste activable au toucher. Leur hauteur minimale est de 320 px sur grand écran, avec 24 px de marge intérieure ; sur mobile, 310 px et 23 px. Chaque carte rejoint `#contact` et préremplit un message vide ou remplace le précédent texte automatique resté intact ; un texte modifié par le visiteur est conservé. La photo s’agrandit au survol (`scale(1.035)`, 600 ms), sans déplacer la mise en page ; cet effet disparaît en mouvement réduit.
 
 Le titre de catégorie reste accessible aux lecteurs d’écran sans être affiché au-dessus des cartes. Les onze filtres, centrés également sur mobile, sont des boutons en pilule avec pictogramme, blancs avec texte bleu et contour clair (50 px minimum, 46 px sur mobile). Le filtre actif devient bleu avec texte blanc, icône verte et ombre douce. « Chauffage & Climatisation » est sélectionné au démarrage JavaScript ; la sélection utilise `aria-pressed` et annonce la catégorie et son nombre d’exemples dans une zone de statut. Sans JavaScript, les filtres restent masqués et les 61 cartes des onze catégories restent visibles.
 
@@ -190,7 +190,7 @@ Les champs conservent fond blanc, texte bleu, labels et états existants, avec u
 
 ### Navigation
 
-Les sept pages partagent le header blanc, le nom D-SIGN en dégradé à gauche (34 px, 30 px sur mobile), puis « Nos services », « Nos projets », « Nos métiers », « Matériaux » et l’action de contact sur grand écran. Les pages intérieures ajoutent un fil d’Ariane et un état courant souligné/vert foncé. Le menu mobile utilise un élément natif `details`, un panneau blanc avec texte bleu et une action verte ; il ajoute l’accueil, Comment ça marche et À propos. Le symbole à deux traits devient une croix à l’ouverture. Le script le ferme au choix d’un lien, au clic extérieur, à Échap et au retour en affichage desktop. Échap rend le focus à la commande.
+Les sept pages partagent le header blanc, le nom D-SIGN en dégradé à gauche (40 px, 36 px sur mobile), puis « Nos services », « Nos projets », « Nos métiers », « Matériaux » et l’action de contact sur grand écran. Les pages intérieures ajoutent un fil d’Ariane et un état courant souligné/vert foncé. Le menu mobile utilise un élément natif `details`, un panneau blanc avec texte bleu et une action verte ; il ajoute l’accueil, Comment ça marche et À propos. Le symbole à deux traits devient une croix à l’ouverture. Le script le ferme au choix d’un lien, au clic extérieur, à Échap et au retour en affichage desktop. Échap rend le focus à la commande.
 
 ### Process and editorial sections
 
@@ -224,7 +224,7 @@ Le focus clavier est matérialisé par un contour de 3 px dans la couleur couran
 
 ### Do:
 
-- **Do** garder le SVG officiel intact dans les assets et le footer ; utiliser le nom textuel D-SIGN en dégradé dans la navigation, selon la demande du 5 novembre.
+- **Do** garder le SVG officiel intact dans les assets ; utiliser le nom textuel D-SIGN en dégradé dans la navigation et le footer, selon la demande du 5 novembre.
 - **Do** reprendre le bleu, le vert, les titres gras et les flèches de la direction choisie.
 - **Do** utiliser le vert foncé pour les accents fins sur fond clair et le vert clair pour les icônes et flèches sur bleu.
 - **Do** préserver l’image en D du hero, les alignements communs et le texte vivant.
@@ -237,3 +237,7 @@ Le focus clavier est matérialisé par un contour de 3 px dans la couleur couran
 - **Don't** réintroduire le bouton d’interface « Modifier le site » dans la homepage.
 - **Don't** présenter les images illustratives comme des projets livrés ou des membres de l’équipe.
 - **Don't** inventer une police source, un comportement mobile observé dans la capture ou des composants absents de l’export.
+
+### Ajustements du 5 novembre — alignement mobile
+
+Le bandeau de navigation mesure au minimum 108 px sur ordinateur et 96 px sur mobile (100 px sur tablette). Le nom D-SIGN passe à 40/36 px et remplace aussi le logo image dans les huit footers. Le hero conserve uniquement le bouton d’estimation. Les titres de section mobiles occupent toute la colonne avant centrage ; le hero et les grands titres des pages intérieures et matériaux sont centrés. Les étapes mobiles suivent la référence Kovan : disque de 96 px (84 px sur écran très étroit) centré au-dessus du titre et du texte, sans connecteur latéral. Les photos métiers utilisent un voile neutre plus transparent en haut, renforcé seulement vers le texte inférieur, à la place du voile bleu dominant.

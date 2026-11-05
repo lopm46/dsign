@@ -17,6 +17,8 @@ Le propriétaire a demandé l’hébergement de la V3 sur GitHub Pages, a activ�
 
 ## Direction et livraison
 
-À la demande du propriétaire du 5 novembre 2026, la navigation affiche uniquement le nom textuel D-SIGN en dégradé. Conserver le fichier du logo officiel intact dans les assets et au footer, ainsi que les couleurs et la police retenues. La livraison courante est dans `export/`, avec une homepage et une page matériaux en HTML/CSS/JavaScript natif. L’intégration WordPress et ses limites sont décrites dans les documents de ce dossier.
+À la demande du propriétaire du 5 novembre 2026, la navigation affiche uniquement le nom textuel D-SIGN en dégradé. Conserver le fichier du logo officiel intact dans les assets, ainsi que les couleurs et la police retenues. La livraison courante est dans `export/`, avec une homepage et une page matériaux en HTML/CSS/JavaScript natif. L’intégration WordPress et ses limites sont décrites dans les documents de ce dossier.
 
 Le module `export/estimation.html` est une démonstration locale sans envoi de coordonnées. Le propriétaire prévoit son raccordement réel à Contact Form 7 lors de la phase WordPress ; voir `export/ESTIMATION.md`.
+
+Le propriétaire a demandé de remplacer également le logo du footer par le nom D-SIGN en dégradé. Les en-têtes et pieds de page utilisent donc tous le nom textuel ; le SVG historique reste uniquement dans les assets.

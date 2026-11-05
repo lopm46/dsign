@@ -79,3 +79,7 @@
 @media (min-width:761px) and (min-height:721px) and (prefers-reduced-motion:no-preference) {
  .materials-page .experience-sticky { height:min(760px,100svh); min-height:620px; }
 }
+
+@media (max-width:760px) {
+ .materials-page .editorial-intro-grid h1, .materials-page .mat-intro h2, .materials-page .mat-heading h2, .materials-page .innovation-intro h2, .materials-page .choice-copy h2, .materials-page .contact h2 { text-align:center; width:100%; max-width:none; margin-inline:auto; }
+}

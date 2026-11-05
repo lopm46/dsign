@@ -273,3 +273,7 @@
   .progress-fill { bottom: auto; height: calc((100% - 64px) * var(--method-progress)); }
   .method-contact { margin-top: 24px; }
 }
+
+@media (max-width:760px) {
+  .page-intro h1, .page-section-heading h2, .service-hero h1, .service-overview h2, .service-needs h2, .service-faq h2, .page-cta h2 { text-align:center; max-width:none; width:100%; margin-inline:auto; }
+}

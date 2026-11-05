@@ -48,7 +48,7 @@ def header(page):
 def footer(page):
     prefix = '' if page == 'index.html' else 'index.html'
     return f'''<footer class="site-footer"><div class="container">
-      <div class="footer-main"><a class="brand footer-brand" href="#haut" aria-label="D-SIGN GBS — Retour en haut"><img src="assets/logo.svg" width="2519" height="1005" alt="D-SIGN Global Building Solutions" loading="lazy"></a>
+      <div class="footer-main"><a class="brand footer-brand" href="#haut" aria-label="D-SIGN GBS — Retour en haut"><span class="brand-wordmark gradient-text">D-SIGN</span></a>
         <div class="footer-navigation"><p>D-SIGN GBS · Boves</p><nav aria-label="Navigation de pied de page"><a href="nos-services.html">Nos services</a><a href="nos-projets.html">Nos projets</a><a href="{prefix}#expertises">Nos métiers</a><a href="{prefix}#apropos">À propos</a><a href="nos-materiaux.html">Matériaux</a><a href="{prefix}#contact">Contact</a></nav></div>
       </div>
       <div class="footer-bottom"><p>© 2026 D-SIGN</p><div><p>Visuels d’ambiance et vues de conception.</p><details class="site-information" id="informations"><summary>Informations du site</summary><div><p>D-SIGN GBS · 5 rue des Indes Noires, 80440 Boves.<br><a href="mailto:contact@dsign-gbs.fr">contact@dsign-gbs.fr</a> · <a href="tel:+33607954046">06 07 95 40 46</a></p><p>Les vues de projets sont issues du portfolio D-SIGN. Les visuels d’ambiance et d’illustration ne constituent pas des photographies de réalisations livrées. Le portrait de Kevin HUART utilisé sur l’accueil est une photographie réelle.</p></div></details></div></div>
