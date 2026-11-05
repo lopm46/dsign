@@ -28,7 +28,7 @@ Chaque carte rejoint `#contact`. Le message peut être préparé avec le titre c
 
 Les intitulés techniques ont été relevés dans les onze filtres de [Kovan.fr](https://kovan.fr/) le 4 novembre 2026, conformément à la demande du propriétaire. Les courtes descriptions ont été rédigées pour D-SIGN. Les affirmations propres à Kovan — certifications, réseau, garanties, financement, logiciel ou devis gratuit — ne sont pas reprises comme faits D-SIGN.
 
-Les **52 illustrations distinctes**, réutilisées pour certains exemples comme sur la référence, sont servies localement sous `assets/trades/`. Chaque `.webp` possède un fichier `.webp.json` indiquant l’URL source exacte, la transformation et le SHA-256 du fichier livré. Les fichiers sont redimensionnés à 800 px maximum et compressés en WebP. Les images sont des illustrations de types de travaux ; elles ne constituent pas un portfolio de réalisations D-SIGN. Cette distinction est visible dans la page.
+Les **52 illustrations distinctes**, réutilisées pour certains exemples comme sur la référence, sont servies localement sous `assets/trades/`. Chaque `.webp` possède un fichier `.webp.json` indiquant l’URL source exacte, la transformation et le SHA-256 du fichier livré. Les fichiers sont redimensionnés à 800 px maximum et compressés en WebP. Les images sont des illustrations de types de travaux ; elles ne constituent pas un portfolio de réalisations D-SIGN. Le rappel sous les cartes a été retiré à la demande du propriétaire ; la provenance et la distinction entre illustrations et réalisations restent documentées ici et dans les informations du footer.
 
 ## Portrait de Kevin HUART
 
