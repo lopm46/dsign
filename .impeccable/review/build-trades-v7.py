@@ -22,7 +22,7 @@ for index, category in enumerate(catalogue):
                 <div class="trade-copy"><h4>{title}</h4><p>{escape(item['description'])}</p><span class="trade-link">Parlons de ce projet<svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></span></div>
               </a>''')
     panels.append(f'''          <section class="trade-panel" id="trade-{slug}" data-trade-category="{slug}" aria-labelledby="trade-title-{slug}">
-            <div class="trade-category-heading"><h3 id="trade-title-{slug}">{escape(label)}</h3><p>{len(category['items'])} exemples de travaux</p></div>
+            <h3 class="sr-only" id="trade-title-{slug}">{escape(label)}</h3>
             <div class="trade-grid">\n{chr(10).join(cards)}\n            </div>
           </section>''')
 
@@ -39,7 +39,6 @@ section = f'''    <section class="trades section-space" id="expertises" aria-lab
 {chr(10).join(panels)}
         </div>
         <p class="sr-only" id="trade-status" role="status" aria-live="polite" aria-atomic="true"></p>
-        <p class="trade-illustration-note">Les visuels illustrent des types de travaux, sans représenter des réalisations D-SIGN.</p>
       </div>
     </section>
 

@@ -1,0 +1,67 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "circle": "72px",
+      "filters": "center",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "line": "linear-gradient(100deg, rgb(28, 28, 88), rgb(112, 200, 117))",
+      "removed": 0,
+      "images": 0
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "circle": "72px",
+      "filters": "center",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "line": "linear-gradient(100deg, rgb(28, 28, 88), rgb(112, 200, 117))",
+      "removed": 0,
+      "images": 0,
+      "axe": []
+    },
+    {
+      "width": 760,
+      "overflow": false,
+      "circle": "72px",
+      "filters": "center",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "line": "linear-gradient(100deg, rgb(28, 28, 88), rgb(112, 200, 117))",
+      "removed": 0,
+      "images": 0
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "circle": "100px",
+      "filters": "center",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "line": "linear-gradient(100deg, rgb(28, 28, 88), rgb(112, 200, 117))",
+      "removed": 0,
+      "images": 0
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "circle": "100px",
+      "filters": "center",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "line": "linear-gradient(100deg, rgb(28, 28, 88), rgb(112, 200, 117))",
+      "removed": 0,
+      "images": 0
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "circle": "100px",
+      "filters": "center",
+      "gradient": "linear-gradient(100deg, rgb(28, 28, 88) 0%, rgb(51, 127, 64) 100%)",
+      "line": "linear-gradient(100deg, rgb(28, 28, 88), rgb(112, 200, 117))",
+      "removed": 0,
+      "images": 0,
+      "axe": []
+    }
+  ],
+  "errors": []
+}
