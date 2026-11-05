@@ -5,7 +5,10 @@
 .estimate-intro h1 { font-size: clamp(34px, 3.4vw, 46px); line-height: 1.1; text-wrap: balance; }
 .estimate-intro > p { margin-top: 18px; color: var(--color-muted); font-size: 17px; }
 .estimate-intro > .estimate-demo-note { margin-top: 12px; font-size: 13px; }
-.estimate-progress { margin-bottom: 30px; }
+.estimate-toolbar { position: sticky; top: 0; z-index: 20; margin-bottom: 30px; padding-block: 16px; background: var(--color-mineral); border-bottom: 1px solid var(--color-line); }
+.estimate-toolbar .estimate-actions { margin-top: 16px; }
+.estimate-progress { margin: 0; }
+.estimate-choice, .estimate-choice-input, .estimate-field input, .estimate-error { scroll-margin-bottom: 24px; }
 .estimate-progress ol { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; list-style: none; margin: 0; padding: 0; }
 .estimate-progress li { position: relative; }
 .estimate-progress li:not(:last-child)::after { content: ""; position: absolute; top: 18px; left: calc(50% + 28px); right: calc(-50% + 12px); height: 1px; background: var(--color-line); }
@@ -96,7 +99,8 @@
   .estimate-intro { margin-bottom: 28px; }
   .estimate-intro h1 { font-size: 34px; }
   .estimate-intro > p { font-size: 16px; }
-  .estimate-progress { margin-bottom: 26px; }
+  .estimate-toolbar { margin-bottom: 26px; padding-block: 12px; }
+  .estimate-toolbar .estimate-actions { margin-top: 12px; }
   .estimate-progress ol { gap: 10px; }
   .estimate-progress button { min-height: 44px; }
   .estimate-progress button > span:last-child { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

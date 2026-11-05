@@ -87,3 +87,5 @@ La homepage doit respecter le niveau WCAG 2.2 AA : contraste suffisant, navigati
 Le dernier ajustement mobile centre les titres hors hero et les cinq étapes comme dans la référence Kovan. Le bandeau supérieur et D-SIGN sont agrandis, le hero conserve seulement l’estimation, les cartes métiers ont un voile sombre neutre plus discret et les huit footers utilisent également le nom textuel en dégradé.
 
 Le titre d’accueil retenu est « Vos travaux commencent ici. », composé en deux lignes : « Vos travaux » / « commencent ici. », avec un soulignement dégradé.
+
+Le parcours d’estimation conserve ses cinq numéros et ses commandes dans un bandeau sticky, avec l’action sous les étapes, pour continuer ou valider sans atteindre le bas de la page.

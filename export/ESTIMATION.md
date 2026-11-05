@@ -35,8 +35,10 @@ Le simulateur de référence prépare une demande de contact et n’affiche pas 
 ## Fonctionnement de la démonstration
 
 - La sélection des domaines et des services est multiple. Les services s’affichent dans l’ordre des domaines sélectionnés.
+- Le bandeau des cinq étapes reste sticky en haut pendant le défilement. Les boutons Retour et Continuer sont placés juste sous les numéros ; à l’étape des coordonnées, le même emplacement propose Recevoir mon estimation. Aucun déplacement en bas du formulaire n’est nécessaire pour avancer.
 - Le bouton Retour, la progression et l’historique du navigateur conservent les choix pertinents. Retirer un domaine supprime ses services du projet, en conservant ceux des autres domaines.
 - Le budget et le délai utilisent des groupes de boutons radio natifs. Le parcours ne permet pas d’avancer sans les réponses requises.
+- Chaque changement d’étape ramène la nouvelle question sous le bandeau sticky. La zone de défilement tient compte de sa hauteur, y compris pour les erreurs et le focus clavier.
 - Les sept champs de coordonnées sont validés avec des messages français et un focus sur le premier champ invalide. Les saisies restent en mémoire sur la page pendant les retours.
 - Le bouton **Utiliser des coordonnées fictives** remplit un exemple pour tester la fin du parcours.
 - **Recevoir mon estimation** ouvre uniquement une confirmation locale. Aucune requête de soumission, aucun email et aucune inscription ne sont effectués. Le module n’écrit pas de coordonnées dans l’URL, le stockage local ou le stockage de session.
@@ -44,7 +46,7 @@ Le simulateur de référence prépare une demande de contact et n’affiche pas 
 - La confirmation montre le récapitulatif des travaux, du budget et du délai. Le retour automatique à dix secondes peut être suspendu pour lire le récapitulatif ; une nouvelle simulation efface le brouillon.
 - Sans JavaScript, un message explique comment activer le parcours et propose le contact D-SIGN existant.
 
-Les différences volontaires avec la référence sont limitées à la charte D-SIGN, la présentation de démonstration, la conservation des choix lors des retours, le récapitulatif et la possibilité de suspendre le retour automatique. La promesse Kovan de gratuité, ses coordonnées, son compte utilisateur et son service d’envoi ne sont pas repris.
+Les différences volontaires avec la référence sont limitées à la charte D-SIGN, la présentation de démonstration, le bandeau sticky avec ses commandes, la conservation des choix lors des retours, le récapitulatif et la possibilité de suspendre le retour automatique. La promesse Kovan de gratuité, ses coordonnées, son compte utilisateur et son service d’envoi ne sont pas repris.
 
 ## Sources et maintenance
 
