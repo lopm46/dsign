@@ -15,7 +15,6 @@
       const valid = buttons.some(button => button.dataset.projectFilter === key) ? key : "tous";
       buttons.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.projectFilter === valid)));
       cards.forEach(card => { card.hidden = valid !== "tous" && card.dataset.projectCategory !== valid; });
-      grid.classList.toggle("is-filtered", valid !== "tous");
       const total = cards.filter(card => !card.hidden).length;
       count.textContent = `${total} projet${total > 1 ? "s" : ""}`;
       if (updateUrl) {
@@ -100,6 +99,9 @@
       const fraction = nextTop === undefined ? 0 : Math.max(0, Math.min(1, (marker - tops[active]) / (nextTop - tops[active] || 1)));
       const progress = Math.max(0, Math.min(1, (active + fraction) / (steps.length - 1)));
       rail.style.setProperty("--method-progress", String(progress));
+      const activeLink = links[active];
+      rail.style.setProperty("--method-current-y", `${activeLink.offsetTop}px`);
+      rail.style.setProperty("--method-row-height", `${activeLink.offsetHeight}px`);
       links.forEach((link, index) => {
         if (index === active) link.setAttribute("aria-current", "step");
         else link.removeAttribute("aria-current");

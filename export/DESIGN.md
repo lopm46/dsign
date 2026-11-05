@@ -16,13 +16,13 @@ colors:
 typography:
   display:
     fontFamily: '"Instrument Sans", Arial, sans-serif'
-    fontSize: "clamp(58px, 5.4vw, 84px)"
+    fontSize: "clamp(48px, 4.6vw, 70px)"
     fontWeight: 700
     lineHeight: 1.04
     letterSpacing: "-.035em"
   headline:
     fontFamily: '"Instrument Sans", Arial, sans-serif'
-    fontSize: "clamp(40px, 4.6vw, 68px)"
+    fontSize: "clamp(34px, 3.8vw, 56px)"
     fontWeight: 700
     lineHeight: 1.04
     letterSpacing: "-.035em"
@@ -89,9 +89,9 @@ components:
 
 ## Overview
 
-La référence est la [homepage choisie par le client](https://i.imgur.com/KfDjzWy.jpeg), archivée dans le dépôt. Ce document décrit le système effectivement construit dans `export/` : sept pages HTML partageant `styles.css` et `script.js`, avec `pages.css` et `pages.js` pour les pages projets/services. Une copie de cette charte accompagne ces fichiers dans l’archive de livraison. La capture fixe la direction ; les valeurs ci-dessus proviennent de l’implémentation, sans prétendre retrouver le CSS ou la police de la page source.
+La référence est la [homepage choisie par le client](https://i.imgur.com/KfDjzWy.jpeg), archivée dans le dépôt. Ce document décrit le système effectivement construit dans `export/` : sept pages HTML partageant `styles.css` et `script.js`, avec `pages.css` et `pages.js` pour les pages projets/services. Une copie de cette charte accompagne les fichiers de l’export. La capture fixe la direction ; les valeurs ci-dessus proviennent de l’implémentation, sans prétendre retrouver le CSS ou la police de la page source.
 
-La page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le logo SVG officiel reste entier et intact. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V7 conserve le parcours et la navigation blanche, puis étend explicitement les règles à des boutons arrondis, cartes adoucies, titres dégradés et guillemet SVG. Le propriétaire demande les onze catégories et tous les exemples de Kovan.fr dans la touche D-SIGN ; voir `.impeccable/directions/homepage-v7-kovan.md`. Le logo, les couleurs, la police et le hero en D restent conservés.
+La page alterne des aplats bleu profond et des sections blanches, avec de grands titres gras, des photographies architecturales et des actions vertes. Le fichier du logo SVG officiel reste intact et figure au footer ; à la demande du propriétaire le 5 novembre, la navigation affiche uniquement le nom D-SIGN en texte dégradé. L’image du hero, au bord gauche droit et au bord droit arrondi, constitue la forme distinctive ; les flèches géométriques relient les actions entre elles. La V7 conserve le parcours et la navigation blanche, puis étend explicitement les règles à des boutons arrondis, cartes adoucies, titres dégradés et guillemet SVG. Le propriétaire demande les onze catégories et tous les exemples de Kovan.fr dans la touche D-SIGN ; voir `.impeccable/directions/homepage-v7-kovan.md`. Les couleurs, la police et le hero en D restent conservés ; le hero occupe désormais 92 % de sa colonne, plafonné à 600 px.
 
 La V8 étend ce même système au portfolio, au hub services et aux trois pages de service, sans nouveau token ni changement de la homepage. Les ajouts et leurs limites sont décrits dans `.impeccable/directions/inner-pages-v8.md`.
 
@@ -136,9 +136,9 @@ Les mots accentués des titres utilisent un dégradé bleu vers vert foncé sur 
 
 ### Hierarchy
 
-- **Display** : promesse du hero, rôle `display`. Les adaptations réelles sont `clamp(50px, 5.3vw, 70px)` sous 1120 px, `clamp(48px, 6.6vw, 62px)` sous 900 px, `clamp(48px, 9.4vw, 72px)` sous 760 px et 44 px sous 360 px.
-- **Headline** : titres de sections, rôle `headline` ; ils deviennent `clamp(39px, 7.4vw, 56px)` sous 760 px. Le titre de contact possède une taille propre, de `clamp(48px, 5.7vw, 84px)` sur grand écran à `clamp(46px, 10vw, 68px)` sur mobile.
-- **Title** : rôle `title` du socle. Les catégories utilisent 25 px et les exemples de travaux 24 px ; sur mobile, respectivement 24 et 25 px. Les étapes utilisent 20 px sur grand écran, 18 px sous 1120 px et 22 px sur mobile ; les bénéfices restent à 21 px sur grand écran.
+- **Display** : promesse du hero, rôle `display`. Les adaptations réelles sont `clamp(44px, 4.6vw, 60px)` sous 1120 px, `clamp(42px, 5.7vw, 54px)` sous 900 px, `clamp(40px, 8vw, 60px)` sous 760 px et 38 px sous 360 px.
+- **Headline** : titres de sections, rôle `headline` ; ils deviennent `clamp(33px, 6.3vw, 48px)` sous 760 px. Le titre de contact possède une taille propre, de `clamp(40px, 4.4vw, 64px)` sur grand écran à `clamp(38px, 8.4vw, 56px)` sur mobile.
+- **Title** : rôle `title` du socle. Les intitulés de catégorie sont réservés aux lecteurs d’écran ; les titres des exemples utilisent 22 px sur grand écran et 23 px sur mobile. Les étapes utilisent 20 px sur grand écran, 18 px sous 1120 px et 22 px sur mobile ; les bénéfices restent à 21 px sur grand écran.
 - **Body** : rôle `body`. Les introductions utilisent 18 px et un interligne de 1.6, puis 17 px sur mobile. Les paragraphes d’introduction sont limités à 39 caractères environ sur grand écran ; certaines versions intermédiaires vont jusqu’à 48 caractères.
 - **Label** : boutons et liens, rôle `label`. La navigation desktop utilise 14 px gras ; le menu mobile, 17 px. Les mentions d’images sont à 13 px, le bas de page à 12 px.
 
@@ -146,7 +146,7 @@ Conserver les retours à la ligne éditoriaux des grands titres. Ne pas transfor
 
 ## Layout
 
-Le conteneur central a une largeur maximale de 1440 px. La marge latérale et l’espacement vertical des sections utilisent les deux valeurs fluides du frontmatter. Sous 760 px, la marge latérale passe à 24 px ; sous 360 px, à 20 px. Les alignements partagés par les titres, images et actions structurent la page.
+Le conteneur central a une largeur maximale de 1240 px. La marge latérale et l’espacement vertical des sections utilisent les deux valeurs fluides du frontmatter. Sous 760 px, la marge latérale passe à 24 px ; sous 360 px, à 20 px. Les alignements partagés par les titres, images et actions structurent la page.
 
 La composition livrée V7 suit l’ordre hero, Comment ça marche, Nos métiers, Pourquoi nous choisir, Le mot du fondateur, À propos, matériaux, contact, footer. L’ancienne introduction « Un seul fil. Du début à la fin. », son détail de méthode et l’ancienne section « Pourquoi nous confier votre projet ? » sont supprimés ; la section projets retirée auparavant reste absente. Ce séquençage appartient à cette homepage ; il ne prescrit pas la composition de toutes les futures pages.
 
@@ -180,7 +180,7 @@ Le lien de section associe un filet vert inférieur, du texte gras et une flèch
 
 ### Cards / Containers
 
-Les métiers regroupent onze catégories et 61 cartes photographiques arrondies, avec titre et description originale sur un voile bleu. L’action « Parlons de ce projet » est une action discrète de 12 px avec une flèche dans un cercle vert de 32 px, masqué au repos et révélé au survol ou au focus clavier ; la carte entière reste activable au toucher. Leur hauteur minimale est de 360 px sur grand écran, avec 26 px de marge intérieure ; sur mobile, 350 px et 25 px. Chaque carte rejoint `#contact` et préremplit un message vide ou remplace le précédent texte automatique resté intact ; un texte modifié par le visiteur est conservé. La photo s’agrandit au survol (`scale(1.035)`, 600 ms), sans déplacer la mise en page ; cet effet disparaît en mouvement réduit.
+Les métiers regroupent onze catégories et 61 cartes photographiques arrondies, avec titre et description originale sur un voile bleu. L’action « Parlons de ce projet » est une action discrète de 12 px avec une flèche dans un cercle vert de 32 px, masqué au repos et révélé au survol ou au focus clavier ; la carte entière reste activable au toucher. Leur hauteur minimale est de 320 px sur grand écran, avec 24 px de marge intérieure ; sur mobile, 310 px et 23 px. Chaque carte rejoint `#contact` et préremplit un message vide ou remplace le précédent texte automatique resté intact ; un texte modifié par le visiteur est conservé. La photo s’agrandit au survol (`scale(1.035)`, 600 ms), sans déplacer la mise en page ; cet effet disparaît en mouvement réduit.
 
 Le titre de catégorie reste accessible aux lecteurs d’écran sans être affiché au-dessus des cartes. Les onze filtres, centrés également sur mobile, sont des boutons en pilule avec pictogramme, blancs avec texte bleu et contour clair (50 px minimum, 46 px sur mobile). Le filtre actif devient bleu avec texte blanc, icône verte et ombre douce. « Chauffage & Climatisation » est sélectionné au démarrage JavaScript ; la sélection utilise `aria-pressed` et annonce la catégorie et son nombre d’exemples dans une zone de statut. Sans JavaScript, les filtres restent masqués et les 61 cartes des onze catégories restent visibles.
 
@@ -190,7 +190,7 @@ Les champs conservent fond blanc, texte bleu, labels et états existants, avec u
 
 ### Navigation
 
-Les sept pages partagent le header blanc, le logo SVG complet à gauche, puis « Nos services », « Nos projets », « Nos métiers », « Matériaux » et l’action de contact sur grand écran. Les pages intérieures ajoutent un fil d’Ariane et un état courant souligné/vert foncé. Le menu mobile utilise un élément natif `details`, un panneau blanc avec texte bleu et une action verte ; il ajoute l’accueil, Comment ça marche et À propos. Le symbole à deux traits devient une croix à l’ouverture. Le script le ferme au choix d’un lien, au clic extérieur, à Échap et au retour en affichage desktop. Échap rend le focus à la commande.
+Les sept pages partagent le header blanc, le nom D-SIGN en dégradé à gauche (34 px, 30 px sur mobile), puis « Nos services », « Nos projets », « Nos métiers », « Matériaux » et l’action de contact sur grand écran. Les pages intérieures ajoutent un fil d’Ariane et un état courant souligné/vert foncé. Le menu mobile utilise un élément natif `details`, un panneau blanc avec texte bleu et une action verte ; il ajoute l’accueil, Comment ça marche et À propos. Le symbole à deux traits devient une croix à l’ouverture. Le script le ferme au choix d’un lien, au clic extérieur, à Échap et au retour en affichage desktop. Échap rend le focus à la commande.
 
 ### Process and editorial sections
 
@@ -198,13 +198,15 @@ Le parcours « Comment ça marche » expose cinq étapes dans une liste ordonné
 
 Les quatre bénéfices des raisons de choix utilisent une liste de définitions, avec icônes vertes et filets sur bleu. Le message du fondateur utilise une citation et une signature sous un filet de 220 px en dégradé bleu–vert qui s’estompe à droite ; le portrait réel de Kevin HUART est recadré et présenté en miroir pour correspondre à la photo demandée, avec son nom et sa fonction en cartouche blanc. Le visage n’est pas généré. La section ne comporte plus de lien de contact sous la signature. Le nom D-SIGN du titre « À propos » reprend le dégradé des titres ; les trois libellés sous l’image ont été retirés. La source officielle H2Z et le fichier original sont conservés dans la provenance. Les informations du footer conservent leur `details` / `summary` et se développent dans le flux, sans modale.
 
+Les images éditoriales sont plus compactes : portrait du fondateur limité à 440 px de large, image À propos à 460 px de haut, images de services à 460 px maximum. Les grandes tailles des pages intérieures et matériaux sont également réduites d’environ 15 %.
+
 ### Projects and service pages
 
-Le portfolio associe des images arrondies à des titres et légendes vivants, sans fond de carte ajouté. Sur grand écran, une image large alterne avec deux tuiles ; la vue filtrée utilise trois colonnes, puis deux sous 1120 px et une sur mobile. Les filtres reprennent les pilules du système, avec `aria-pressed`, compte de résultats annoncé et catégorie conservée dans l’URL. Les visuels sont légendés « Vues de conception » ; les deux images sources communes ne deviennent pas des photographies distinctes de neuf chantiers.
+Le portfolio associe des images arrondies à des titres et légendes vivants, sans fond de carte ajouté. La mosaïque masonry utilise trois colonnes CSS et des images de hauteurs variées, sans projet pleine largeur ; elle passe à deux colonnes sous 1120 px et une sous 760 px. Les hauteurs d’image sont plafonnées à 360 px (330 px sur mobile). Le même agencement fonctionne après filtrage et sans JavaScript. Les filtres reprennent les pilules du système, avec `aria-pressed`, compte de résultats annoncé et catégorie conservée dans l’URL. Les visuels sont légendés « Vues de conception » ; les deux images sources communes ne deviennent pas des photographies distinctes de neuf chantiers.
 
 La galerie utilise un `dialog` natif blanc au rayon `card`, avec fond extérieur bleu assombri, commandes circulaires, titre et compteur. Elle conserve la navigation clavier, Échap, la fermeture extérieure et le retour du focus. Sans JavaScript, la tuile ouvre directement son image.
 
-Le hub présente trois cartes de services sur bleu et une méthode en cinq étapes sur minéral. Le rail vertical `.progress-container`, dans une colonne latérale fixe au défilement, associe numéros circulaires, remplissage vert progressif, étape courante avec `aria-current="step"` et étapes parcourues en vert. Sous 900 px, le rail se réduit à 48 px avec libellés toujours accessibles ; les cinq contenus restent dans le flux. Les ancres utilisent le défilement natif, et le mouvement réduit supprime zooms et transitions.
+Le hub présente trois cartes de services sur bleu et une méthode en cinq étapes sur minéral. Le rail vertical `.progress-container`, dans une colonne latérale fixe au défilement, associe numéros circulaires, remplissage vert progressif, étape courante avec `aria-current="step"` et étapes parcourues en vert. Ses numéros de 72 px (64 px sur tablette) et ses libellés de 18 px sont accompagnés d’un repère blanc qui glisse vers l’étape courante en 500 ms. Le repère reste fixe dans la colonne gauche pendant la lecture. Sous 760 px, les cinq numéros de 48 à 56 px forment une barre horizontale sticky ; leurs libellés restent accessibles aux lecteurs d’écran. Sur les écrans bas, les numéros passent à 56 px pour laisser les cinq étapes visibles. Les images de méthode sont limitées à 600 × 280 px, puis 230 px de hauteur sur mobile ; les cinq contenus restent dans le flux. Les ancres utilisent le défilement natif, et le mouvement réduit supprime zooms et transitions.
 
 Les pages de service alternent minéral, blanc et appel final bleu : introduction/image, périmètre et trois points d’attention, dix besoins, trois phases, projets associés et FAQ natives `details` / `summary`. Elles réutilisent les rayons et accents existants. Les actions rejoignent le contact de l’accueil avec l’un des trois contextes autorisés ; seul un message vide est prérempli, sans envoi automatique.
 
@@ -216,7 +218,7 @@ Le focus clavier est matérialisé par un contour de 3 px dans la couleur couran
 
 ### Do:
 
-- **Do** conserver le logo SVG officiel complet, sans filtre, recadrage ni recoloration.
+- **Do** garder le SVG officiel intact dans les assets et le footer ; utiliser le nom textuel D-SIGN en dégradé dans la navigation, selon la demande du 5 novembre.
 - **Do** reprendre le bleu, le vert, les titres gras et les flèches de la direction choisie.
 - **Do** utiliser le vert foncé pour les accents fins sur fond clair et le vert clair pour les icônes et flèches sur bleu.
 - **Do** préserver l’image en D du hero, les alignements communs et le texte vivant.

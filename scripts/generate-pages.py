@@ -39,7 +39,7 @@ def header(page):
     desktop = ''.join(link(*pair) for pair in links)
     mobile = link('Accueil','index.html')+desktop+link('Comment ça marche','index.html#comment-ca-marche')+link('À propos','index.html#apropos')
     return f'''<header class="site-header" id="haut"><div class="container header-inner">
-      <a class="brand" href="{home_link}" aria-label="D-SIGN GBS — Accueil"><img src="assets/logo.svg" width="2519" height="1005" alt="D-SIGN Global Building Solutions" fetchpriority="high"></a>
+      <a class="brand" href="{home_link}" aria-label="D-SIGN GBS — Accueil"><span class="brand-wordmark gradient-text">D-SIGN</span></a>
       <nav class="desktop-nav" aria-label="Navigation principale">{desktop}</nav>
       <a class="button button-outline header-contact" href="{contact}">Parlons de votre projet{icon()}</a>
       <details class="mobile-menu" id="mobile-menu"><summary>Menu<span class="menu-symbol" aria-hidden="true"></span></summary><nav aria-label="Navigation mobile">{mobile}<a class="mobile-menu-contact" href="{contact}">Parlons de votre projet{icon()}</a></nav></details>
@@ -84,7 +84,7 @@ def services_page():
     chapters = ''.join(f'''<article class="method-step" id="etape-{s['id']}" data-method-step="{s['id']}" aria-labelledby="step-title-{s['id']}"><figure><img src="{s['image']}" width="1052" height="805" alt="{s['alt']}" loading="lazy" decoding="async"></figure><div class="method-step-copy"><h3 id="step-title-{s['id']}">{n+1:02}. {s['title']}</h3><p class="method-step-lead">{s['lead']}</p><p>{s['text']}</p><ul>{''.join('<li>'+icon('check')+'<span>'+esc(t)+'</span></li>' for t in s['points'])}</ul></div></article>''' for n,s in enumerate(steps))
     main=f'''<section class="page-intro section-space"><div class="container">{breadcrumb([('Nos services',None)])}<div class="page-intro-grid"><h1>Vos travaux.<br><span class="gradient-text">À vos côtés.</span></h1><div><p>Rénover, agrandir, construire. Un projet se prépare par étapes, avec des choix à faire et des intervenants à coordonner.</p><p>D-SIGN vous accompagne de la définition du besoin au suivi du chantier, selon la mission convenue.</p><a class="text-link" href="#methode">Découvrir notre méthode{icon('arrow-down')}</a></div></div></div></section>
     <section class="service-selection section-space" id="services" aria-labelledby="service-selection-title"><div class="container"><div class="page-section-heading"><h2 id="service-selection-title">Quel est votre <span class="gradient-text">projet ?</span></h2><p>Trois entrées pour imaginer la suite.</p></div><div class="service-entry-grid">{cards}</div><p class="media-note">Visuels d’ambiance.</p><a class="text-link" href="index.html#expertises">Explorer tous nos métiers{icon()}</a></div></section>
-    <section class="method-section section-space" id="methode" aria-labelledby="method-title"><div class="container"><div class="page-section-heading method-heading"><h2 id="method-title">Une méthode claire.<br><span class="gradient-text">À chaque étape.</span></h2><p>Du premier échange au chantier, vous savez ce que nous préparons ensemble et quelles décisions viennent ensuite.</p></div><div class="method-layout"><aside class="method-sidebar"><nav class="progress-container" aria-label="Les étapes de notre accompagnement"><span class="progress-fill" aria-hidden="true"></span><ol>{rail}</ol></nav><a class="text-link method-contact" href="index.html#contact">Échangeons sur votre projet{icon()}</a></aside><div class="method-content">{chapters}</div></div></div></section>{cta()}'''
+    <section class="method-section section-space" id="methode" aria-labelledby="method-title"><div class="container"><div class="page-section-heading method-heading"><h2 id="method-title">Une méthode claire.<br><span class="gradient-text">À chaque étape.</span></h2><p>Du premier échange au chantier, vous savez ce que nous préparons ensemble et quelles décisions viennent ensuite.</p></div><div class="method-layout"><aside class="method-sidebar"><nav class="progress-container" aria-label="Les étapes de notre accompagnement"><span class="progress-active" aria-hidden="true"></span><span class="progress-fill" aria-hidden="true"></span><ol>{rail}</ol></nav><a class="text-link method-contact" href="index.html#contact">Échangeons sur votre projet{icon()}</a></aside><div class="method-content">{chapters}</div></div></div></section>{cta()}'''
     (out/'nos-services.html').write_text(layout('nos-services.html','Nos services','Rénovation, extension et construction : découvrez nos services et les cinq étapes de l’accompagnement D-SIGN.',main))
 
 def projects_page():
@@ -123,6 +123,6 @@ for name in ['index.html','nos-materiaux.html']:
     p.write_text(s)
 print('5 pages générées ; navigation des 7 pages reliée.')
 
-# Refresh shared CSS references after regenerating the static pages.
+# Refresh local CSS/JS references after regenerating the static pages.
 import runpy
 runpy.run_path(str(root / "scripts/version-styles.py"), run_name="__main__")

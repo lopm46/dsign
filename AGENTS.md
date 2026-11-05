@@ -4,7 +4,7 @@
 
 À la demande du propriétaire, après chaque modification demandée et vérifiée :
 
-- Après une modification de `export/styles.css`, exécuter `python3 scripts/version-styles.py` avant le commit pour renouveler son URL dans les pages et éviter un ancien CSS en cache. Le déploiement vérifie ces références.
+- Après une modification des feuilles CSS ou scripts JavaScript de `export/`, exécuter `python3 scripts/version-styles.py` avant le commit pour renouveler leurs URLs dans les pages et éviter un ancien CSS en cache. Le déploiement vérifie ces références.
 - Créer un commit décrivant le résultat et pousser sur `main` du dépôt `lopm46/dsign`.
 - Inclure les sources, les assets et la documentation concernés ; respecter les exclusions de `.gitignore`.
 - À la demande du propriétaire, ne plus générer ni actualiser de ZIP à chaque modification. Pousser les changements sur GitHub ; produire une archive uniquement sur demande explicite. Les anciennes archives restent historiques.
@@ -17,4 +17,4 @@ Le propriétaire a demandé l’hébergement de la V3 sur GitHub Pages, a activ�
 
 ## Direction et livraison
 
-Conserver le logo officiel intact et la charte retenue. La livraison courante est dans `export/`, avec une homepage et une page matériaux en HTML/CSS/JavaScript natif. L’intégration WordPress et ses limites sont décrites dans les documents de ce dossier.
+À la demande du propriétaire du 5 novembre 2026, la navigation affiche uniquement le nom textuel D-SIGN en dégradé. Conserver le fichier du logo officiel intact dans les assets et au footer, ainsi que les couleurs et la police retenues. La livraison courante est dans `export/`, avec une homepage et une page matériaux en HTML/CSS/JavaScript natif. L’intégration WordPress et ses limites sont décrites dans les documents de ce dossier.
