@@ -449,10 +449,6 @@ body { scrollbar-color: var(--color-green) var(--color-navy); }
 
 /* Mobile section headings occupy the full column before centering. */
 @media (max-width: 760px) {
-  .hero-copy { text-align: center; }
-  .hero-copy h1, .hero-description { margin-inline: auto; }
-  .hero-actions { justify-content: center; }
-  .hero-visual { justify-self: center; }
   .section-heading.section-heading-centered h2 { width: 100%; max-width: none; margin-inline: auto; }
   .founder h2, .about-copy h2, .materials-copy h2, .contact-copy h2 { text-align: center; max-width: none; margin-inline: auto; text-wrap: balance; }
   .process-steps { gap: 38px; }
