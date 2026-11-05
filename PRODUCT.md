@@ -85,3 +85,5 @@ La homepage doit respecter le niveau WCAG 2.2 AA : contraste suffisant, navigati
 À la demande du propriétaire, `estimation.html` reprend le parcours public Kovan : onze domaines et 61 services à sélection multiple, budget, délai et coordonnées. La dernière étape est explicitement une démonstration sans envoi, en attendant Contact Form 7 lors du déploiement WordPress. Le hero comporte « J’estime mon projet » et la navigation relie la huitième page. Le module ne calcule pas de prix et n’ajoute pas de question de surface ; la référence n’en présente pas. Voir `export/ESTIMATION.md`.
 
 Le dernier ajustement mobile centre les titres hors hero et les cinq étapes comme dans la référence Kovan. Le bandeau supérieur et D-SIGN sont agrandis, le hero conserve seulement l’estimation, les cartes métiers ont un voile sombre neutre plus discret et les huit footers utilisent également le nom textuel en dégradé.
+
+Le titre d’accueil retenu est « Vos travaux commencent ici. », composé en deux lignes : « Vos travaux » / « commencent ici. », avec un soulignement dégradé.
