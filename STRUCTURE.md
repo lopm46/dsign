@@ -44,3 +44,7 @@ Le nom et le message du fondateur sont confirmés par le propriétaire. Le portr
 **Contrôles historiques V7 :** les contrôles passent sur huit largeurs, de 320 à 1920 px : onze filtres au clavier, 61 exemples, médias et ancres, absence de débordement, repli sans JavaScript, préremplissage du contact et conservation des saisies. Axe ne détecte aucune violation automatisée à 390 et 1440 px. La revue indépendante conclut `ship` à la portée de cette interface, sans correctif matériel demandé. Aucun envoi réel de formulaire ni recette WordPress n’est revendiqué ; voir `VERIFICATION.md` pour les limites. Les rapports des versions antérieures restent historiques.
 
 Cet ordre fait autorité pour la homepage courante. Les archives V4/V5/V6 et leurs rapports restent historiques ; le rythme actuel est décrit dans `RYTHME.md`.
+
+## Estimation des travaux
+
+`estimation.html` ajoute un parcours de démonstration : domaines → services → budget → délais → coordonnées fictives → confirmation. Le hero, la navigation des huit pages et le lien d’estimation du contact y donnent accès. Le générateur `scripts/estimation_page.py` est appelé par la génération partagée. Voir `ESTIMATION.md` pour les données, la validation et le futur raccordement Contact Form 7.
